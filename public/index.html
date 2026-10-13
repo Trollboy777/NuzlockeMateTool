@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuzlocke Mate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+<main class="chat">
+    <header>
+        <h1>Nuzlocke Mate</h1>
+        <p>Your Pokémon Nuzlocke companion</p>
+    </header>
+
+    <section id="messages" aria-live="polite">
+        <div class="message assistant">
+            Hey, Trainer! I'm Nuzlocke Mate.
+            Tell me about your run and let's plan your next move!
+        </div>
+    </section>
+
+    <form id="chat-form">
+        <label for="message-input"></label><textarea
+              id="message-input"
+              placeholder="Ask me about your Nuzlocke..."
+              rows="3"
+              required
+      ></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <p id="status" role="status"></p>
+</main>
+</body>
+</html>
