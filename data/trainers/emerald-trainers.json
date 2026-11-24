@@ -35359,54 +35359,6 @@
           "moves_source": "default_level_up"
         }
       ]
-    },
-    {
-      "key": "RED",
-      "base_key": "RED",
-      "rematch_stage": 1,
-      "category": "regular",
-      "trainer_class": "{pkmn} Trainer",
-      "name": "Red",
-      "full_name": "{pkmn} Trainer Red",
-      "location": "Unknown / Special",
-      "battle_format": "single",
-      "highest_level": 5,
-      "trainer_items": [],
-      "team": [
-        {
-          "pokemon": "Charmander",
-          "level": 5,
-          "type": [],
-          "held_item": null,
-          "iv": 0,
-          "moves": [],
-          "moves_source": "default_level_up"
-        }
-      ]
-    },
-    {
-      "key": "LEAF",
-      "base_key": "LEAF",
-      "rematch_stage": 1,
-      "category": "regular",
-      "trainer_class": "{pkmn} Trainer",
-      "name": "Leaf",
-      "full_name": "{pkmn} Trainer Leaf",
-      "location": "Unknown / Special",
-      "battle_format": "single",
-      "highest_level": 5,
-      "trainer_items": [],
-      "team": [
-        {
-          "pokemon": "Bulbasaur",
-          "level": 5,
-          "type": [],
-          "held_item": null,
-          "iv": 0,
-          "moves": [],
-          "moves_source": "default_level_up"
-        }
-      ]
     }
-  ]
+    ]
 }

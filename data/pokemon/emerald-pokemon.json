@@ -3,7 +3,7 @@
   "generation": 3,
   "region": "Hoenn",
   "data_scope": "All Pokemon normally obtainable in-game in Pokemon Emerald (excluding external trades and event-only mythicals)",
-  "pokemon_count": 233,
+  "pokemon_count": 235,
   "pokemon": [
     {
       "national_dex": 252,
@@ -3839,6 +3839,65 @@
       "data_status": "verified"
     },
     {
+      "national_dex": 349,
+      "hoenn_dex": 140,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Feebas",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 20,
+        "attack": 15,
+        "defense": 20,
+        "special_attack": 10,
+        "special_defense": 55,
+        "speed": 80
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 350,
+      "hoenn_dex": 141,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Milotic",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Marvel Scale"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 60,
+        "defense": 79,
+        "special_attack": 100,
+        "special_defense": 125,
+        "speed": 81
+      },
+      "evolution": {
+        "from": "Feebas",
+        "method": "beauty",
+        "condition": {
+          "minimum": 170
+        },
+        "trigger": "level_up"
+      },
+      "data_status": "verified"
+    },
+    {
       "national_dex": 351,
       "hoenn_dex": 142,
       "in_hoenn_dex": true,
@@ -6845,8 +6904,6 @@
     "Celebi",
     "Surskit",
     "Masquerain",
-    "Feebas",
-    "Milotic",
     "Lunatone",
     "Meditite",
     "Medicham",

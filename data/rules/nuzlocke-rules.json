@@ -1,12 +1,39 @@
 {
-  "variant": "Hardcore Nuzlocke",
+  "default_variant": "Standard Nuzlocke",
+  "variant": "Standard Nuzlocke",
   "rules": [
-    "Any Pokemon that faints is considered dead and must be released or put in the PC permanently.",
-    "You can only catch the first Pokemon encountered in each area.",
-    "All Pokemon must be nicknamed.",
-    "No healing items can be used in battle (potions, heals, etc.). Held items are allowed.",
-    "Gym Level Cap: Your Pokemon cannot exceed the highest level of the Gym Leader's Pokemon before challenging that Gym Leader.",
-    "Elite Four Level Cap: Before entering the Elite Four, your Pokemon cannot exceed level 55. This cap is based on Drake's highest-level Pokemon and applies to all four Elite Four battles.",
-    "Champion Level Cap: Before challenging Champion Wallace, your Pokemon cannot exceed level 58."
-  ]
+    "Any Pokemon that faints is considered dead and must be released or permanently boxed in the PC.",
+    "You may only catch the very first wild Pokemon encountered in each new route or area.",
+    "All caught Pokemon must be nicknamed to build an emotional bond.",
+    "Standard Nuzlocke does NOT enforce level caps and allows using healing items in battle unless the player chooses optional Hardcore rules."
+  ],
+  "variants": {
+    "standard": {
+      "name": "Standard Nuzlocke",
+      "rules": [
+        "Any Pokemon that faints is considered dead and must be released or permanently boxed in the PC.",
+        "You may only catch the very first wild Pokemon encountered in each new route or area.",
+        "All caught Pokemon must be nicknamed to build an emotional bond.",
+        "No level caps or in-battle item bans apply by default."
+      ]
+    },
+    "hardcore": {
+      "name": "Hardcore Nuzlocke",
+      "rules": [
+        "Any Pokemon that faints is considered dead and must be released or permanently boxed in the PC.",
+        "You may only catch the very first wild Pokemon encountered in each new route or area.",
+        "All caught Pokemon must be nicknamed.",
+        "No items may be used from the bag during battle (held items are allowed).",
+        "Battle style must be set to SET mode.",
+        "Gym Level Cap: Your Pokemon cannot exceed the highest level of the next Gym Leader's Pokemon before challenging that Gym.",
+        "Elite Four Level Cap: Before entering the Elite Four, your Pokemon cannot exceed level 55 (Drake's highest-level Pokemon). This cap applies to all four Elite Four battles.",
+        "Champion Level Cap: Before challenging Champion Wallace, your Pokemon cannot exceed level 58."
+      ]
+    }
+  },
+  "optional_clauses": {
+    "Dupes Clause": "If your first encounter in an area is a species (or evolutionary line) you have already caught, you may re-roll the encounter.",
+    "Shiny Clause": "If you encounter a Shiny Pokemon, you may catch and use it even if it is not your first encounter in that area.",
+    "Gift & Static Clause": "Gift Pokemon (such as Castform or Wynaut Egg) and static encounters (such as Kecleon or Sudowoodo) may be counted separately or as the encounter for that location depending on player preference."
+  }
 }

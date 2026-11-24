@@ -33,7 +33,9 @@ const availabilityPath = path.join(__dirname, 'data', 'pokemon', 'emerald-availa
 const movesPath = path.join(__dirname, 'data', 'pokemon', 'emerald-moves.json');
 const abilitiesPath = path.join(__dirname, 'data', 'pokemon', 'emerald-abilities.json');
 const nationalDexPath = path.join(__dirname, 'data', 'pokemon', 'pokemon-national-dex.json');
-
+const moveDetailsPath = path.join(__dirname, 'data', 'pokemon', 'emerald-move-details.json');
+const evYieldsPath = path.join(__dirname, 'data', 'pokemon', 'emerald-ev-yields.json');
+const itemsPath = path.join(__dirname, 'data', 'items', 'emerald-items.json');
 // Leest een JSON-bestand. Bij een fout krijg je de fallback terug en een duidelijke melding,
 // zodat één kapot bestand niet de hele kennisbank onderuit haalt.
 function loadJson(filePath, fallback) {
@@ -72,9 +74,15 @@ const emeraldAvailability = loadJson(availabilityPath, { availability: [] });
 const emeraldMoves = loadJson(movesPath, { move_learnsets: [] });
 const emeraldAbilities = loadJson(abilitiesPath, { abilities: [] });
 const nationalDex = loadJson(nationalDexPath, { pokemon: [] });
+const emeraldMoveDetails = loadJson(moveDetailsPath, { moves: [] });
+const emeraldEvYields = loadJson(evYieldsPath, { iv_ev_rules: {}, pokemon: [] });
+const emeraldItems = loadJson(itemsPath, { items: [] });
 
 // Zorg dat verwachte lijsten altijd bestaan
 emeraldRegularTrainers.trainers = emeraldRegularTrainers.trainers || [];
+emeraldRegularTrainers.trainers = emeraldRegularTrainers.trainers.filter(
+    trainer => !JSON.stringify(trainer).includes('{pkmn}')
+);
 emeraldGyms.gyms = emeraldGyms.gyms || [];
 emeraldLeague.elite_four = emeraldLeague.elite_four || [];
 emeraldBossTrainers.boss_trainers = (emeraldBossTrainers.boss_trainers || []).filter(
@@ -93,6 +101,9 @@ emeraldAvailability.availability = emeraldAvailability.availability || [];
 emeraldMoves.move_learnsets = emeraldMoves.move_learnsets || [];
 emeraldAbilities.abilities = emeraldAbilities.abilities || [];
 nationalDex.pokemon = nationalDex.pokemon || [];
+emeraldMoveDetails.moves = emeraldMoveDetails.moves || [];
+emeraldEvYields.pokemon = emeraldEvYields.pokemon || [];
+emeraldItems.items = emeraldItems.items || [];
 
 console.log('Kennisbank ingeladen:');
 console.log(`- ${emeraldRegularTrainers.trainers.length} reguliere trainers`);
@@ -147,10 +158,25 @@ const EXTRA_GEN3_POKEMON_DATA = {
         abilities: ['Natural Cure', 'Poison Point'],
         base_stats: { hp: 50, attack: 60, defense: 45, special_attack: 100, special_defense: 80, speed: 65 }
     },
-    milotic: {
-        types: ['Water'],
-        abilities: ['Marvel Scale'],
-        base_stats: { hp: 95, attack: 60, defense: 79, special_attack: 100, special_defense: 125, speed: 81 }
+    zangoose: {
+        types: ['Normal'],
+        abilities: ['Immunity'],
+        base_stats: { hp: 73, attack: 115, defense: 60, special_attack: 60, special_defense: 60, speed: 90 }
+    },
+    medicham: {
+        types: ['Fighting', 'Psychic'],
+        abilities: ['Pure Power'],
+        base_stats: { hp: 60, attack: 60, defense: 75, special_attack: 60, special_defense: 75, speed: 80 }
+    },
+    surskit: {
+        types: ['Bug', 'Water'],
+        abilities: ['Swift Swim'],
+        base_stats: { hp: 40, attack: 30, defense: 32, special_attack: 50, special_defense: 52, speed: 65 }
+    },
+    masquerain: {
+        types: ['Bug', 'Flying'],
+        abilities: ['Intimidate'],
+        base_stats: { hp: 70, attack: 60, defense: 62, special_attack: 80, special_defense: 82, speed: 60 }
     }
 };
 
@@ -582,17 +608,15 @@ function findRegularTrainers(prompt) {
         );
     });
 
-    // Eerst zoeken op trainernaam.
+    // Eerst zoeken op trainernaam (met woordgrenzen zodat "Ed" niet matcht op "speed").
     const nameMatches = relevantTrainers.filter(trainer => {
         const name = normalizeText(trainer.name || '');
         const fullName = normalizeText(trainer.full_name || '');
         const trainerClass = normalizeText(trainer.trainer_class || '');
+        const combined = name && trainerClass ? `${trainerClass} ${name}` : '';
 
-        return (
-            (name && normalizedPrompt.includes(name)) ||
-            (fullName && normalizedPrompt.includes(fullName)) ||
-            (name && trainerClass &&
-                normalizedPrompt.includes(`${trainerClass} ${name}`))
+        return [name, fullName, combined].some(
+            term => term && new RegExp(`\\b${escapeRegExp(term)}\\b`).test(normalizedPrompt)
         );
     });
 
@@ -600,10 +624,10 @@ function findRegularTrainers(prompt) {
         return nameMatches;
     }
 
-    // Als er geen naam matcht, zoeken we op locatie.
+    // Als er geen naam matcht, zoeken we op locatie (eveneens met woordgrenzen).
     return relevantTrainers.filter(trainer => {
         const location = normalizeText(trainer.location || '');
-        return location && normalizedPrompt.includes(location);
+        return location && new RegExp(`\\b${escapeRegExp(location)}\\b`).test(normalizedPrompt);
     });
 }
 
@@ -919,6 +943,141 @@ function buildBattleMechanicsContext(prompt, opponentTeams = []) {
     return sections.length > 0 ? sections.join('\n\n') : null;
 }
 
+function buildMoveDetailsContext(prompt, opponentTeams = []) {
+    const question = normalizeText(prompt);
+    const opponentMoves = new Set();
+
+    opponentTeams.forEach(team => {
+        (team || []).forEach(member => {
+            (member.moves || []).forEach(m => opponentMoves.add(normalizeText(m)));
+        });
+    });
+
+    const matchedMoves = emeraldMoveDetails.moves.filter(move => {
+        const normName = normalizeText(move.name);
+        if (normName.length < 3) return false;
+        const inOpponent = opponentMoves.has(normName);
+        const inPrompt = new RegExp(`(^|[^a-z0-9])${escapeRegExp(normName)}($|[^a-z0-9])`).test(question);
+        return inOpponent || inPrompt;
+    });
+
+    if (matchedMoves.length === 0) return null;
+
+    const lines = matchedMoves.slice(0, 24).map(m => {
+        const powerText = m.power !== null ? `Power: ${m.power}` : 'Power: —';
+        const accText = m.accuracy !== null ? `Acc: ${m.accuracy}%` : 'Acc: —';
+        const prioText = m.priority !== 0 ? ` | Priority: ${m.priority > 0 ? `+${m.priority}` : m.priority}` : '';
+        return `- ${m.name} (${m.type}, ${m.category} | ${powerText} | ${accText} | PP: ${m.pp ?? '?'}${prioText}): ${m.effect}`;
+    });
+
+    return `VERIFIED GENERATION III MOVE DATA:\n${lines.join('\n')}`;
+}
+
+function buildEvIvContext(prompt) {
+    const question = normalizeText(prompt);
+    const asksEvOrIv = /\b(ev|evs|iv|ivs|effort value|effort values|individual value|individual values|ev train|ev training|macho brace|pokerus|hp up|protein|iron|calcium|zinc|carbos)\b/.test(question);
+
+    if (!asksEvOrIv) return null;
+
+    const rules = emeraldEvYields.iv_ev_rules || {};
+    const lines = [
+        'GENERATION III IV & EV MECHANICS:',
+        `- IVs: ${rules.iv_range || '0 to 31 per stat.'}`,
+        `- EV Caps: ${rules.ev_caps || 'Max 252 per stat, 510 total.'}`,
+        `- Stat Scaling: ${rules.stat_scaling || '4 EVs = +1 stat at Level 100.'}`,
+        `- Vitamins: ${rules.vitamins || 'Up to 100 EVs per stat.'}`,
+        `- Multipliers: ${rules.multipliers || 'Macho Brace and Pokerus each give 2x EVs (4x together).'}`,
+        `- Exp. Share: ${rules.exp_share_rule || 'Full base EV yield granted to all participants.'}`
+    ];
+
+    // Zoek EV yields van genoemde Pokémon óf als speler vraagt welke Pokémon een bepaalde stat-EV droppen
+    const mentionedPokemon = findPokemon(prompt);
+    if (mentionedPokemon.length > 0) {
+        const yieldLines = mentionedPokemon.map(poke => {
+            const evEntry = emeraldEvYields.pokemon.find(
+                e => normalizeText(e.name) === normalizeText(poke.name)
+            );
+            if (!evEntry) return `- ${poke.name}: EV yield not found.`;
+            const yieldParts = Object.entries(evEntry.ev_yield || {}).map(
+                ([stat, val]) => `+${val} ${stat.replace('_', ' ')}`
+            );
+            return `- ${evEntry.name}: ${yieldParts.length > 0 ? yieldParts.join(', ') : 'none'} (Total: ${evEntry.total_ev_yield})`;
+        });
+        lines.push('\nEV YIELDS FOR MENTIONED POKEMON:', ...yieldLines);
+    }
+
+    const statSearchMap = [
+        { key: 'speed', keywords: ['speed ev', 'speed evs', 'train speed'] },
+        { key: 'attack', keywords: ['attack ev', 'attack evs', 'train attack'] },
+        { key: 'special_attack', keywords: ['special attack ev', 'sp atk ev', 'spa ev', 'train special attack'] },
+        { key: 'hp', keywords: ['hp ev', 'hp evs', 'train hp'] },
+        { key: 'defense', keywords: ['defense ev', 'defense evs', 'train defense'] },
+        { key: 'special_defense', keywords: ['special defense ev', 'sp def ev', 'spd ev', 'train special defense'] }
+    ];
+
+    const requestedStat = statSearchMap.find(s => s.keywords.some(kw => question.includes(kw)));
+    if (requestedStat) {
+        const obtainableByName = new Map(
+            emeraldPokemon.pokemon.map(p => [normalizeText(p.name), p])
+        );
+
+        // Real regional Hoenn Dex numbers are 1-202; higher numbers are
+        // National Dex entries and should sort after the Hoenn natives.
+        const REGIONAL_DEX_MAX = 202;
+        const hoennRank = p =>
+            typeof p?.hoenn_dex === 'number' && p.hoenn_dex <= REGIONAL_DEX_MAX
+                ? p.hoenn_dex
+                : Infinity;
+
+        const droppers = emeraldEvYields.pokemon
+            .filter(p => obtainableByName.has(normalizeText(p.name)) && (p.ev_yield?.[requestedStat.key] || 0) > 0)
+            .sort((a, b) => {
+                const ra = hoennRank(obtainableByName.get(normalizeText(a.name)));
+                const rb = hoennRank(obtainableByName.get(normalizeText(b.name)));
+                if (ra !== rb) return ra - rb;
+                return a.national_dex - b.national_dex;
+            })
+            .slice(0, 20)
+            .map(p => `${p.name} (+${p.ev_yield[requestedStat.key]})`);
+
+        if (droppers.length > 0) {
+            lines.push(`\nOBTAINABLE EMERALD POKEMON THAT YIELD ${requestedStat.key.toUpperCase()} EVs (sample):\n- ${droppers.join(', ')}`);
+        }
+    }
+
+    return lines.join('\n');
+}
+
+function buildItemContext(prompt, opponentTeams = []) {
+    const question = normalizeText(prompt);
+    const opponentHeldItems = new Set();
+
+    opponentTeams.forEach(team => {
+        (team || []).forEach(member => {
+            if (member.held_item) opponentHeldItems.add(normalizeText(member.held_item));
+        });
+    });
+
+    const matchedItems = emeraldItems.items.filter(item => {
+        const normName = normalizeText(item.name);
+        if (normName.length < 4) return false;
+        const inOpponent = opponentHeldItems.has(normName);
+        const inPrompt = new RegExp(`(^|[^a-z0-9])${escapeRegExp(normName)}($|[^a-z0-9])`).test(question);
+        return inOpponent || inPrompt;
+    });
+
+    if (matchedItems.length === 0) return null;
+
+    const lines = matchedItems.slice(0, 12).map(item => {
+        const locText = item.emerald_location
+            ? ` | Emerald Location: ${item.emerald_location}`
+            : '';
+        return `- ${item.name}: ${item.effect}${locText}`;
+    });
+
+    return `VERIFIED POKEMON EMERALD ITEM DATA:\n${lines.join('\n')}`;
+}
+
 function formatEvolutionMethod(evolution) {
     if (!evolution) return 'unknown method';
 
@@ -1209,7 +1368,7 @@ function buildPokemonContext(prompt) {
 // ---------------------------------------------------------------------------
 // Context voor het AI-model opbouwen
 // ---------------------------------------------------------------------------
-function buildContext(prompt) {
+function buildContext(prompt, options = {}) {
     const context = [];
     const gyms = emeraldGyms.gyms || [];
     const eliteFour = emeraldLeague.elite_four || [];
@@ -1217,6 +1376,9 @@ function buildContext(prompt) {
     const activeOpponentTeams = [];
 
     const question = prompt.toLowerCase();
+    const wantsHardcore =
+        options.ruleset === 'hardcore' || /\bhardcore\b/i.test(prompt);
+    const capLabel = wantsHardcore ? 'Level cap' : 'Highest level';
 
     // Algemene spelinformatie
     context.push(
@@ -1231,7 +1393,7 @@ function buildContext(prompt) {
 
         const gymOverview = gyms
             .map(gym =>
-                `- Gym ${gym.number}: ${gym.leader} (${gym.location}, ${gym.type.join('/')}, Level cap: ${gym.level_cap})`
+                `- Gym ${gym.number}: ${gym.leader} (${gym.location}, ${gym.type.join('/')}, ${capLabel} ${gym.level_cap})`
             )
             .join('\n');
 
@@ -1345,7 +1507,7 @@ Leader: ${foundGym.leader}
 Location: ${foundGym.location}
 Type: ${foundGym.type.join(', ')}
 Badge: ${foundGym.badge}
-Level cap: ${foundGym.level_cap}
+${capLabel}: ${foundGym.level_cap}
 Battle format: ${foundGym.battle_format}
 Trainer items: ${formatTrainerItems(foundGym.trainer_items)}
 
@@ -1481,10 +1643,28 @@ IMPORTANT:
     }
 
     // Battle mechanics, Natures, status-effecten en move-multipliers
+    // Battle mechanics, Natures, status-effecten en move-multipliers
     const battleMechanicsContext = buildBattleMechanicsContext(prompt, activeOpponentTeams);
-
     if (battleMechanicsContext) {
         context.push(battleMechanicsContext);
+    }
+
+    // Geverifieerde Gen III Move-details (alleen voor genoemde moves of moves van de tegenstander)
+    const moveDetailsContext = buildMoveDetailsContext(prompt, activeOpponentTeams);
+    if (moveDetailsContext) {
+        context.push(moveDetailsContext);
+    }
+
+    // Niche IV/EV-regels en EV yields (alleen meesturen als de gebruiker er specifiek naar vraagt)
+    const evIvContext = buildEvIvContext(prompt);
+    if (evIvContext) {
+        context.push(evIvContext);
+    }
+
+    // Item-effecten en Emerald-vindplaatsen (alleen meesturen bij relevante items)
+    const itemContext = buildItemContext(prompt, activeOpponentTeams);
+    if (itemContext) {
+        context.push(itemContext);
     }
 
     // Reikwijdte van de Pokémon-kennisbank
@@ -1515,15 +1695,16 @@ Physical moves use Attack and Defense.
 Special moves use Special Attack and Special Defense.
 Do not apply the Physical/Special split introduced in Generation IV.`);
 
-    // Nuzlocke-regels toevoegen
-    if (nuzlockeRules.rules?.length > 0) {
-        const rulesText = nuzlockeRules.rules
-            .map(rule => `- ${rule}`)
-            .join('\n');
+    const activeVariant = wantsHardcore
+        ? nuzlockeRules.variants?.hardcore
+        : nuzlockeRules.variants?.standard;
 
-        context.push(
-            `NUZLOCKE RULESET: ${nuzlockeRules.variant || 'Custom Nuzlocke'}\n${rulesText}`
-        );
+    const rulesList = activeVariant?.rules || nuzlockeRules.rules || [];
+    const variantName = activeVariant?.name || nuzlockeRules.variant || 'Standard Nuzlocke';
+
+    if (rulesList.length > 0) {
+        const rulesText = rulesList.map(rule => `- ${rule}`).join('\n');
+        context.push(`NUZLOCKE RULESET: ${variantName}\n${rulesText}`);
     }
 
     return context.join('\n\n');
@@ -1860,6 +2041,7 @@ function buildKnowledgeAnswer(prompt, messages = []) {
 // ---------------------------------------------------------------------------
 app.get('/debug/context', (req, res) => {
     const question = String(req.query.q || '').trim();
+    const ruleset = req.query.ruleset ? String(req.query.ruleset).trim() : undefined;
 
     if (!question) {
         return res.status(400).json({
@@ -1871,8 +2053,9 @@ app.get('/debug/context', (req, res) => {
 
     res.json({
         question,
+        ruleset: ruleset || 'standard',
         unsupportedGame: unsupported,
-        context: unsupported ? null : buildContext(question)
+        context: unsupported ? null : buildContext(question, { ruleset })
     });
 });
 
@@ -1881,7 +2064,7 @@ app.get('/debug/context', (req, res) => {
 // ---------------------------------------------------------------------------
 app.post('/chat', async (req, res) => {
     try {
-        const { messages } = req.body;
+        const { messages, ruleset } = req.body;
 
         if (!Array.isArray(messages) || messages.length === 0) {
             return res.status(400).json({
@@ -1911,7 +2094,7 @@ app.post('/chat', async (req, res) => {
             });
         }
 
-        const dynamicContext = buildContext(lastMessage.content);
+        const dynamicContext = buildContext(lastMessage.content, {ruleset});
 
         console.log('GAME CONTEXT:');
         console.log(dynamicContext);

@@ -2,19 +2,30 @@ const assert = require('node:assert/strict');
 
 const BASE_URL = 'http://localhost:3000';
 
-async function getContext(question) {
-    const res = await fetch(`${BASE_URL}/debug/context?q=${encodeURIComponent(question)}`);
+async function getContext(question, ruleset) {
+    const url = new URL(`${BASE_URL}/debug/context`);
+    url.searchParams.set('q', question);
+    if (ruleset) {
+        url.searchParams.set('ruleset', ruleset);
+    }
+
+    const res = await fetch(url);
     assert.equal(res.status, 200, `Debug endpoint gaf status ${res.status}`);
     return res.json();
 }
 
-async function askChat(question) {
+async function askChat(question, ruleset) {
+    const payload = {
+        messages: [{ role: 'user', content: question }]
+    };
+    if (ruleset) {
+        payload.ruleset = ruleset;
+    }
+
     const res = await fetch(`${BASE_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-            messages: [{ role: 'user', content: question }]
-        })
+        body: JSON.stringify(payload)
     });
     assert.equal(res.status, 200, `Chat endpoint gaf status ${res.status}`);
     const data = await res.json();
@@ -156,6 +167,89 @@ const tests = [
 
             // Reguliere teams mogen niet worden meegenomen.
             assert.doesNotMatch(data.context, /Nincada \(Level 6/);
+        }
+    },
+
+    // -----------------------------------------------------------------------
+    // Nieuwe regressietests (Gen III Moves, EV/IV, Items, Standard/Hardcore)
+    // -----------------------------------------------------------------------
+    {
+        name: 'Context: Gen III Move-details geven juiste Power, Accuracy en Physical/Special-split',
+        run: async () => {
+            const data = await getContext('Compare Shadow Ball and Crunch in Pokemon Emerald.');
+            assert.match(data.context, /VERIFIED GENERATION III MOVE DATA:/);
+            assert.match(data.context, /Shadow Ball \(Ghost, Physical \| Power: 80 \| Acc: 100%/);
+            assert.match(data.context, /Crunch \(Dark, Special \| Power: 80 \| Acc: 100%/);
+        }
+    },
+    {
+        name: 'Context: Wattson laadt move-details + Sitrus Berry maar laat EV/IV-regels weg',
+        run: async () => {
+            const data = await getContext('How do I beat Wattson?');
+            assert.match(data.context, /Quick Attack \(Normal, Physical \| Power: 40 \| Acc: 100% \| PP: 30 \| Priority: \+1\)/);
+            assert.match(data.context, /Shock Wave \(Electric, Special \| Power: 60 \| Acc: — \| PP: 20\): Never misses\./);
+            assert.match(data.context, /VERIFIED POKEMON EMERALD ITEM DATA:[\s\S]*Sitrus Berry:/);
+            assert.doesNotMatch(data.context, /GENERATION III IV & EV MECHANICS:/);
+        }
+    },
+    {
+        name: 'Context: EV-vraag geeft exacte EV yield van Zigzagoon en Macho Brace-regels',
+        run: async () => {
+            const data = await getContext('What EV yield does Zigzagoon give and how does Macho Brace work?');
+            assert.match(data.context, /GENERATION III IV & EV MECHANICS:/);
+            assert.match(data.context, /Macho Brace doubles EVs gained/);
+            assert.match(data.context, /Zigzagoon: \+1 speed \(Total: 1\)/);
+        }
+    },
+    {
+        name: 'Context: Vraag naar Speed EV training geeft verkrijgbare Emerald-Pokémon',
+        run: async () => {
+            const data = await getContext('Which Pokemon give Speed EVs in Emerald?');
+            assert.match(data.context, /OBTAINABLE EMERALD POKEMON THAT YIELD SPEED EVs/);
+            assert.match(data.context, /Zigzagoon \(\+1\)/);
+        }
+    },
+    {
+        name: 'Context: Items en TM-vindplaatsen worden herkend (Leftovers & TM26)',
+        run: async () => {
+            const data = await getContext('Where can I find Leftovers and TM26 in Emerald?');
+            assert.match(data.context, /VERIFIED POKEMON EMERALD ITEM DATA:/);
+            assert.match(data.context, /Leftovers:[\s\S]*S\.S\. Tidal/);
+            assert.match(data.context, /TM26:[\s\S]*Seafloor Cavern/);
+        }
+    },
+    {
+        name: 'Context: Standard Nuzlocke is standaard zonder level caps',
+        run: async () => {
+            const data = await getContext('How do I beat Wattson?');
+            assert.equal(data.ruleset, 'standard');
+            assert.match(data.context, /NUZLOCKE RULESET: Standard Nuzlocke/);
+            assert.match(data.context, /Highest level: 24/);
+            assert.doesNotMatch(data.context, /Level cap:/i);
+        }
+    },
+    {
+        name: 'Context: Hardcore Nuzlocke schakelt level caps en item-verbod in (via parameter en prompt)',
+        run: async () => {
+            const byParam = await getContext('How do I beat Wattson?', 'hardcore');
+            assert.equal(byParam.ruleset, 'hardcore');
+            assert.match(byParam.context, /NUZLOCKE RULESET: Hardcore Nuzlocke/);
+            assert.match(byParam.context, /Level cap: 24/);
+            assert.match(byParam.context, /No items may be used from the bag during battle/);
+
+            const byPrompt = await getContext('How do I beat Flannery in a hardcore nuzlocke?');
+            assert.match(byPrompt.context, /NUZLOCKE RULESET: Hardcore Nuzlocke/);
+            assert.match(byPrompt.context, /Level cap: 29/);
+        }
+    },
+    {
+        name: 'Context: Feebas is verkrijgbaar op Route 119 met hengels en 6-tile voorwaarde',
+        run: async () => {
+            const data = await getContext('Where can I catch Feebas?');
+            assert.match(data.context, /Route 119/i);
+            assert.match(data.context, /fishing_old_rod/);
+            assert.match(data.context, /fishing_super_rod/);
+            assert.match(data.context, /6 specific water tiles/i);
         }
     }
 ];

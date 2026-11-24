@@ -1,0 +1,2487 @@
+{
+  "game": "Pokemon Emerald",
+  "generation": 3,
+  "total_items": 310,
+  "items": [
+    {
+      "id": 1,
+      "name": "Master Ball",
+      "identifier": "master-ball",
+      "cost": 0,
+      "effect": "Catches a wild Pokémon every time.",
+      "emerald_location": null
+    },
+    {
+      "id": 2,
+      "name": "Ultra Ball",
+      "identifier": "ultra-ball",
+      "cost": 800,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 2×.",
+      "emerald_location": null
+    },
+    {
+      "id": 3,
+      "name": "Great Ball",
+      "identifier": "great-ball",
+      "cost": 600,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 1.5×.",
+      "emerald_location": null
+    },
+    {
+      "id": 4,
+      "name": "Poké Ball",
+      "identifier": "poke-ball",
+      "cost": 200,
+      "effect": "Tries to catch a wild Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 5,
+      "name": "Safari Ball",
+      "identifier": "safari-ball",
+      "cost": 0,
+      "effect": "Tries to catch a wild Pokémon in the Great Marsh or Safari Zone. Success rate is 1.5×.",
+      "emerald_location": null
+    },
+    {
+      "id": 6,
+      "name": "Net Ball",
+      "identifier": "net-ball",
+      "cost": 1000,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 3× for water and bug Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 7,
+      "name": "Dive Ball",
+      "identifier": "dive-ball",
+      "cost": 1000,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 3.5× when underwater, fishing, or surfing.",
+      "emerald_location": null
+    },
+    {
+      "id": 8,
+      "name": "Nest Ball",
+      "identifier": "nest-ball",
+      "cost": 1000,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 3.9× for level 1 Pokémon, and drops steadily to 1× at level 30.",
+      "emerald_location": null
+    },
+    {
+      "id": 9,
+      "name": "Repeat Ball",
+      "identifier": "repeat-ball",
+      "cost": 1000,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 3× for previously-caught Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 10,
+      "name": "Timer Ball",
+      "identifier": "timer-ball",
+      "cost": 1000,
+      "effect": "Tries to catch a wild Pokémon. Success rate increases by 0.1× (Gen V: 0.3×) every turn, to a max of 4×.",
+      "emerald_location": null
+    },
+    {
+      "id": 11,
+      "name": "Luxury Ball",
+      "identifier": "luxury-ball",
+      "cost": 3000,
+      "effect": "Tries to catch a wild Pokémon. Caught Pokémon start with 200 happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 12,
+      "name": "Premier Ball",
+      "identifier": "premier-ball",
+      "cost": 20,
+      "effect": "Tries to catch a wild Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 17,
+      "name": "Potion",
+      "identifier": "potion",
+      "cost": 200,
+      "effect": "Restores 20 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 18,
+      "name": "Antidote",
+      "identifier": "antidote",
+      "cost": 200,
+      "effect": "Cures poison.",
+      "emerald_location": null
+    },
+    {
+      "id": 19,
+      "name": "Burn Heal",
+      "identifier": "burn-heal",
+      "cost": 200,
+      "effect": "Cures a burn.",
+      "emerald_location": null
+    },
+    {
+      "id": 20,
+      "name": "Ice Heal",
+      "identifier": "ice-heal",
+      "cost": 200,
+      "effect": "Cures freezing.",
+      "emerald_location": null
+    },
+    {
+      "id": 21,
+      "name": "Awakening",
+      "identifier": "awakening",
+      "cost": 200,
+      "effect": "Cures sleep.",
+      "emerald_location": null
+    },
+    {
+      "id": 22,
+      "name": "Paralyze Heal",
+      "identifier": "paralyze-heal",
+      "cost": 200,
+      "effect": "Cures paralysis.",
+      "emerald_location": null
+    },
+    {
+      "id": 23,
+      "name": "Full Restore",
+      "identifier": "full-restore",
+      "cost": 3000,
+      "effect": "Restores HP to full and cures any status ailment and confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 24,
+      "name": "Max Potion",
+      "identifier": "max-potion",
+      "cost": 2500,
+      "effect": "Restores HP to full.",
+      "emerald_location": null
+    },
+    {
+      "id": 25,
+      "name": "Hyper Potion",
+      "identifier": "hyper-potion",
+      "cost": 1500,
+      "effect": "Restores 200 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 26,
+      "name": "Super Potion",
+      "identifier": "super-potion",
+      "cost": 700,
+      "effect": "Restores 50 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 27,
+      "name": "Full Heal",
+      "identifier": "full-heal",
+      "cost": 400,
+      "effect": "Cures any status ailment and confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 28,
+      "name": "Revive",
+      "identifier": "revive",
+      "cost": 2000,
+      "effect": "Revives with half HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 29,
+      "name": "Max Revive",
+      "identifier": "max-revive",
+      "cost": 4000,
+      "effect": "Revives with full HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 30,
+      "name": "Fresh Water",
+      "identifier": "fresh-water",
+      "cost": 200,
+      "effect": "Restores 50 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 31,
+      "name": "Soda Pop",
+      "identifier": "soda-pop",
+      "cost": 300,
+      "effect": "Restores 60 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 32,
+      "name": "Lemonade",
+      "identifier": "lemonade",
+      "cost": 400,
+      "effect": "Restores 80 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 33,
+      "name": "Moomoo Milk",
+      "identifier": "moomoo-milk",
+      "cost": 600,
+      "effect": "Restores 100 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 34,
+      "name": "Energy Powder",
+      "identifier": "energy-powder",
+      "cost": 500,
+      "effect": "Restores 50 HP, but lowers happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 35,
+      "name": "Energy Root",
+      "identifier": "energy-root",
+      "cost": 1200,
+      "effect": "Restores 200 HP, but lowers happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 36,
+      "name": "Heal Powder",
+      "identifier": "heal-powder",
+      "cost": 300,
+      "effect": "Cures any status ailment, but lowers happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 37,
+      "name": "Revival Herb",
+      "identifier": "revival-herb",
+      "cost": 2800,
+      "effect": "Revives with full HP, but lowers happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 38,
+      "name": "Ether",
+      "identifier": "ether",
+      "cost": 1200,
+      "effect": "Restores 10 PP for one move.",
+      "emerald_location": null
+    },
+    {
+      "id": 39,
+      "name": "Max Ether",
+      "identifier": "max-ether",
+      "cost": 2000,
+      "effect": "Restores PP to full for one move.",
+      "emerald_location": null
+    },
+    {
+      "id": 40,
+      "name": "Elixir",
+      "identifier": "elixir",
+      "cost": 3000,
+      "effect": "Restores 10 PP for each move.",
+      "emerald_location": null
+    },
+    {
+      "id": 41,
+      "name": "Max Elixir",
+      "identifier": "max-elixir",
+      "cost": 4500,
+      "effect": "Restores PP to full for each move.",
+      "emerald_location": null
+    },
+    {
+      "id": 42,
+      "name": "Lava Cookie",
+      "identifier": "lava-cookie",
+      "cost": 350,
+      "effect": "Cures any status ailment and confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 43,
+      "name": "Berry Juice",
+      "identifier": "berry-juice",
+      "cost": 200,
+      "effect": "Restores 20 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 44,
+      "name": "Sacred Ash",
+      "identifier": "sacred-ash",
+      "cost": 50000,
+      "effect": "Revives all fainted Pokémon with full HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 45,
+      "name": "HP Up",
+      "identifier": "hp-up",
+      "cost": 10000,
+      "effect": "Raises HP effort and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 46,
+      "name": "Protein",
+      "identifier": "protein",
+      "cost": 10000,
+      "effect": "Raises Attack effort and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 47,
+      "name": "Iron",
+      "identifier": "iron",
+      "cost": 10000,
+      "effect": "Raises Defense effort and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 48,
+      "name": "Carbos",
+      "identifier": "carbos",
+      "cost": 10000,
+      "effect": "Raises Speed effort and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 49,
+      "name": "Calcium",
+      "identifier": "calcium",
+      "cost": 10000,
+      "effect": "Raises Special Attack effort and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 50,
+      "name": "Rare Candy",
+      "identifier": "rare-candy",
+      "cost": 10000,
+      "effect": "Causes a level-up and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 51,
+      "name": "PP Up",
+      "identifier": "pp-up",
+      "cost": 10000,
+      "effect": "Raises a move’s max PP by 20%.",
+      "emerald_location": null
+    },
+    {
+      "id": 52,
+      "name": "Zinc",
+      "identifier": "zinc",
+      "cost": 10000,
+      "effect": "Raises Special Defense and happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 53,
+      "name": "PP Max",
+      "identifier": "pp-max",
+      "cost": 10000,
+      "effect": "Raises a move’s max PP by 60%.",
+      "emerald_location": null
+    },
+    {
+      "id": 55,
+      "name": "Guard Spec.",
+      "identifier": "guard-spec",
+      "cost": 1500,
+      "effect": "Prevents stat changes in battle for five turns in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 56,
+      "name": "Dire Hit",
+      "identifier": "dire-hit",
+      "cost": 1000,
+      "effect": "Increases the chance of a critical hit in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 57,
+      "name": "X Attack",
+      "identifier": "x-attack",
+      "cost": 1000,
+      "effect": "Raises Attack by one stage in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 58,
+      "name": "X Defense",
+      "identifier": "x-defense",
+      "cost": 2000,
+      "effect": "Raises Defense by one stage in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 59,
+      "name": "X Speed",
+      "identifier": "x-speed",
+      "cost": 1000,
+      "effect": "Raises Speed by one stage in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 60,
+      "name": "X Accuracy",
+      "identifier": "x-accuracy",
+      "cost": 1000,
+      "effect": "Raises accuracy by one stage in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 61,
+      "name": "X Sp. Atk",
+      "identifier": "x-sp-atk",
+      "cost": 1000,
+      "effect": "Raises Special Attack by one stage in battle. Raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 63,
+      "name": "Poké Doll",
+      "identifier": "poke-doll",
+      "cost": 300,
+      "effect": "Ends a wild battle.",
+      "emerald_location": null
+    },
+    {
+      "id": 64,
+      "name": "Fluffy Tail",
+      "identifier": "fluffy-tail",
+      "cost": 100,
+      "effect": "Ends a wild battle.",
+      "emerald_location": null
+    },
+    {
+      "id": 65,
+      "name": "Blue Flute",
+      "identifier": "blue-flute",
+      "cost": 20,
+      "effect": "Cures sleep.",
+      "emerald_location": null
+    },
+    {
+      "id": 66,
+      "name": "Yellow Flute",
+      "identifier": "yellow-flute",
+      "cost": 20,
+      "effect": "Cures confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 67,
+      "name": "Red Flute",
+      "identifier": "red-flute",
+      "cost": 20,
+      "effect": "Cures attraction.",
+      "emerald_location": null
+    },
+    {
+      "id": 68,
+      "name": "Black Flute",
+      "identifier": "black-flute",
+      "cost": 20,
+      "effect": "Halves the wild Pokémon encounter rate.",
+      "emerald_location": null
+    },
+    {
+      "id": 69,
+      "name": "White Flute",
+      "identifier": "white-flute",
+      "cost": 20,
+      "effect": "Doubles the wild Pokémon encounter rate.",
+      "emerald_location": null
+    },
+    {
+      "id": 70,
+      "name": "Shoal Salt",
+      "identifier": "shoal-salt",
+      "cost": 20,
+      "effect": "No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.",
+      "emerald_location": null
+    },
+    {
+      "id": 71,
+      "name": "Shoal Shell",
+      "identifier": "shoal-shell",
+      "cost": 20,
+      "effect": "No effect. Gen III: Trade four and four Shoal Salts for a Shell Bell.",
+      "emerald_location": null
+    },
+    {
+      "id": 72,
+      "name": "Red Shard",
+      "identifier": "red-shard",
+      "cost": 1000,
+      "effect": "No effect. Can be traded for items or moves.",
+      "emerald_location": null
+    },
+    {
+      "id": 73,
+      "name": "Blue Shard",
+      "identifier": "blue-shard",
+      "cost": 1000,
+      "effect": "No effect. Can be traded for items or moves.",
+      "emerald_location": null
+    },
+    {
+      "id": 74,
+      "name": "Yellow Shard",
+      "identifier": "yellow-shard",
+      "cost": 1000,
+      "effect": "No effect. Can be traded for items or moves.",
+      "emerald_location": null
+    },
+    {
+      "id": 75,
+      "name": "Green Shard",
+      "identifier": "green-shard",
+      "cost": 1000,
+      "effect": "No effect. Can be traded for items or moves.",
+      "emerald_location": null
+    },
+    {
+      "id": 76,
+      "name": "Super Repel",
+      "identifier": "super-repel",
+      "cost": 700,
+      "effect": "For 200 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 77,
+      "name": "Max Repel",
+      "identifier": "max-repel",
+      "cost": 900,
+      "effect": "For 250 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 78,
+      "name": "Escape Rope",
+      "identifier": "escape-rope",
+      "cost": 300,
+      "effect": "Transports user to the outside entrance of a cave.",
+      "emerald_location": null
+    },
+    {
+      "id": 79,
+      "name": "Repel",
+      "identifier": "repel",
+      "cost": 400,
+      "effect": "For 100 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 80,
+      "name": "Sun Stone",
+      "identifier": "sun-stone",
+      "cost": 3000,
+      "effect": "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora.",
+      "emerald_location": "Mossdeep City (Space Center) and held by wild Solrock (5%)."
+    },
+    {
+      "id": 81,
+      "name": "Moon Stone",
+      "identifier": "moon-stone",
+      "cost": 3000,
+      "effect": "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty.",
+      "emerald_location": "Meteor Falls and held by wild Lunatone (5%)."
+    },
+    {
+      "id": 82,
+      "name": "Fire Stone",
+      "identifier": "fire-stone",
+      "cost": 3000,
+      "effect": "Evolves an Eevee into Flareon, a Growlithe into Arcanine, a Pansear into Simisear, or a Vulpix into Ninetales.",
+      "emerald_location": "Fiery Path (requires Strength) and trade Red Shard at Route 124 Treasure Hunter."
+    },
+    {
+      "id": 83,
+      "name": "Thunder Stone",
+      "identifier": "thunder-stone",
+      "cost": 3000,
+      "effect": "Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.",
+      "emerald_location": "New Mauville and trade Yellow Shard at Route 124 Treasure Hunter."
+    },
+    {
+      "id": 84,
+      "name": "Water Stone",
+      "identifier": "water-stone",
+      "cost": 3000,
+      "effect": "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.",
+      "emerald_location": "Abandoned Ship (diving area) and trade Blue Shard at Route 124 Treasure Hunter."
+    },
+    {
+      "id": 85,
+      "name": "Leaf Stone",
+      "identifier": "leaf-stone",
+      "cost": 3000,
+      "effect": "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.",
+      "emerald_location": "Route 119 (requires Surf) and trade Green Shard at Route 124 Treasure Hunter."
+    },
+    {
+      "id": 86,
+      "name": "Tiny Mushroom",
+      "identifier": "tiny-mushroom",
+      "cost": 500,
+      "effect": "Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pokédollars, or to Hungry Maid for 500 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 87,
+      "name": "Big Mushroom",
+      "identifier": "big-mushroom",
+      "cost": 5000,
+      "effect": "Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 88,
+      "name": "Pearl",
+      "identifier": "pearl",
+      "cost": 2000,
+      "effect": "Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 89,
+      "name": "Big Pearl",
+      "identifier": "big-pearl",
+      "cost": 8000,
+      "effect": "Sell for 3750 Pokédollars, or to Ore Collector for 7500 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 90,
+      "name": "Stardust",
+      "identifier": "stardust",
+      "cost": 3000,
+      "effect": "Sell for 1000 Pokédollars, or to Ore Collector for 2000 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 91,
+      "name": "Star Piece",
+      "identifier": "star-piece",
+      "cost": 12000,
+      "effect": "Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars, or to Ore Collector for 9800 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 92,
+      "name": "Nugget",
+      "identifier": "nugget",
+      "cost": 10000,
+      "effect": "Sell for 5000 Pokédollars, or to Ore Collector for 10000 Pokédollars.",
+      "emerald_location": null
+    },
+    {
+      "id": 93,
+      "name": "Heart Scale",
+      "identifier": "heart-scale",
+      "cost": 100,
+      "effect": "No effect. Can be traded for prior Level-up moves.",
+      "emerald_location": null
+    },
+    {
+      "id": 99,
+      "name": "Root Fossil",
+      "identifier": "root-fossil",
+      "cost": 7000,
+      "effect": "Can be revived into a Lileep.",
+      "emerald_location": null
+    },
+    {
+      "id": 100,
+      "name": "Claw Fossil",
+      "identifier": "claw-fossil",
+      "cost": 7000,
+      "effect": "Can be revived into an Anorith.",
+      "emerald_location": null
+    },
+    {
+      "id": 101,
+      "name": "Helix Fossil",
+      "identifier": "helix-fossil",
+      "cost": 7000,
+      "effect": "Can be revived into an Omanyte.",
+      "emerald_location": null
+    },
+    {
+      "id": 102,
+      "name": "Dome Fossil",
+      "identifier": "dome-fossil",
+      "cost": 7000,
+      "effect": "Can be revived into a Kabuto.",
+      "emerald_location": null
+    },
+    {
+      "id": 103,
+      "name": "Old Amber",
+      "identifier": "old-amber",
+      "cost": 10000,
+      "effect": "Can be revived into an Aerodactyl.",
+      "emerald_location": null
+    },
+    {
+      "id": 126,
+      "name": "Cheri Berry",
+      "identifier": "cheri-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when paralyzed to cure paralysis.",
+      "emerald_location": null
+    },
+    {
+      "id": 127,
+      "name": "Chesto Berry",
+      "identifier": "chesto-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when asleep to cure sleep.",
+      "emerald_location": null
+    },
+    {
+      "id": 128,
+      "name": "Pecha Berry",
+      "identifier": "pecha-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when poisoned to cure poison.",
+      "emerald_location": null
+    },
+    {
+      "id": 129,
+      "name": "Rawst Berry",
+      "identifier": "rawst-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when burned to cure a burn.",
+      "emerald_location": null
+    },
+    {
+      "id": 130,
+      "name": "Aspear Berry",
+      "identifier": "aspear-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when frozen to cure frozen.",
+      "emerald_location": null
+    },
+    {
+      "id": 131,
+      "name": "Leppa Berry",
+      "identifier": "leppa-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when a move runs out of PP to restore its PP by 10.",
+      "emerald_location": null
+    },
+    {
+      "id": 132,
+      "name": "Oran Berry",
+      "identifier": "oran-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to recover 10 HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 133,
+      "name": "Persim Berry",
+      "identifier": "persim-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when confused to cure confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 134,
+      "name": "Lum Berry",
+      "identifier": "lum-berry",
+      "cost": 80,
+      "effect": "Held: Consumed to cure any status condition or confusion.",
+      "emerald_location": null
+    },
+    {
+      "id": 135,
+      "name": "Sitrus Berry",
+      "identifier": "sitrus-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 136,
+      "name": "Figy Berry",
+      "identifier": "figy-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike spicy flavor.",
+      "emerald_location": null
+    },
+    {
+      "id": 137,
+      "name": "Wiki Berry",
+      "identifier": "wiki-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike dry flavor.",
+      "emerald_location": null
+    },
+    {
+      "id": 138,
+      "name": "Mago Berry",
+      "identifier": "mago-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sweet flavor.",
+      "emerald_location": null
+    },
+    {
+      "id": 139,
+      "name": "Aguav Berry",
+      "identifier": "aguav-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike bitter flavor.",
+      "emerald_location": null
+    },
+    {
+      "id": 140,
+      "name": "Iapapa Berry",
+      "identifier": "iapapa-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sour flavor.",
+      "emerald_location": null
+    },
+    {
+      "id": 141,
+      "name": "Razz Berry",
+      "identifier": "razz-berry",
+      "cost": 200,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 142,
+      "name": "Bluk Berry",
+      "identifier": "bluk-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 143,
+      "name": "Nanab Berry",
+      "identifier": "nanab-berry",
+      "cost": 200,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 144,
+      "name": "Wepear Berry",
+      "identifier": "wepear-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 145,
+      "name": "Pinap Berry",
+      "identifier": "pinap-berry",
+      "cost": 200,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 146,
+      "name": "Pomeg Berry",
+      "identifier": "pomeg-berry",
+      "cost": 80,
+      "effect": "Drops HP Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 147,
+      "name": "Kelpsy Berry",
+      "identifier": "kelpsy-berry",
+      "cost": 80,
+      "effect": "Drops Attack Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 148,
+      "name": "Qualot Berry",
+      "identifier": "qualot-berry",
+      "cost": 80,
+      "effect": "Drops Defense Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 149,
+      "name": "Hondew Berry",
+      "identifier": "hondew-berry",
+      "cost": 80,
+      "effect": "Drops Special Attack Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 150,
+      "name": "Grepa Berry",
+      "identifier": "grepa-berry",
+      "cost": 80,
+      "effect": "Drops Special Defense Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 151,
+      "name": "Tamato Berry",
+      "identifier": "tamato-berry",
+      "cost": 80,
+      "effect": "Drops Speed Effort Values by 10 and raises happiness.",
+      "emerald_location": null
+    },
+    {
+      "id": 152,
+      "name": "Cornn Berry",
+      "identifier": "cornn-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 153,
+      "name": "Magost Berry",
+      "identifier": "magost-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 154,
+      "name": "Rabuta Berry",
+      "identifier": "rabuta-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 155,
+      "name": "Nomel Berry",
+      "identifier": "nomel-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 156,
+      "name": "Spelon Berry",
+      "identifier": "spelon-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 157,
+      "name": "Pamtre Berry",
+      "identifier": "pamtre-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 158,
+      "name": "Watmel Berry",
+      "identifier": "watmel-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 159,
+      "name": "Durin Berry",
+      "identifier": "durin-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 160,
+      "name": "Belue Berry",
+      "identifier": "belue-berry",
+      "cost": 20,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "emerald_location": null
+    },
+    {
+      "id": 178,
+      "name": "Liechi Berry",
+      "identifier": "liechi-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost Attack.",
+      "emerald_location": null
+    },
+    {
+      "id": 179,
+      "name": "Ganlon Berry",
+      "identifier": "ganlon-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost Defense.",
+      "emerald_location": null
+    },
+    {
+      "id": 180,
+      "name": "Salac Berry",
+      "identifier": "salac-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost Speed.",
+      "emerald_location": null
+    },
+    {
+      "id": 181,
+      "name": "Petaya Berry",
+      "identifier": "petaya-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost Special Attack.",
+      "emerald_location": null
+    },
+    {
+      "id": 182,
+      "name": "Apicot Berry",
+      "identifier": "apicot-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost Special Defense.",
+      "emerald_location": null
+    },
+    {
+      "id": 183,
+      "name": "Lansat Berry",
+      "identifier": "lansat-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost critical hit ratio by two stages.",
+      "emerald_location": null
+    },
+    {
+      "id": 184,
+      "name": "Starf Berry",
+      "identifier": "starf-berry",
+      "cost": 80,
+      "effect": "Held: Consumed at 1/4 max HP to boost a random stat by two stages.",
+      "emerald_location": null
+    },
+    {
+      "id": 185,
+      "name": "Enigma Berry",
+      "identifier": "enigma-berry",
+      "cost": 80,
+      "effect": "Held: Consumed when struck by a super-effective attack to restore 1/4 max HP.",
+      "emerald_location": null
+    },
+    {
+      "id": 190,
+      "name": "Bright Powder",
+      "identifier": "bright-powder",
+      "cost": 4000,
+      "effect": "Held: Increases the holder’s evasion by 1/9 (11 1/9%).",
+      "emerald_location": "Battle Frontier (64 BP)."
+    },
+    {
+      "id": 191,
+      "name": "White Herb",
+      "identifier": "white-herb",
+      "cost": 4000,
+      "effect": "Held: Resets all lowered stats to normal at end of turn. Consumed after use.",
+      "emerald_location": null
+    },
+    {
+      "id": 192,
+      "name": "Macho Brace",
+      "identifier": "macho-brace",
+      "cost": 3000,
+      "effect": "Held: Holder gains double effort values from battles, but has halved Speed in battle.",
+      "emerald_location": "Route 111 (Winstrate Family house, after defeating all 4 trainers)."
+    },
+    {
+      "id": 193,
+      "name": "Exp. Share",
+      "identifier": "exp-share",
+      "cost": 0,
+      "effect": "Held: Half the experience from a battle is split between Pokémon holding this item.",
+      "emerald_location": "Rustboro City (Devon Corp President, after delivering letter to Steven)."
+    },
+    {
+      "id": 194,
+      "name": "Quick Claw",
+      "identifier": "quick-claw",
+      "cost": 4000,
+      "effect": "Held: Holder has a 3/16 (18.75%) chance to move first.",
+      "emerald_location": "Rustboro City (Trainer School, given by teacher)."
+    },
+    {
+      "id": 195,
+      "name": "Soothe Bell",
+      "identifier": "soothe-bell",
+      "cost": 4000,
+      "effect": "Held: Doubles the happiness earned by the holder.",
+      "emerald_location": "Slateport City (Pokemon Fan Club, if lead Pokemon has high friendship)."
+    },
+    {
+      "id": 196,
+      "name": "Mental Herb",
+      "identifier": "mental-herb",
+      "cost": 4000,
+      "effect": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body.",
+      "emerald_location": null
+    },
+    {
+      "id": 197,
+      "name": "Choice Band",
+      "identifier": "choice-band",
+      "cost": 4000,
+      "effect": "Held: Increases Attack by 50%, but restricts the holder to only one move.",
+      "emerald_location": "Battle Frontier (64 BP)."
+    },
+    {
+      "id": 198,
+      "name": "King’s Rock",
+      "identifier": "kings-rock",
+      "cost": 5000,
+      "effect": "Held: Damaging moves gain a 10% chance to make their target flinch. Traded on a Poliwhirl: Holder evolves into Politoed. Traded on a Slowpoke: Holder evolves into Slowking.",
+      "emerald_location": "Mossdeep City (boy near space center) and held by wild Hariyama/Makuhita (5%)."
+    },
+    {
+      "id": 199,
+      "name": "Silver Powder",
+      "identifier": "silver-powder",
+      "cost": 1000,
+      "effect": "Held: Bug-Type moves from holder do 20% more damage.",
+      "emerald_location": "Held by wild Dustox / Masquerain (5%)."
+    },
+    {
+      "id": 200,
+      "name": "Amulet Coin",
+      "identifier": "amulet-coin",
+      "cost": 10000,
+      "effect": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
+      "emerald_location": "Littleroot Town (from Mom after defeating Norman, 5th Gym)."
+    },
+    {
+      "id": 201,
+      "name": "Cleanse Tag",
+      "identifier": "cleanse-tag",
+      "cost": 5000,
+      "effect": "Prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "emerald_location": null
+    },
+    {
+      "id": 202,
+      "name": "Soul Dew",
+      "identifier": "soul-dew",
+      "cost": 0,
+      "effect": "Raises Latias and Latios’s Special Attack and Special Defense by 50%.",
+      "emerald_location": null
+    },
+    {
+      "id": 203,
+      "name": "Deep Sea Tooth",
+      "identifier": "deep-sea-tooth",
+      "cost": 2000,
+      "effect": "Doubles Clamperl’s Special Attack. Traded on a Clamperl: Holder evolves into Huntail.",
+      "emerald_location": "Slateport City (Capt. Stern, trade Scanner from Abandoned Ship)."
+    },
+    {
+      "id": 204,
+      "name": "Deep Sea Scale",
+      "identifier": "deep-sea-scale",
+      "cost": 2000,
+      "effect": "Doubles Clamperl’s Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss.",
+      "emerald_location": "Slateport City (Capt. Stern, trade Scanner from Abandoned Ship)."
+    },
+    {
+      "id": 205,
+      "name": "Smoke Ball",
+      "identifier": "smoke-ball",
+      "cost": 4000,
+      "effect": "Held: Allows the Holder to escape from any wild battle.",
+      "emerald_location": null
+    },
+    {
+      "id": 206,
+      "name": "Everstone",
+      "identifier": "everstone",
+      "cost": 3000,
+      "effect": "Held: Prevents level-based evolution from occuring.",
+      "emerald_location": null
+    },
+    {
+      "id": 207,
+      "name": "Focus Band",
+      "identifier": "focus-band",
+      "cost": 4000,
+      "effect": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP.",
+      "emerald_location": "Shoal Cave (basement) and Battle Frontier (64 BP)."
+    },
+    {
+      "id": 208,
+      "name": "Lucky Egg",
+      "identifier": "lucky-egg",
+      "cost": 10000,
+      "effect": "Held: Increases EXP earned in battle by 50%.",
+      "emerald_location": null
+    },
+    {
+      "id": 209,
+      "name": "Scope Lens",
+      "identifier": "scope-lens",
+      "cost": 4000,
+      "effect": "Held: Raises the holder’s critical hit ratio by one stage.",
+      "emerald_location": "Battle Frontier (64 BP)."
+    },
+    {
+      "id": 210,
+      "name": "Metal Coat",
+      "identifier": "metal-coat",
+      "cost": 2000,
+      "effect": "Held: Steel-Type moves from holder do 20% more damage.",
+      "emerald_location": "New Mauville (hidden/item ball) and held by wild Magnemite (5%)."
+    },
+    {
+      "id": 211,
+      "name": "Leftovers",
+      "identifier": "leftovers",
+      "cost": 4000,
+      "effect": "Held: Restores 1/16 (6.25%) holder’s max HP at the end of each turn.",
+      "emerald_location": "S.S. Tidal (trash can in basement) and Battle Frontier (48 BP)."
+    },
+    {
+      "id": 212,
+      "name": "Dragon Scale",
+      "identifier": "dragon-scale",
+      "cost": 2000,
+      "effect": "Traded on a Seadra: Holder evolves into Kingdra.",
+      "emerald_location": null
+    },
+    {
+      "id": 213,
+      "name": "Light Ball",
+      "identifier": "light-ball",
+      "cost": 1000,
+      "effect": "Doubles Pikachu’s Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle.",
+      "emerald_location": "Held by wild Pikachu in Safari Zone (5%)."
+    },
+    {
+      "id": 214,
+      "name": "Soft Sand",
+      "identifier": "soft-sand",
+      "cost": 1000,
+      "effect": "Held: Ground-Type moves from holder do 20% more damage.",
+      "emerald_location": "Slateport City (beach girl) and held by wild Trapinch (5%)."
+    },
+    {
+      "id": 215,
+      "name": "Hard Stone",
+      "identifier": "hard-stone",
+      "cost": 1000,
+      "effect": "Held: Rock-Type moves from holder do 20% more damage.",
+      "emerald_location": "Trick House (Puzzle 2 reward) and held by wild Aron / Graveler (5%)."
+    },
+    {
+      "id": 216,
+      "name": "Miracle Seed",
+      "identifier": "miracle-seed",
+      "cost": 1000,
+      "effect": "Held: Grass-Type moves from holder do 20% more damage.",
+      "emerald_location": "Petalburg Woods (woman near northern exit)."
+    },
+    {
+      "id": 217,
+      "name": "Black Glasses",
+      "identifier": "black-glasses",
+      "cost": 1000,
+      "effect": "Held: Dark-Type moves from holder do 20% more damage.",
+      "emerald_location": "Route 116 (tunnel entrance, man looking for glasses) and held by wild Poochyena (5%)."
+    },
+    {
+      "id": 218,
+      "name": "Black Belt",
+      "identifier": "black-belt",
+      "cost": 1000,
+      "effect": "Held: Fighting-Type moves from holder do 20% more damage.",
+      "emerald_location": "Route 115 (defeat Black Belt Nob in rematches / held by wild Machoke 5%)."
+    },
+    {
+      "id": 219,
+      "name": "Magnet",
+      "identifier": "magnet",
+      "cost": 1000,
+      "effect": "Held: Electric-Type moves from holder do 20% more damage.",
+      "emerald_location": "Trick House (Puzzle 3 reward)."
+    },
+    {
+      "id": 220,
+      "name": "Mystic Water",
+      "identifier": "mystic-water",
+      "cost": 1000,
+      "effect": "Held: Water-Type moves from holder do 20% more damage.",
+      "emerald_location": "Held by wild Castform (gift at Weather Institute)."
+    },
+    {
+      "id": 221,
+      "name": "Sharp Beak",
+      "identifier": "sharp-beak",
+      "cost": 1000,
+      "effect": "Held: Flying-Type moves from holder do 20% more damage.",
+      "emerald_location": "Held by wild Doduo / Dodrio (5%)."
+    },
+    {
+      "id": 222,
+      "name": "Poison Barb",
+      "identifier": "poison-barb",
+      "cost": 1000,
+      "effect": "Held: Poison-Type moves from holder do 20% more damage.",
+      "emerald_location": "Held by wild Cacnea / Roselia (5%)."
+    },
+    {
+      "id": 223,
+      "name": "Never-Melt Ice",
+      "identifier": "never-melt-ice",
+      "cost": 1000,
+      "effect": "Held: Ice-Type moves from holder do 20% more damage.",
+      "emerald_location": "Shoal Cave (low-tide ice room)."
+    },
+    {
+      "id": 224,
+      "name": "Spell Tag",
+      "identifier": "spell-tag",
+      "cost": 1000,
+      "effect": "Held: Ghost-Type moves from holder do 20% more damage.",
+      "emerald_location": "Mt. Pyre (summit) and held by wild Shuppet / Duskull (5%)."
+    },
+    {
+      "id": 225,
+      "name": "Twisted Spoon",
+      "identifier": "twisted-spoon",
+      "cost": 1000,
+      "effect": "Held: Psychic-Type moves from holder do 20% more damage.",
+      "emerald_location": "Held by wild Abra / Kadabra (5%)."
+    },
+    {
+      "id": 226,
+      "name": "Charcoal",
+      "identifier": "charcoal",
+      "cost": 1000,
+      "effect": "Held: Fire-Type moves from holder do 20% more damage.",
+      "emerald_location": "Lavaridge Town (Herb Shop)."
+    },
+    {
+      "id": 227,
+      "name": "Dragon Fang",
+      "identifier": "dragon-fang",
+      "cost": 1000,
+      "effect": "Held: Dragon-Type moves from holder do 20% more damage.",
+      "emerald_location": "Meteor Falls (Dragon Tamer Nicolas rematch) and held by wild Bagon (5%)."
+    },
+    {
+      "id": 228,
+      "name": "Silk Scarf",
+      "identifier": "silk-scarf",
+      "cost": 1000,
+      "effect": "Held: Normal-Type moves from holder do 20% more damage.",
+      "emerald_location": "Dewford Town (house near gym)."
+    },
+    {
+      "id": 229,
+      "name": "Upgrade",
+      "identifier": "up-grade",
+      "cost": 2000,
+      "effect": "Traded on a Porygon: Holder evolves into Porygon2.",
+      "emerald_location": null
+    },
+    {
+      "id": 230,
+      "name": "Shell Bell",
+      "identifier": "shell-bell",
+      "cost": 4000,
+      "effect": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+      "emerald_location": "Shoal Cave (collect 4 Shoal Salts + 4 Shoal Shells for the old man)."
+    },
+    {
+      "id": 231,
+      "name": "Sea Incense",
+      "identifier": "sea-incense",
+      "cost": 2000,
+      "effect": "Held: Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg.",
+      "emerald_location": null
+    },
+    {
+      "id": 232,
+      "name": "Lax Incense",
+      "identifier": "lax-incense",
+      "cost": 5000,
+      "effect": "Held: Holder’s evasion is increased by 5%. Breeding: Wobbuffet begets a Wynaut Egg.",
+      "emerald_location": null
+    },
+    {
+      "id": 233,
+      "name": "Lucky Punch",
+      "identifier": "lucky-punch",
+      "cost": 1000,
+      "effect": "Raises Chansey’s critical hit ratio by two stages.",
+      "emerald_location": null
+    },
+    {
+      "id": 234,
+      "name": "Metal Powder",
+      "identifier": "metal-powder",
+      "cost": 1000,
+      "effect": "Raises Ditto’s Defense and Special Defense by 50%. The boost is lost after transforming.",
+      "emerald_location": null
+    },
+    {
+      "id": 235,
+      "name": "Thick Club",
+      "identifier": "thick-club",
+      "cost": 1000,
+      "effect": "Doubles Cubone or Marowak’s Attack.",
+      "emerald_location": "Not obtainable in-game in Emerald (Cubone/Marowak require trading)."
+    },
+    {
+      "id": 236,
+      "name": "Leek",
+      "identifier": "stick",
+      "cost": 1000,
+      "effect": "Raises Farfetch’d’s critical hit ratio by two stages.",
+      "emerald_location": null
+    },
+    {
+      "id": 237,
+      "name": "Red Scarf",
+      "identifier": "red-scarf",
+      "cost": 100,
+      "effect": "Raises the holder’s Coolness while in a contest.",
+      "emerald_location": null
+    },
+    {
+      "id": 238,
+      "name": "Blue Scarf",
+      "identifier": "blue-scarf",
+      "cost": 100,
+      "effect": "Raises the holder’s Beauty while in a contest.",
+      "emerald_location": null
+    },
+    {
+      "id": 239,
+      "name": "Pink Scarf",
+      "identifier": "pink-scarf",
+      "cost": 100,
+      "effect": "Raises the holder’s Cuteness while in a contest.",
+      "emerald_location": null
+    },
+    {
+      "id": 240,
+      "name": "Green Scarf",
+      "identifier": "green-scarf",
+      "cost": 100,
+      "effect": "Raises the holder’s Smartness while in a contest.",
+      "emerald_location": null
+    },
+    {
+      "id": 241,
+      "name": "Yellow Scarf",
+      "identifier": "yellow-scarf",
+      "cost": 100,
+      "effect": "Raises the holder’s Toughness while in a contest.",
+      "emerald_location": null
+    },
+    {
+      "id": 305,
+      "name": "TM01",
+      "identifier": "tm01",
+      "cost": 40000,
+      "effect": "Teaches Hone Claws to a compatible Pokémon. (Gen IV & III: Focus Punch Gen II: DynamicPunch Gen I: Mega Punch)",
+      "emerald_location": "TM01 Focus Punch: Route 115 (requires Surf)."
+    },
+    {
+      "id": 306,
+      "name": "TM02",
+      "identifier": "tm02",
+      "cost": 1000,
+      "effect": "Teaches Dragon Claw to a compatible Pokémon. (Gen II: Headbutt Gen I: Razor Wind)",
+      "emerald_location": "TM02 Dragon Claw: Meteor Falls (back room, requires Waterfall)."
+    },
+    {
+      "id": 307,
+      "name": "TM03",
+      "identifier": "tm03",
+      "cost": 50000,
+      "effect": "Teaches Psyshock to a compatible Pokémon. (Gen IV & III: Water Pulse Gen II: Curse Gen I: Swords Dance)",
+      "emerald_location": "TM03 Water Pulse: Reward from Gym Leader Juan (8th Gym)."
+    },
+    {
+      "id": 308,
+      "name": "TM04",
+      "identifier": "tm04",
+      "cost": 50000,
+      "effect": "Teaches Calm Mind to a compatible Pokémon. (Gen II: Rollout Gen I: Whirlwind)",
+      "emerald_location": "TM04 Calm Mind: Reward from Gym Leaders Tate & Liza (7th Gym)."
+    },
+    {
+      "id": 309,
+      "name": "TM05",
+      "identifier": "tm05",
+      "cost": 50000,
+      "effect": "Teaches Roar to a compatible Pokémon. (Gen I: Mega Kick)",
+      "emerald_location": "TM05 Roar: Route 114 (man with Poochyena)."
+    },
+    {
+      "id": 310,
+      "name": "TM06",
+      "identifier": "tm06",
+      "cost": 1000,
+      "effect": "Teaches Toxic to a compatible Pokémon.",
+      "emerald_location": "TM06 Toxic: Fiery Path (requires Strength)."
+    },
+    {
+      "id": 311,
+      "name": "TM07",
+      "identifier": "tm07",
+      "cost": 1000,
+      "effect": "Teaches Hail to a compatible Pokémon. (Gen II: Zap Cannon Gen I: Horn Drill)",
+      "emerald_location": "TM07 Hail: Shoal Cave (ice room)."
+    },
+    {
+      "id": 312,
+      "name": "TM08",
+      "identifier": "tm08",
+      "cost": 50000,
+      "effect": "Teaches Bulk Up to a compatible Pokémon. (Gen II: Rock Smash Gen I: Body Slam)",
+      "emerald_location": "TM08 Bulk Up: Reward from Gym Leader Brawly (2nd Gym)."
+    },
+    {
+      "id": 313,
+      "name": "TM09",
+      "identifier": "tm09",
+      "cost": 50000,
+      "effect": "Teaches Venoshock to a compatible Pokémon. (Gen IV & III: Bullet Seed Gen II: Psych Up Gen I: Take Down)",
+      "emerald_location": "TM09 Bullet Seed: Route 104 (boy near Petalburg Woods)."
+    },
+    {
+      "id": 314,
+      "name": "TM10",
+      "identifier": "tm10",
+      "cost": 1000,
+      "effect": "Teaches Hidden Power to a compatible Pokémon. (Gen I: Double-Edge)",
+      "emerald_location": "TM10 Hidden Power: Fortree City (old woman quiz) & Slateport Market."
+    },
+    {
+      "id": 315,
+      "name": "TM11",
+      "identifier": "tm11",
+      "cost": 1000,
+      "effect": "Teaches Sunny Day to a compatible Pokémon. (Gen I: BubbleBeam)",
+      "emerald_location": "TM11 Sunny Day: Scorched Slab (Route 120 cave)."
+    },
+    {
+      "id": 316,
+      "name": "TM12",
+      "identifier": "tm12",
+      "cost": 50000,
+      "effect": "Teaches Taunt to a compatible Pokémon. (Gen II: Sweet Scent Gen I: Water Gun)",
+      "emerald_location": "TM12 Taunt: Trick House (Puzzle 5)."
+    },
+    {
+      "id": 317,
+      "name": "TM13",
+      "identifier": "tm13",
+      "cost": 10000,
+      "effect": "Teaches Ice Beam to a compatible Pokémon. (Gen II: Snore)",
+      "emerald_location": "TM13 Ice Beam: Abandoned Ship (Storage Room) & Mauville Game Corner (4000 coins)."
+    },
+    {
+      "id": 318,
+      "name": "TM14",
+      "identifier": "tm14",
+      "cost": 1000,
+      "effect": "Teaches Blizzard to a compatible Pokémon.",
+      "emerald_location": "TM14 Blizzard: Lilycove Dept. Store (4F, $5500)."
+    },
+    {
+      "id": 319,
+      "name": "TM15",
+      "identifier": "tm15",
+      "cost": 1000,
+      "effect": "Teaches Hyper Beam to a compatible Pokémon.",
+      "emerald_location": "TM15 Hyper Beam: Lilycove Dept. Store (4F, $7500)."
+    },
+    {
+      "id": 320,
+      "name": "TM16",
+      "identifier": "tm16",
+      "cost": 1000,
+      "effect": "Teaches Light Screen to a compatible Pokémon. (Gen II: Icy Wind Gen I: Pay Day)",
+      "emerald_location": "TM16 Light Screen: Lilycove Dept. Store (4F, $3000)."
+    },
+    {
+      "id": 321,
+      "name": "TM17",
+      "identifier": "tm17",
+      "cost": 10000,
+      "effect": "Teaches Protect to a compatible Pokémon. (Gen I: Submission)",
+      "emerald_location": "TM17 Protect: Lilycove Dept. Store (4F, $3000)."
+    },
+    {
+      "id": 322,
+      "name": "TM18",
+      "identifier": "tm18",
+      "cost": 10000,
+      "effect": "Teaches Rain Dance to a compatible Pokémon. (Gen I: Counter)",
+      "emerald_location": "TM18 Rain Dance: Abandoned Ship (diving room)."
+    },
+    {
+      "id": 323,
+      "name": "TM19",
+      "identifier": "tm19",
+      "cost": 10000,
+      "effect": "Teaches Telekinesis to a compatible Pokémon. (Gen IV & III & II: Giga Drain Gen I: Seismic Toss)",
+      "emerald_location": "TM19 Giga Drain: Route 123 (girl near Berry Master, if holding a Grass-type)."
+    },
+    {
+      "id": 324,
+      "name": "TM20",
+      "identifier": "tm20",
+      "cost": 100000,
+      "effect": "Teaches Safeguard to a compatible Pokémon. (Gen II: Endure Gen I: Rage)",
+      "emerald_location": "TM20 Safeguard: Lilycove Dept. Store (4F, $3000)."
+    },
+    {
+      "id": 325,
+      "name": "TM21",
+      "identifier": "tm21",
+      "cost": 1000,
+      "effect": "Teaches Frustration to a compatible Pokémon. (Gen I: Mega Drain)",
+      "emerald_location": "TM21 Frustration: Pacifidlog Town (if lead Pokemon has low friendship)."
+    },
+    {
+      "id": 326,
+      "name": "TM22",
+      "identifier": "tm22",
+      "cost": 1000,
+      "effect": "Teaches SolarBeam to a compatible Pokémon.",
+      "emerald_location": "TM22 SolarBeam: Safari Zone (north-east area)."
+    },
+    {
+      "id": 327,
+      "name": "TM23",
+      "identifier": "tm23",
+      "cost": 10000,
+      "effect": "Teaches Smack Down to a compatible Pokémon. (Gen IV & III & II: Iron Tail Gen I: Dragon Rage)",
+      "emerald_location": "TM23 Iron Tail: Meteor Falls (B1F)."
+    },
+    {
+      "id": 328,
+      "name": "TM24",
+      "identifier": "tm24",
+      "cost": 1000,
+      "effect": "Teaches Thunderbolt to a compatible Pokémon. (Gen II: DragonBreath)",
+      "emerald_location": "TM24 Thunderbolt: New Mauville (Wattson reward) & Mauville Game Corner (4000 coins)."
+    },
+    {
+      "id": 329,
+      "name": "TM25",
+      "identifier": "tm25",
+      "cost": 10000,
+      "effect": "Teaches Thunder to a compatible Pokémon.",
+      "emerald_location": "TM25 Thunder: Lilycove Dept. Store (4F, $5500)."
+    },
+    {
+      "id": 330,
+      "name": "TM26",
+      "identifier": "tm26",
+      "cost": 1000,
+      "effect": "Teaches Earthquake to a compatible Pokémon.",
+      "emerald_location": "TM26 Earthquake: Seafloor Cavern (bottom room)."
+    },
+    {
+      "id": 331,
+      "name": "TM27",
+      "identifier": "tm27",
+      "cost": 1000,
+      "effect": "Teaches Return to a compatible Pokémon. (Gen I: Fissure)",
+      "emerald_location": "TM27 Return: Fallarbor Town (Professor Cozmo) & Pacifidlog Town (high friendship)."
+    },
+    {
+      "id": 332,
+      "name": "TM28",
+      "identifier": "tm28",
+      "cost": 100000,
+      "effect": "Teaches Dig to a compatible Pokémon.",
+      "emerald_location": "TM28 Dig: Route 114 (Fossil Maniac’s house, little brother)."
+    },
+    {
+      "id": 333,
+      "name": "TM29",
+      "identifier": "tm29",
+      "cost": 1000,
+      "effect": "Teaches Psychic to a compatible Pokémon.",
+      "emerald_location": "TM29 Psychic: Victory Road (1F) & Mauville Game Corner (3500 coins)."
+    },
+    {
+      "id": 334,
+      "name": "TM30",
+      "identifier": "tm30",
+      "cost": 1000,
+      "effect": "Teaches Shadow Ball to a compatible Pokémon. (Gen I: Teleport)",
+      "emerald_location": "TM30 Shadow Ball: Mt. Pyre (top floor)."
+    },
+    {
+      "id": 335,
+      "name": "TM31",
+      "identifier": "tm31",
+      "cost": 1000,
+      "effect": "Teaches Brick Break to a compatible Pokémon. (Gen II: Mud-Slap Gen I: Mimic)",
+      "emerald_location": "TM31 Brick Break: Sootopolis City (house near Pokemon Center)."
+    },
+    {
+      "id": 336,
+      "name": "TM32",
+      "identifier": "tm32",
+      "cost": 10000,
+      "effect": "Teaches Double Team to a compatible Pokémon.",
+      "emerald_location": "TM32 Double Team: Route 113 & Mauville Game Corner (1500 coins)."
+    },
+    {
+      "id": 337,
+      "name": "TM33",
+      "identifier": "tm33",
+      "cost": 10000,
+      "effect": "Teaches Reflect to a compatible Pokémon. (Gen II: Ice Punch)",
+      "emerald_location": "TM33 Reflect: Lilycove Dept. Store (4F, $3000)."
+    },
+    {
+      "id": 338,
+      "name": "TM34",
+      "identifier": "tm34",
+      "cost": 10000,
+      "effect": "Teaches Sludge Wave to a compatible Pokémon. (Gen IV & III: Shock Wave Gen II: Swagger Gen I: Bide)",
+      "emerald_location": "TM34 Shock Wave: Reward from Gym Leader Wattson (3rd Gym)."
+    },
+    {
+      "id": 339,
+      "name": "TM35",
+      "identifier": "tm35",
+      "cost": 10000,
+      "effect": "Teaches Flamethrower to a compatible Pokémon. (Gen II: Sleep Talk Gen I: Metronome)",
+      "emerald_location": "TM35 Flamethrower: Mauville Game Corner (4000 coins)."
+    },
+    {
+      "id": 340,
+      "name": "TM36",
+      "identifier": "tm36",
+      "cost": 1000,
+      "effect": "Teaches Sludge Bomb to a compatible Pokémon. (Gen I: Selfdestruct)",
+      "emerald_location": "TM36 Sludge Bomb: Dewford Town (Trendy Hall man, after defeating Norman)."
+    },
+    {
+      "id": 341,
+      "name": "TM37",
+      "identifier": "tm37",
+      "cost": 1000,
+      "effect": "Teaches Sandstorm to a compatible Pokémon. (Gen I: Egg Bomb)",
+      "emerald_location": "TM37 Sandstorm: Route 111 (desert south)."
+    },
+    {
+      "id": 342,
+      "name": "TM38",
+      "identifier": "tm38",
+      "cost": 1000,
+      "effect": "Teaches Fire Blast to a compatible Pokémon.",
+      "emerald_location": "TM38 Fire Blast: Lilycove Dept. Store (4F, $5500)."
+    },
+    {
+      "id": 343,
+      "name": "TM39",
+      "identifier": "tm39",
+      "cost": 1000,
+      "effect": "Teaches Rock Tomb to a compatible Pokémon. (Gen II & I: Swift)",
+      "emerald_location": "TM39 Rock Tomb: Reward from Gym Leader Roxanne (1st Gym)."
+    },
+    {
+      "id": 344,
+      "name": "TM40",
+      "identifier": "tm40",
+      "cost": 1000,
+      "effect": "Teaches Aerial Ace to a compatible Pokémon. (Gen II: Defense Curl Gen I: Skull Bash)",
+      "emerald_location": "TM40 Aerial Ace: Reward from Gym Leader Winona (6th Gym)."
+    },
+    {
+      "id": 345,
+      "name": "TM41",
+      "identifier": "tm41",
+      "cost": 10000,
+      "effect": "Teaches Torment to a compatible Pokémon. (Gen II: ThunderPunch Gen I: Softboiled)",
+      "emerald_location": "TM41 Torment: Slateport City (Battle Tent)."
+    },
+    {
+      "id": 346,
+      "name": "TM42",
+      "identifier": "tm42",
+      "cost": 1000,
+      "effect": "Teaches Facade to a compatible Pokémon. (Gen II & I: Dream Eater)",
+      "emerald_location": "TM42 Facade: Reward from Gym Leader Norman (5th Gym)."
+    },
+    {
+      "id": 347,
+      "name": "TM43",
+      "identifier": "tm43",
+      "cost": 1000,
+      "effect": "Teaches Flame Charge to a compatible Pokémon. (Gen IV & III: Secret Power Gen II: Detect Gen I: Sky Attack)",
+      "emerald_location": "TM43 Secret Power: Route 111 (boy near tree) & Slateport Market."
+    },
+    {
+      "id": 348,
+      "name": "TM44",
+      "identifier": "tm44",
+      "cost": 100000,
+      "effect": "Teaches Rest to a compatible Pokémon.",
+      "emerald_location": "TM44 Rest: Lilycove City (house east of Dept. Store)."
+    },
+    {
+      "id": 349,
+      "name": "TM45",
+      "identifier": "tm45",
+      "cost": 1000,
+      "effect": "Teaches Attract to a compatible Pokémon. (Gen I: Thunder Wave)",
+      "emerald_location": "TM45 Attract: Verdanturf Town (Battle Tent)."
+    },
+    {
+      "id": 350,
+      "name": "TM46",
+      "identifier": "tm46",
+      "cost": 30000,
+      "effect": "Teaches Thief to a compatible Pokémon. (Gen I: Psywave)",
+      "emerald_location": "TM46 Thief: Slateport City (Oceanic Museum, Team Aqua Grunt)."
+    },
+    {
+      "id": 351,
+      "name": "TM47",
+      "identifier": "tm47",
+      "cost": 1000,
+      "effect": "Teaches Low Sweep to a compatible Pokémon. (Gen IV & III & II: Steel Wing Gen I: Explosion)",
+      "emerald_location": "TM47 Steel Wing: Granite Cave (Steven Stone)."
+    },
+    {
+      "id": 352,
+      "name": "TM48",
+      "identifier": "tm48",
+      "cost": 1000,
+      "effect": "Teaches Round to a compatible Pokémon. (Gen IV & III: Skill Swap Gen II: Fire Punch Gen I: Rock Slide)",
+      "emerald_location": "TM48 Skill Swap: Mt. Pyre (outside)."
+    },
+    {
+      "id": 353,
+      "name": "TM49",
+      "identifier": "tm49",
+      "cost": 1000,
+      "effect": "Teaches Echoed Voice to a compatible Pokémon. (Gen IV & III: Snatch Gen II: Fury Cutter Gen I: Tri Attack)",
+      "emerald_location": "TM49 Snatch: S.S. Tidal (cabin)."
+    },
+    {
+      "id": 354,
+      "name": "TM50",
+      "identifier": "tm50",
+      "cost": 10000,
+      "effect": "Teaches Overheat to a compatible Pokémon. (Gen II: Nightmare Gen I: Substitute)",
+      "emerald_location": "TM50 Overheat: Reward from Gym Leader Flannery (4th Gym)."
+    },
+    {
+      "id": 397,
+      "name": "HM01",
+      "identifier": "hm01",
+      "cost": 0,
+      "effect": "Teaches Cut to a compatible Pokémon.",
+      "emerald_location": "HM01 Cut: Rustboro City (Cutter’s House, west of Pokemon Center)."
+    },
+    {
+      "id": 398,
+      "name": "HM02",
+      "identifier": "hm02",
+      "cost": 0,
+      "effect": "Teaches Fly to a compatible Pokémon.",
+      "emerald_location": "HM02 Fly: Route 119 (Rival battle reward)."
+    },
+    {
+      "id": 399,
+      "name": "HM03",
+      "identifier": "hm03",
+      "cost": 0,
+      "effect": "Teaches Surf to a compatible Pokémon.",
+      "emerald_location": "HM03 Surf: Petalburg City (Wally’s house, after defeating Norman)."
+    },
+    {
+      "id": 400,
+      "name": "HM04",
+      "identifier": "hm04",
+      "cost": 0,
+      "effect": "Teaches Strength to a compatible Pokémon.",
+      "emerald_location": "HM04 Strength: Rusturf Tunnel (reward for smashing rock with Rock Smash)."
+    },
+    {
+      "id": 401,
+      "name": "HM05",
+      "identifier": "hm05",
+      "cost": 0,
+      "effect": "Teaches Waterfall to a compatible Pokémon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)",
+      "emerald_location": "HM05 Flash: Granite Cave (Hiker near entrance)."
+    },
+    {
+      "id": 402,
+      "name": "HM06",
+      "identifier": "hm06",
+      "cost": 0,
+      "effect": "Teaches Dive to a compatible Pokémon. (Gen IV & III: Rock Smash Gen II: Whirlpool)",
+      "emerald_location": "HM06 Rock Smash: Mauville City (scientist in southeast house)."
+    },
+    {
+      "id": 403,
+      "name": "HM07",
+      "identifier": "hm07",
+      "cost": 0,
+      "effect": "Teaches a move to a compatible Pokémon. (Gen IV & III & II: Waterfall)",
+      "emerald_location": "HM07 Waterfall: Cave of Origin (Wallace, during Sootopolis crisis)."
+    },
+    {
+      "id": 404,
+      "name": "HM08",
+      "identifier": "hm08",
+      "cost": 0,
+      "effect": "Teaches a move to a compatible Pokémon. (Gen IV: Rock Climb Gen III: Dive)",
+      "emerald_location": "HM08 Dive: Mossdeep City (Steven’s house, after defeating Tate & Liza)."
+    },
+    {
+      "id": 419,
+      "name": "Town Map",
+      "identifier": "town-map",
+      "cost": 0,
+      "effect": "Use to see the overworld map.",
+      "emerald_location": null
+    },
+    {
+      "id": 420,
+      "name": "Vs. Seeker",
+      "identifier": "vs-seeker",
+      "cost": 0,
+      "effect": "Allows rebattling of on-screen trainers. 100 steps to recharge.",
+      "emerald_location": null
+    },
+    {
+      "id": 421,
+      "name": "Coin Case",
+      "identifier": "coin-case",
+      "cost": 0,
+      "effect": "Holds coins for the Game Corner.",
+      "emerald_location": null
+    },
+    {
+      "id": 422,
+      "name": "Old Rod",
+      "identifier": "old-rod",
+      "cost": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "emerald_location": null
+    },
+    {
+      "id": 423,
+      "name": "Good Rod",
+      "identifier": "good-rod",
+      "cost": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "emerald_location": null
+    },
+    {
+      "id": 424,
+      "name": "Super Rod",
+      "identifier": "super-rod",
+      "cost": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "emerald_location": null
+    },
+    {
+      "id": 427,
+      "name": "Bicycle",
+      "identifier": "bicycle",
+      "cost": 0,
+      "effect": "Use for fast transit.",
+      "emerald_location": null
+    },
+    {
+      "id": 433,
+      "name": "S.S. Ticket",
+      "identifier": "ss-ticket",
+      "cost": 0,
+      "effect": "Ticket for a ship. (RSE: S.S. Tidal LF: S.S. Anne HG: S.S. Aqua)",
+      "emerald_location": null
+    },
+    {
+      "id": 434,
+      "name": "Contest Pass",
+      "identifier": "contest-pass",
+      "cost": 0,
+      "effect": "Allows participation in Pokémon Contests.",
+      "emerald_location": null
+    },
+    {
+      "id": 436,
+      "name": "Parcel",
+      "identifier": "parcel",
+      "cost": 0,
+      "effect": "Given to the trainer’s rival in Jubilife City. Contains Town Maps.",
+      "emerald_location": null
+    },
+    {
+      "id": 440,
+      "name": "Storage Key",
+      "identifier": "storage-key",
+      "cost": 0,
+      "effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+      "emerald_location": null
+    },
+    {
+      "id": 445,
+      "name": "Secret Key",
+      "identifier": "secret-key",
+      "cost": 0,
+      "effect": "Gen IV: The key to Rotom’s appliance room. Gen III: The key to Cinnabar Gym.",
+      "emerald_location": null
+    },
+    {
+      "id": 465,
+      "name": "Dowsing Machine",
+      "identifier": "dowsing-machine",
+      "cost": 0,
+      "effect": "Use to find hidden items on the field. AKA Itemfinder.",
+      "emerald_location": null
+    },
+    {
+      "id": 467,
+      "name": "Red Orb",
+      "identifier": "red-orb",
+      "cost": 0,
+      "effect": "Summons Groudon to the Embedded Tower.",
+      "emerald_location": null
+    },
+    {
+      "id": 468,
+      "name": "Blue Orb",
+      "identifier": "blue-orb",
+      "cost": 0,
+      "effect": "Summons Kyogre to the Embedded Tower.",
+      "emerald_location": null
+    },
+    {
+      "id": 475,
+      "name": "Card Key",
+      "identifier": "card-key",
+      "cost": 0,
+      "effect": "HS: Opens doors in the Radio Tower. Gen III: Unlocks Silph Co Doors.",
+      "emerald_location": null
+    },
+    {
+      "id": 476,
+      "name": "Basement Key",
+      "identifier": "basement-key",
+      "cost": 0,
+      "effect": "HS: Key to the tunnel under Goldenrod City. Gen III: Key to New Mauville.",
+      "emerald_location": null
+    },
+    {
+      "id": 515,
+      "name": "Orange Mail",
+      "identifier": "orange-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 516,
+      "name": "Harbor Mail",
+      "identifier": "harbor-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 517,
+      "name": "Glitter Mail",
+      "identifier": "glitter-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 518,
+      "name": "Mech Mail",
+      "identifier": "mech-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 519,
+      "name": "Wood Mail",
+      "identifier": "wood-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 520,
+      "name": "Wave Mail",
+      "identifier": "wave-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 521,
+      "name": "Bead Mail",
+      "identifier": "bead-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 522,
+      "name": "Shadow Mail",
+      "identifier": "shadow-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 523,
+      "name": "Tropic Mail",
+      "identifier": "tropic-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 524,
+      "name": "Dream Mail",
+      "identifier": "dream-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 525,
+      "name": "Fab Mail",
+      "identifier": "fab-mail",
+      "cost": 50,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 526,
+      "name": "Retro Mail",
+      "identifier": "retro-mail",
+      "cost": 0,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "emerald_location": null
+    },
+    {
+      "id": 527,
+      "name": "Mach Bike",
+      "identifier": "mach-bike",
+      "cost": 0,
+      "effect": "Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.",
+      "emerald_location": null
+    },
+    {
+      "id": 528,
+      "name": "Acro Bike",
+      "identifier": "acro-bike",
+      "cost": 0,
+      "effect": "More maneuverable than the Mach Bike, and allows hopping along rails.",
+      "emerald_location": null
+    },
+    {
+      "id": 529,
+      "name": "Wailmer Pail",
+      "identifier": "wailmer-pail",
+      "cost": 0,
+      "effect": "Used to water berries.",
+      "emerald_location": null
+    },
+    {
+      "id": 530,
+      "name": "Devon Goods",
+      "identifier": "devon-goods",
+      "cost": 0,
+      "effect": "Contains mechanical parts to be delivered to Captain Stern.",
+      "emerald_location": null
+    },
+    {
+      "id": 531,
+      "name": "Soot Sack",
+      "identifier": "soot-sack",
+      "cost": 0,
+      "effect": "Stores volcanic ash from Route 113.",
+      "emerald_location": null
+    },
+    {
+      "id": 532,
+      "name": "Pokéblock Case",
+      "identifier": "pokeblock-case",
+      "cost": 0,
+      "effect": "Holds Pokéblocks.",
+      "emerald_location": null
+    },
+    {
+      "id": 533,
+      "name": "Letter",
+      "identifier": "letter",
+      "cost": 0,
+      "effect": "A letter to Steven from the Devon Corp president.",
+      "emerald_location": null
+    },
+    {
+      "id": 534,
+      "name": "Eon Ticket",
+      "identifier": "eon-ticket",
+      "cost": 0,
+      "effect": "Provides access to Southern Island and Latias or Latios.",
+      "emerald_location": null
+    },
+    {
+      "id": 535,
+      "name": "Scanner",
+      "identifier": "scanner",
+      "cost": 0,
+      "effect": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale.",
+      "emerald_location": null
+    },
+    {
+      "id": 536,
+      "name": "Go-Goggles",
+      "identifier": "go-goggles",
+      "cost": 0,
+      "effect": "Allows passage through windy deserts.",
+      "emerald_location": null
+    },
+    {
+      "id": 537,
+      "name": "Meteorite",
+      "identifier": "meteorite",
+      "cost": 0,
+      "effect": "FL: Deliver to Lostelle’s father. RSE: Trade to Professor Cozmo for TM27 (Return).",
+      "emerald_location": null
+    },
+    {
+      "id": 538,
+      "name": "Rm. 1 Key",
+      "identifier": "rm-1-key",
+      "cost": 0,
+      "effect": "Unlocks room 1 on the Abandoned Ship.",
+      "emerald_location": null
+    },
+    {
+      "id": 539,
+      "name": "Rm. 2 Key",
+      "identifier": "rm-2-key",
+      "cost": 0,
+      "effect": "Unlocks room 2 on the Abandoned Ship.",
+      "emerald_location": null
+    },
+    {
+      "id": 540,
+      "name": "Rm. 4 Key",
+      "identifier": "rm-4-key",
+      "cost": 0,
+      "effect": "Unlocks room 4 on the Abandoned Ship.",
+      "emerald_location": null
+    },
+    {
+      "id": 541,
+      "name": "Rm. 6 Key",
+      "identifier": "rm-6-key",
+      "cost": 0,
+      "effect": "Unlocks room 6 on the Abandoned Ship.",
+      "emerald_location": null
+    },
+    {
+      "id": 542,
+      "name": "Devon Scope",
+      "identifier": "devon-scope",
+      "cost": 0,
+      "effect": "Allows spotting of invisible Kecleon.",
+      "emerald_location": null
+    },
+    {
+      "id": 544,
+      "name": "Poké Flute",
+      "identifier": "poke-flute",
+      "cost": 0,
+      "effect": "Use to awaken sleeping Pokémon, including Snorlax on roads.",
+      "emerald_location": null
+    },
+    {
+      "id": 545,
+      "name": "Bike Voucher",
+      "identifier": "bike-voucher",
+      "cost": 0,
+      "effect": "Trade in Cerulean bike shop for a Bicycle.",
+      "emerald_location": null
+    },
+    {
+      "id": 546,
+      "name": "Gold Teeth",
+      "identifier": "gold-teeth",
+      "cost": 0,
+      "effect": "The Safari Zone Warden’s dentures. Trade for HM04 (Strength).",
+      "emerald_location": null
+    },
+    {
+      "id": 547,
+      "name": "Lift Key",
+      "identifier": "lift-key",
+      "cost": 0,
+      "effect": "Operates the elevator in Team Rocket’s Celadon Hideout.",
+      "emerald_location": null
+    },
+    {
+      "id": 548,
+      "name": "Silph Scope",
+      "identifier": "silph-scope",
+      "cost": 0,
+      "effect": "Used to identify the true forms of ghosts in Pokémon Tower.",
+      "emerald_location": null
+    },
+    {
+      "id": 549,
+      "name": "Fame Checker",
+      "identifier": "fame-checker",
+      "cost": 0,
+      "effect": "Records information about NPCs.",
+      "emerald_location": null
+    },
+    {
+      "id": 550,
+      "name": "TM Case",
+      "identifier": "tm-case",
+      "cost": 0,
+      "effect": "Holds TMs.",
+      "emerald_location": null
+    },
+    {
+      "id": 551,
+      "name": "Berry Pouch",
+      "identifier": "berry-pouch",
+      "cost": 0,
+      "effect": "Holds berries.",
+      "emerald_location": null
+    },
+    {
+      "id": 552,
+      "name": "Teachy TV",
+      "identifier": "teachy-tv",
+      "cost": 0,
+      "effect": "Teachers basic trainer advice.",
+      "emerald_location": null
+    },
+    {
+      "id": 553,
+      "name": "Tri-Pass",
+      "identifier": "tri-pass",
+      "cost": 0,
+      "effect": "Grants access to the first three Sevii Islands.",
+      "emerald_location": null
+    },
+    {
+      "id": 554,
+      "name": "Rainbow Pass",
+      "identifier": "rainbow-pass",
+      "cost": 0,
+      "effect": "Grants access to all of the Sevii Islands.",
+      "emerald_location": null
+    },
+    {
+      "id": 555,
+      "name": "Tea",
+      "identifier": "tea",
+      "cost": 0,
+      "effect": "Grants access to Saffron City.",
+      "emerald_location": null
+    },
+    {
+      "id": 556,
+      "name": "MysticTicket",
+      "identifier": "mysticticket",
+      "cost": 0,
+      "effect": "Allows access to Navel Rock and Lugia or Ho-oh.",
+      "emerald_location": null
+    },
+    {
+      "id": 557,
+      "name": "AuroraTicket",
+      "identifier": "auroraticket",
+      "cost": 0,
+      "effect": "Allows access to Birth Island and Deoxys.",
+      "emerald_location": null
+    },
+    {
+      "id": 558,
+      "name": "Powder Jar",
+      "identifier": "powder-jar",
+      "cost": 0,
+      "effect": "Stores Berry Powder made using a Berry Crusher.",
+      "emerald_location": null
+    },
+    {
+      "id": 559,
+      "name": "Ruby",
+      "identifier": "ruby",
+      "cost": 0,
+      "effect": "Give to Celio with Sapphire to activate Network Machine and get Rainbow Pass.",
+      "emerald_location": null
+    },
+    {
+      "id": 560,
+      "name": "Sapphire",
+      "identifier": "sapphire",
+      "cost": 0,
+      "effect": "Give to Celio with Ruby to activate Network Machine and get Rainbow Pass.",
+      "emerald_location": null
+    },
+    {
+      "id": 561,
+      "name": "Magma Emblem",
+      "identifier": "magma-emblem",
+      "cost": 0,
+      "effect": "Provides access to the Team Magma Hideout in the Jagged Pass.",
+      "emerald_location": null
+    },
+    {
+      "id": 562,
+      "name": "Old Sea Map",
+      "identifier": "old-sea-map",
+      "cost": 0,
+      "effect": "Allows access to Faraway Island and Mew. Unreleased outside of Japan.",
+      "emerald_location": null
+    },
+    {
+      "id": 1288,
+      "name": "TM00",
+      "identifier": "tm00",
+      "cost": 10000,
+      "effect": "",
+      "emerald_location": null
+    }
+  ]
+}

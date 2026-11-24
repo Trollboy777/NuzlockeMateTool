@@ -1,0 +1,3536 @@
+{
+  "game": "Pokemon Emerald",
+  "generation": 3,
+  "iv_ev_rules": {
+    "iv_range": "0 to 31 per stat (determined when encountered/hatched; cannot be changed in Emerald).",
+    "ev_caps": "Maximum 255 EVs per single stat (252 is the effective maximum because 255 / 4 floors to 63), and maximum 510 total EVs across all six stats.",
+    "stat_scaling": "Every 4 EVs in a stat grants +1 stat point at Level 100 (scales proportionally by level: Math.floor((EV / 4) * (Level / 100))).",
+    "vitamins": "HP Up, Protein, Iron, Calcium, Zinc, and Carbos each grant +10 EVs in their respective stat, up to a cap of 100 EVs per stat.",
+    "multipliers": "Macho Brace doubles EVs gained from battle (2x) while halving Speed in battle. Pokerus also doubles EVs gained (2x), stacking multiplicatively with Macho Brace for 4x EVs.",
+    "exp_share_rule": "In Generation III, any Pokemon that gains Experience Points from a battle (including via Exp. Share or switching out) receives the full base EV yield of the defeated Pokemon."
+  },
+  "total_species": 386,
+  "pokemon": [
+    {
+      "national_dex": 1,
+      "name": "Bulbasaur",
+      "identifier": "bulbasaur",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 2,
+      "name": "Ivysaur",
+      "identifier": "ivysaur",
+      "ev_yield": {
+        "special_attack": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 3,
+      "name": "Venusaur",
+      "identifier": "venusaur",
+      "ev_yield": {
+        "special_attack": 2,
+        "special_defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 4,
+      "name": "Charmander",
+      "identifier": "charmander",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 5,
+      "name": "Charmeleon",
+      "identifier": "charmeleon",
+      "ev_yield": {
+        "special_attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 6,
+      "name": "Charizard",
+      "identifier": "charizard",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 7,
+      "name": "Squirtle",
+      "identifier": "squirtle",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 8,
+      "name": "Wartortle",
+      "identifier": "wartortle",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 9,
+      "name": "Blastoise",
+      "identifier": "blastoise",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 10,
+      "name": "Caterpie",
+      "identifier": "caterpie",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 11,
+      "name": "Metapod",
+      "identifier": "metapod",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 12,
+      "name": "Butterfree",
+      "identifier": "butterfree",
+      "ev_yield": {
+        "special_attack": 2,
+        "special_defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 13,
+      "name": "Weedle",
+      "identifier": "weedle",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 14,
+      "name": "Kakuna",
+      "identifier": "kakuna",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 15,
+      "name": "Beedrill",
+      "identifier": "beedrill",
+      "ev_yield": {
+        "attack": 2,
+        "special_defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 16,
+      "name": "Pidgey",
+      "identifier": "pidgey",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 17,
+      "name": "Pidgeotto",
+      "identifier": "pidgeotto",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 18,
+      "name": "Pidgeot",
+      "identifier": "pidgeot",
+      "ev_yield": {
+        "speed": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 19,
+      "name": "Rattata",
+      "identifier": "rattata",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 20,
+      "name": "Raticate",
+      "identifier": "raticate",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 21,
+      "name": "Spearow",
+      "identifier": "spearow",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 22,
+      "name": "Fearow",
+      "identifier": "fearow",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 23,
+      "name": "Ekans",
+      "identifier": "ekans",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 24,
+      "name": "Arbok",
+      "identifier": "arbok",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 25,
+      "name": "Pikachu",
+      "identifier": "pikachu",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 26,
+      "name": "Raichu",
+      "identifier": "raichu",
+      "ev_yield": {
+        "speed": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 27,
+      "name": "Sandshrew",
+      "identifier": "sandshrew",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 28,
+      "name": "Sandslash",
+      "identifier": "sandslash",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 29,
+      "name": "Nidoran F",
+      "identifier": "nidoran-f",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 30,
+      "name": "Nidorina",
+      "identifier": "nidorina",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 31,
+      "name": "Nidoqueen",
+      "identifier": "nidoqueen",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 32,
+      "name": "Nidoran M",
+      "identifier": "nidoran-m",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 33,
+      "name": "Nidorino",
+      "identifier": "nidorino",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 34,
+      "name": "Nidoking",
+      "identifier": "nidoking",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 35,
+      "name": "Clefairy",
+      "identifier": "clefairy",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 36,
+      "name": "Clefable",
+      "identifier": "clefable",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 37,
+      "name": "Vulpix",
+      "identifier": "vulpix",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 38,
+      "name": "Ninetales",
+      "identifier": "ninetales",
+      "ev_yield": {
+        "special_defense": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 39,
+      "name": "Jigglypuff",
+      "identifier": "jigglypuff",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 40,
+      "name": "Wigglytuff",
+      "identifier": "wigglytuff",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 41,
+      "name": "Zubat",
+      "identifier": "zubat",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 42,
+      "name": "Golbat",
+      "identifier": "golbat",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 43,
+      "name": "Oddish",
+      "identifier": "oddish",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 44,
+      "name": "Gloom",
+      "identifier": "gloom",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 45,
+      "name": "Vileplume",
+      "identifier": "vileplume",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 46,
+      "name": "Paras",
+      "identifier": "paras",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 47,
+      "name": "Parasect",
+      "identifier": "parasect",
+      "ev_yield": {
+        "attack": 2,
+        "defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 48,
+      "name": "Venonat",
+      "identifier": "venonat",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 49,
+      "name": "Venomoth",
+      "identifier": "venomoth",
+      "ev_yield": {
+        "special_attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 50,
+      "name": "Diglett",
+      "identifier": "diglett",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 51,
+      "name": "Dugtrio",
+      "identifier": "dugtrio",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 52,
+      "name": "Meowth",
+      "identifier": "meowth",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 53,
+      "name": "Persian",
+      "identifier": "persian",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 54,
+      "name": "Psyduck",
+      "identifier": "psyduck",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 55,
+      "name": "Golduck",
+      "identifier": "golduck",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 56,
+      "name": "Mankey",
+      "identifier": "mankey",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 57,
+      "name": "Primeape",
+      "identifier": "primeape",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 58,
+      "name": "Growlithe",
+      "identifier": "growlithe",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 59,
+      "name": "Arcanine",
+      "identifier": "arcanine",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 60,
+      "name": "Poliwag",
+      "identifier": "poliwag",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 61,
+      "name": "Poliwhirl",
+      "identifier": "poliwhirl",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 62,
+      "name": "Poliwrath",
+      "identifier": "poliwrath",
+      "ev_yield": {
+        "defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 63,
+      "name": "Abra",
+      "identifier": "abra",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 64,
+      "name": "Kadabra",
+      "identifier": "kadabra",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 65,
+      "name": "Alakazam",
+      "identifier": "alakazam",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 66,
+      "name": "Machop",
+      "identifier": "machop",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 67,
+      "name": "Machoke",
+      "identifier": "machoke",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 68,
+      "name": "Machamp",
+      "identifier": "machamp",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 69,
+      "name": "Bellsprout",
+      "identifier": "bellsprout",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 70,
+      "name": "Weepinbell",
+      "identifier": "weepinbell",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 71,
+      "name": "Victreebel",
+      "identifier": "victreebel",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 72,
+      "name": "Tentacool",
+      "identifier": "tentacool",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 73,
+      "name": "Tentacruel",
+      "identifier": "tentacruel",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 74,
+      "name": "Geodude",
+      "identifier": "geodude",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 75,
+      "name": "Graveler",
+      "identifier": "graveler",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 76,
+      "name": "Golem",
+      "identifier": "golem",
+      "ev_yield": {
+        "defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 77,
+      "name": "Ponyta",
+      "identifier": "ponyta",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 78,
+      "name": "Rapidash",
+      "identifier": "rapidash",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 79,
+      "name": "Slowpoke",
+      "identifier": "slowpoke",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 80,
+      "name": "Slowbro",
+      "identifier": "slowbro",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 81,
+      "name": "Magnemite",
+      "identifier": "magnemite",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 82,
+      "name": "Magneton",
+      "identifier": "magneton",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 83,
+      "name": "Farfetchd",
+      "identifier": "farfetchd",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 84,
+      "name": "Doduo",
+      "identifier": "doduo",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 85,
+      "name": "Dodrio",
+      "identifier": "dodrio",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 86,
+      "name": "Seel",
+      "identifier": "seel",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 87,
+      "name": "Dewgong",
+      "identifier": "dewgong",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 88,
+      "name": "Grimer",
+      "identifier": "grimer",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 89,
+      "name": "Muk",
+      "identifier": "muk",
+      "ev_yield": {
+        "hp": 1,
+        "attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 90,
+      "name": "Shellder",
+      "identifier": "shellder",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 91,
+      "name": "Cloyster",
+      "identifier": "cloyster",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 92,
+      "name": "Gastly",
+      "identifier": "gastly",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 93,
+      "name": "Haunter",
+      "identifier": "haunter",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 94,
+      "name": "Gengar",
+      "identifier": "gengar",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 95,
+      "name": "Onix",
+      "identifier": "onix",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 96,
+      "name": "Drowzee",
+      "identifier": "drowzee",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 97,
+      "name": "Hypno",
+      "identifier": "hypno",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 98,
+      "name": "Krabby",
+      "identifier": "krabby",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 99,
+      "name": "Kingler",
+      "identifier": "kingler",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 100,
+      "name": "Voltorb",
+      "identifier": "voltorb",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 101,
+      "name": "Electrode",
+      "identifier": "electrode",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 102,
+      "name": "Exeggcute",
+      "identifier": "exeggcute",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 103,
+      "name": "Exeggutor",
+      "identifier": "exeggutor",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 104,
+      "name": "Cubone",
+      "identifier": "cubone",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 105,
+      "name": "Marowak",
+      "identifier": "marowak",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 106,
+      "name": "Hitmonlee",
+      "identifier": "hitmonlee",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 107,
+      "name": "Hitmonchan",
+      "identifier": "hitmonchan",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 108,
+      "name": "Lickitung",
+      "identifier": "lickitung",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 109,
+      "name": "Koffing",
+      "identifier": "koffing",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 110,
+      "name": "Weezing",
+      "identifier": "weezing",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 111,
+      "name": "Rhyhorn",
+      "identifier": "rhyhorn",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 112,
+      "name": "Rhydon",
+      "identifier": "rhydon",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 113,
+      "name": "Chansey",
+      "identifier": "chansey",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 114,
+      "name": "Tangela",
+      "identifier": "tangela",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 115,
+      "name": "Kangaskhan",
+      "identifier": "kangaskhan",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 116,
+      "name": "Horsea",
+      "identifier": "horsea",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 117,
+      "name": "Seadra",
+      "identifier": "seadra",
+      "ev_yield": {
+        "defense": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 118,
+      "name": "Goldeen",
+      "identifier": "goldeen",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 119,
+      "name": "Seaking",
+      "identifier": "seaking",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 120,
+      "name": "Staryu",
+      "identifier": "staryu",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 121,
+      "name": "Starmie",
+      "identifier": "starmie",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 122,
+      "name": "Mr Mime",
+      "identifier": "mr-mime",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 123,
+      "name": "Scyther",
+      "identifier": "scyther",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 124,
+      "name": "Jynx",
+      "identifier": "jynx",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 125,
+      "name": "Electabuzz",
+      "identifier": "electabuzz",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 126,
+      "name": "Magmar",
+      "identifier": "magmar",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 127,
+      "name": "Pinsir",
+      "identifier": "pinsir",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 128,
+      "name": "Tauros",
+      "identifier": "tauros",
+      "ev_yield": {
+        "attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 129,
+      "name": "Magikarp",
+      "identifier": "magikarp",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 130,
+      "name": "Gyarados",
+      "identifier": "gyarados",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 131,
+      "name": "Lapras",
+      "identifier": "lapras",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 132,
+      "name": "Ditto",
+      "identifier": "ditto",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 133,
+      "name": "Eevee",
+      "identifier": "eevee",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 134,
+      "name": "Vaporeon",
+      "identifier": "vaporeon",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 135,
+      "name": "Jolteon",
+      "identifier": "jolteon",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 136,
+      "name": "Flareon",
+      "identifier": "flareon",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 137,
+      "name": "Porygon",
+      "identifier": "porygon",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 138,
+      "name": "Omanyte",
+      "identifier": "omanyte",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 139,
+      "name": "Omastar",
+      "identifier": "omastar",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 140,
+      "name": "Kabuto",
+      "identifier": "kabuto",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 141,
+      "name": "Kabutops",
+      "identifier": "kabutops",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 142,
+      "name": "Aerodactyl",
+      "identifier": "aerodactyl",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 143,
+      "name": "Snorlax",
+      "identifier": "snorlax",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 144,
+      "name": "Articuno",
+      "identifier": "articuno",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 145,
+      "name": "Zapdos",
+      "identifier": "zapdos",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 146,
+      "name": "Moltres",
+      "identifier": "moltres",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 147,
+      "name": "Dratini",
+      "identifier": "dratini",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 148,
+      "name": "Dragonair",
+      "identifier": "dragonair",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 149,
+      "name": "Dragonite",
+      "identifier": "dragonite",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 150,
+      "name": "Mewtwo",
+      "identifier": "mewtwo",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 151,
+      "name": "Mew",
+      "identifier": "mew",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 152,
+      "name": "Chikorita",
+      "identifier": "chikorita",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 153,
+      "name": "Bayleef",
+      "identifier": "bayleef",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 154,
+      "name": "Meganium",
+      "identifier": "meganium",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 2
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 155,
+      "name": "Cyndaquil",
+      "identifier": "cyndaquil",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 156,
+      "name": "Quilava",
+      "identifier": "quilava",
+      "ev_yield": {
+        "special_attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 157,
+      "name": "Typhlosion",
+      "identifier": "typhlosion",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 158,
+      "name": "Totodile",
+      "identifier": "totodile",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 159,
+      "name": "Croconaw",
+      "identifier": "croconaw",
+      "ev_yield": {
+        "attack": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 160,
+      "name": "Feraligatr",
+      "identifier": "feraligatr",
+      "ev_yield": {
+        "attack": 2,
+        "defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 161,
+      "name": "Sentret",
+      "identifier": "sentret",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 162,
+      "name": "Furret",
+      "identifier": "furret",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 163,
+      "name": "Hoothoot",
+      "identifier": "hoothoot",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 164,
+      "name": "Noctowl",
+      "identifier": "noctowl",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 165,
+      "name": "Ledyba",
+      "identifier": "ledyba",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 166,
+      "name": "Ledian",
+      "identifier": "ledian",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 167,
+      "name": "Spinarak",
+      "identifier": "spinarak",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 168,
+      "name": "Ariados",
+      "identifier": "ariados",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 169,
+      "name": "Crobat",
+      "identifier": "crobat",
+      "ev_yield": {
+        "speed": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 170,
+      "name": "Chinchou",
+      "identifier": "chinchou",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 171,
+      "name": "Lanturn",
+      "identifier": "lanturn",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 172,
+      "name": "Pichu",
+      "identifier": "pichu",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 173,
+      "name": "Cleffa",
+      "identifier": "cleffa",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 174,
+      "name": "Igglybuff",
+      "identifier": "igglybuff",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 175,
+      "name": "Togepi",
+      "identifier": "togepi",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 176,
+      "name": "Togetic",
+      "identifier": "togetic",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 177,
+      "name": "Natu",
+      "identifier": "natu",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 178,
+      "name": "Xatu",
+      "identifier": "xatu",
+      "ev_yield": {
+        "special_attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 179,
+      "name": "Mareep",
+      "identifier": "mareep",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 180,
+      "name": "Flaaffy",
+      "identifier": "flaaffy",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 181,
+      "name": "Ampharos",
+      "identifier": "ampharos",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 182,
+      "name": "Bellossom",
+      "identifier": "bellossom",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 183,
+      "name": "Marill",
+      "identifier": "marill",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 184,
+      "name": "Azumarill",
+      "identifier": "azumarill",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 185,
+      "name": "Sudowoodo",
+      "identifier": "sudowoodo",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 186,
+      "name": "Politoed",
+      "identifier": "politoed",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 187,
+      "name": "Hoppip",
+      "identifier": "hoppip",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 188,
+      "name": "Skiploom",
+      "identifier": "skiploom",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 189,
+      "name": "Jumpluff",
+      "identifier": "jumpluff",
+      "ev_yield": {
+        "speed": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 190,
+      "name": "Aipom",
+      "identifier": "aipom",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 191,
+      "name": "Sunkern",
+      "identifier": "sunkern",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 192,
+      "name": "Sunflora",
+      "identifier": "sunflora",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 193,
+      "name": "Yanma",
+      "identifier": "yanma",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 194,
+      "name": "Wooper",
+      "identifier": "wooper",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 195,
+      "name": "Quagsire",
+      "identifier": "quagsire",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 196,
+      "name": "Espeon",
+      "identifier": "espeon",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 197,
+      "name": "Umbreon",
+      "identifier": "umbreon",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 198,
+      "name": "Murkrow",
+      "identifier": "murkrow",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 199,
+      "name": "Slowking",
+      "identifier": "slowking",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 200,
+      "name": "Misdreavus",
+      "identifier": "misdreavus",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 201,
+      "name": "Unown",
+      "identifier": "unown",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 202,
+      "name": "Wobbuffet",
+      "identifier": "wobbuffet",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 203,
+      "name": "Girafarig",
+      "identifier": "girafarig",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 204,
+      "name": "Pineco",
+      "identifier": "pineco",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 205,
+      "name": "Forretress",
+      "identifier": "forretress",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 206,
+      "name": "Dunsparce",
+      "identifier": "dunsparce",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 207,
+      "name": "Gligar",
+      "identifier": "gligar",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 208,
+      "name": "Steelix",
+      "identifier": "steelix",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 209,
+      "name": "Snubbull",
+      "identifier": "snubbull",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 210,
+      "name": "Granbull",
+      "identifier": "granbull",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 211,
+      "name": "Qwilfish",
+      "identifier": "qwilfish",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 212,
+      "name": "Scizor",
+      "identifier": "scizor",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 213,
+      "name": "Shuckle",
+      "identifier": "shuckle",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 214,
+      "name": "Heracross",
+      "identifier": "heracross",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 215,
+      "name": "Sneasel",
+      "identifier": "sneasel",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 216,
+      "name": "Teddiursa",
+      "identifier": "teddiursa",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 217,
+      "name": "Ursaring",
+      "identifier": "ursaring",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 218,
+      "name": "Slugma",
+      "identifier": "slugma",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 219,
+      "name": "Magcargo",
+      "identifier": "magcargo",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 220,
+      "name": "Swinub",
+      "identifier": "swinub",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 221,
+      "name": "Piloswine",
+      "identifier": "piloswine",
+      "ev_yield": {
+        "hp": 1,
+        "attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 222,
+      "name": "Corsola",
+      "identifier": "corsola",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 223,
+      "name": "Remoraid",
+      "identifier": "remoraid",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 224,
+      "name": "Octillery",
+      "identifier": "octillery",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 225,
+      "name": "Delibird",
+      "identifier": "delibird",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 226,
+      "name": "Mantine",
+      "identifier": "mantine",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 227,
+      "name": "Skarmory",
+      "identifier": "skarmory",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 228,
+      "name": "Houndour",
+      "identifier": "houndour",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 229,
+      "name": "Houndoom",
+      "identifier": "houndoom",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 230,
+      "name": "Kingdra",
+      "identifier": "kingdra",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 231,
+      "name": "Phanpy",
+      "identifier": "phanpy",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 232,
+      "name": "Donphan",
+      "identifier": "donphan",
+      "ev_yield": {
+        "attack": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 233,
+      "name": "Porygon2",
+      "identifier": "porygon2",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 234,
+      "name": "Stantler",
+      "identifier": "stantler",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 235,
+      "name": "Smeargle",
+      "identifier": "smeargle",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 236,
+      "name": "Tyrogue",
+      "identifier": "tyrogue",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 237,
+      "name": "Hitmontop",
+      "identifier": "hitmontop",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 238,
+      "name": "Smoochum",
+      "identifier": "smoochum",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 239,
+      "name": "Elekid",
+      "identifier": "elekid",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 240,
+      "name": "Magby",
+      "identifier": "magby",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 241,
+      "name": "Miltank",
+      "identifier": "miltank",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 242,
+      "name": "Blissey",
+      "identifier": "blissey",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 243,
+      "name": "Raikou",
+      "identifier": "raikou",
+      "ev_yield": {
+        "special_attack": 1,
+        "speed": 2
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 244,
+      "name": "Entei",
+      "identifier": "entei",
+      "ev_yield": {
+        "hp": 1,
+        "attack": 2
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 245,
+      "name": "Suicune",
+      "identifier": "suicune",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 2
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 246,
+      "name": "Larvitar",
+      "identifier": "larvitar",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 247,
+      "name": "Pupitar",
+      "identifier": "pupitar",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 248,
+      "name": "Tyranitar",
+      "identifier": "tyranitar",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 249,
+      "name": "Lugia",
+      "identifier": "lugia",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 250,
+      "name": "Ho Oh",
+      "identifier": "ho-oh",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 251,
+      "name": "Celebi",
+      "identifier": "celebi",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 252,
+      "name": "Treecko",
+      "identifier": "treecko",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 253,
+      "name": "Grovyle",
+      "identifier": "grovyle",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 254,
+      "name": "Sceptile",
+      "identifier": "sceptile",
+      "ev_yield": {
+        "speed": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 255,
+      "name": "Torchic",
+      "identifier": "torchic",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 256,
+      "name": "Combusken",
+      "identifier": "combusken",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 257,
+      "name": "Blaziken",
+      "identifier": "blaziken",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 258,
+      "name": "Mudkip",
+      "identifier": "mudkip",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 259,
+      "name": "Marshtomp",
+      "identifier": "marshtomp",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 260,
+      "name": "Swampert",
+      "identifier": "swampert",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 261,
+      "name": "Poochyena",
+      "identifier": "poochyena",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 262,
+      "name": "Mightyena",
+      "identifier": "mightyena",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 263,
+      "name": "Zigzagoon",
+      "identifier": "zigzagoon",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 264,
+      "name": "Linoone",
+      "identifier": "linoone",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 265,
+      "name": "Wurmple",
+      "identifier": "wurmple",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 266,
+      "name": "Silcoon",
+      "identifier": "silcoon",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 267,
+      "name": "Beautifly",
+      "identifier": "beautifly",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 268,
+      "name": "Cascoon",
+      "identifier": "cascoon",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 269,
+      "name": "Dustox",
+      "identifier": "dustox",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 270,
+      "name": "Lotad",
+      "identifier": "lotad",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 271,
+      "name": "Lombre",
+      "identifier": "lombre",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 272,
+      "name": "Ludicolo",
+      "identifier": "ludicolo",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 273,
+      "name": "Seedot",
+      "identifier": "seedot",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 274,
+      "name": "Nuzleaf",
+      "identifier": "nuzleaf",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 275,
+      "name": "Shiftry",
+      "identifier": "shiftry",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 276,
+      "name": "Taillow",
+      "identifier": "taillow",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 277,
+      "name": "Swellow",
+      "identifier": "swellow",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 278,
+      "name": "Wingull",
+      "identifier": "wingull",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 279,
+      "name": "Pelipper",
+      "identifier": "pelipper",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 280,
+      "name": "Ralts",
+      "identifier": "ralts",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 281,
+      "name": "Kirlia",
+      "identifier": "kirlia",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 282,
+      "name": "Gardevoir",
+      "identifier": "gardevoir",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 283,
+      "name": "Surskit",
+      "identifier": "surskit",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 284,
+      "name": "Masquerain",
+      "identifier": "masquerain",
+      "ev_yield": {
+        "special_attack": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 285,
+      "name": "Shroomish",
+      "identifier": "shroomish",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 286,
+      "name": "Breloom",
+      "identifier": "breloom",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 287,
+      "name": "Slakoth",
+      "identifier": "slakoth",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 288,
+      "name": "Vigoroth",
+      "identifier": "vigoroth",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 289,
+      "name": "Slaking",
+      "identifier": "slaking",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 290,
+      "name": "Nincada",
+      "identifier": "nincada",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 291,
+      "name": "Ninjask",
+      "identifier": "ninjask",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 292,
+      "name": "Shedinja",
+      "identifier": "shedinja",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 293,
+      "name": "Whismur",
+      "identifier": "whismur",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 294,
+      "name": "Loudred",
+      "identifier": "loudred",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 295,
+      "name": "Exploud",
+      "identifier": "exploud",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 296,
+      "name": "Makuhita",
+      "identifier": "makuhita",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 297,
+      "name": "Hariyama",
+      "identifier": "hariyama",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 298,
+      "name": "Azurill",
+      "identifier": "azurill",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 299,
+      "name": "Nosepass",
+      "identifier": "nosepass",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 300,
+      "name": "Skitty",
+      "identifier": "skitty",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 301,
+      "name": "Delcatty",
+      "identifier": "delcatty",
+      "ev_yield": {
+        "hp": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 302,
+      "name": "Sableye",
+      "identifier": "sableye",
+      "ev_yield": {
+        "attack": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 303,
+      "name": "Mawile",
+      "identifier": "mawile",
+      "ev_yield": {
+        "attack": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 304,
+      "name": "Aron",
+      "identifier": "aron",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 305,
+      "name": "Lairon",
+      "identifier": "lairon",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 306,
+      "name": "Aggron",
+      "identifier": "aggron",
+      "ev_yield": {
+        "defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 307,
+      "name": "Meditite",
+      "identifier": "meditite",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 308,
+      "name": "Medicham",
+      "identifier": "medicham",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 309,
+      "name": "Electrike",
+      "identifier": "electrike",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 310,
+      "name": "Manectric",
+      "identifier": "manectric",
+      "ev_yield": {
+        "speed": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 311,
+      "name": "Plusle",
+      "identifier": "plusle",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 312,
+      "name": "Minun",
+      "identifier": "minun",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 313,
+      "name": "Volbeat",
+      "identifier": "volbeat",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 314,
+      "name": "Illumise",
+      "identifier": "illumise",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 315,
+      "name": "Roselia",
+      "identifier": "roselia",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 316,
+      "name": "Gulpin",
+      "identifier": "gulpin",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 317,
+      "name": "Swalot",
+      "identifier": "swalot",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 318,
+      "name": "Carvanha",
+      "identifier": "carvanha",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 319,
+      "name": "Sharpedo",
+      "identifier": "sharpedo",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 320,
+      "name": "Wailmer",
+      "identifier": "wailmer",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 321,
+      "name": "Wailord",
+      "identifier": "wailord",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 322,
+      "name": "Numel",
+      "identifier": "numel",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 323,
+      "name": "Camerupt",
+      "identifier": "camerupt",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 324,
+      "name": "Torkoal",
+      "identifier": "torkoal",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 325,
+      "name": "Spoink",
+      "identifier": "spoink",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 326,
+      "name": "Grumpig",
+      "identifier": "grumpig",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 327,
+      "name": "Spinda",
+      "identifier": "spinda",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 328,
+      "name": "Trapinch",
+      "identifier": "trapinch",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 329,
+      "name": "Vibrava",
+      "identifier": "vibrava",
+      "ev_yield": {
+        "attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 330,
+      "name": "Flygon",
+      "identifier": "flygon",
+      "ev_yield": {
+        "attack": 1,
+        "speed": 2
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 331,
+      "name": "Cacnea",
+      "identifier": "cacnea",
+      "ev_yield": {
+        "special_attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 332,
+      "name": "Cacturne",
+      "identifier": "cacturne",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 333,
+      "name": "Swablu",
+      "identifier": "swablu",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 334,
+      "name": "Altaria",
+      "identifier": "altaria",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 335,
+      "name": "Zangoose",
+      "identifier": "zangoose",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 336,
+      "name": "Seviper",
+      "identifier": "seviper",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 337,
+      "name": "Lunatone",
+      "identifier": "lunatone",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 338,
+      "name": "Solrock",
+      "identifier": "solrock",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 339,
+      "name": "Barboach",
+      "identifier": "barboach",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 340,
+      "name": "Whiscash",
+      "identifier": "whiscash",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 341,
+      "name": "Corphish",
+      "identifier": "corphish",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 342,
+      "name": "Crawdaunt",
+      "identifier": "crawdaunt",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 343,
+      "name": "Baltoy",
+      "identifier": "baltoy",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 344,
+      "name": "Claydol",
+      "identifier": "claydol",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 345,
+      "name": "Lileep",
+      "identifier": "lileep",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 346,
+      "name": "Cradily",
+      "identifier": "cradily",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 347,
+      "name": "Anorith",
+      "identifier": "anorith",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 348,
+      "name": "Armaldo",
+      "identifier": "armaldo",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 349,
+      "name": "Feebas",
+      "identifier": "feebas",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 350,
+      "name": "Milotic",
+      "identifier": "milotic",
+      "ev_yield": {
+        "special_defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 351,
+      "name": "Castform",
+      "identifier": "castform",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 352,
+      "name": "Kecleon",
+      "identifier": "kecleon",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 353,
+      "name": "Shuppet",
+      "identifier": "shuppet",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 354,
+      "name": "Banette",
+      "identifier": "banette",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 355,
+      "name": "Duskull",
+      "identifier": "duskull",
+      "ev_yield": {
+        "special_defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 356,
+      "name": "Dusclops",
+      "identifier": "dusclops",
+      "ev_yield": {
+        "defense": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 357,
+      "name": "Tropius",
+      "identifier": "tropius",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 358,
+      "name": "Chimecho",
+      "identifier": "chimecho",
+      "ev_yield": {
+        "special_attack": 1,
+        "special_defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 359,
+      "name": "Absol",
+      "identifier": "absol",
+      "ev_yield": {
+        "attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 360,
+      "name": "Wynaut",
+      "identifier": "wynaut",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 361,
+      "name": "Snorunt",
+      "identifier": "snorunt",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 362,
+      "name": "Glalie",
+      "identifier": "glalie",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 363,
+      "name": "Spheal",
+      "identifier": "spheal",
+      "ev_yield": {
+        "hp": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 364,
+      "name": "Sealeo",
+      "identifier": "sealeo",
+      "ev_yield": {
+        "hp": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 365,
+      "name": "Walrein",
+      "identifier": "walrein",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 366,
+      "name": "Clamperl",
+      "identifier": "clamperl",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 367,
+      "name": "Huntail",
+      "identifier": "huntail",
+      "ev_yield": {
+        "attack": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 368,
+      "name": "Gorebyss",
+      "identifier": "gorebyss",
+      "ev_yield": {
+        "special_attack": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 369,
+      "name": "Relicanth",
+      "identifier": "relicanth",
+      "ev_yield": {
+        "hp": 1,
+        "defense": 1
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 370,
+      "name": "Luvdisc",
+      "identifier": "luvdisc",
+      "ev_yield": {
+        "speed": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 371,
+      "name": "Bagon",
+      "identifier": "bagon",
+      "ev_yield": {
+        "attack": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 372,
+      "name": "Shelgon",
+      "identifier": "shelgon",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 373,
+      "name": "Salamence",
+      "identifier": "salamence",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 374,
+      "name": "Beldum",
+      "identifier": "beldum",
+      "ev_yield": {
+        "defense": 1
+      },
+      "total_ev_yield": 1
+    },
+    {
+      "national_dex": 375,
+      "name": "Metang",
+      "identifier": "metang",
+      "ev_yield": {
+        "defense": 2
+      },
+      "total_ev_yield": 2
+    },
+    {
+      "national_dex": 376,
+      "name": "Metagross",
+      "identifier": "metagross",
+      "ev_yield": {
+        "defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 377,
+      "name": "Regirock",
+      "identifier": "regirock",
+      "ev_yield": {
+        "defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 378,
+      "name": "Regice",
+      "identifier": "regice",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 379,
+      "name": "Registeel",
+      "identifier": "registeel",
+      "ev_yield": {
+        "defense": 2,
+        "special_defense": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 380,
+      "name": "Latias",
+      "identifier": "latias",
+      "ev_yield": {
+        "special_defense": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 381,
+      "name": "Latios",
+      "identifier": "latios",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 382,
+      "name": "Kyogre",
+      "identifier": "kyogre",
+      "ev_yield": {
+        "special_attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 383,
+      "name": "Groudon",
+      "identifier": "groudon",
+      "ev_yield": {
+        "attack": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 384,
+      "name": "Rayquaza",
+      "identifier": "rayquaza",
+      "ev_yield": {
+        "attack": 2,
+        "special_attack": 1
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 385,
+      "name": "Jirachi",
+      "identifier": "jirachi",
+      "ev_yield": {
+        "hp": 3
+      },
+      "total_ev_yield": 3
+    },
+    {
+      "national_dex": 386,
+      "name": "Deoxys Normal",
+      "identifier": "deoxys-normal",
+      "ev_yield": {
+        "attack": 1,
+        "special_attack": 1,
+        "speed": 1
+      },
+      "total_ev_yield": 3
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "generation": 3,
   "region": "Hoenn",
   "data_scope": "Verified in-game acquisition methods, wild encounter routes, level ranges and encounter rates for all 244 obtainable Emerald species.",
-  "availability_count": 233,
+  "availability_count": 235,
   "availability": [
     {
       "pokemon": "Treecko",
@@ -7228,6 +7228,70 @@
         {
           "method": "evolution",
           "details": "Evolve from Jigglypuff."
+        }
+      ],
+      "data_status": "verified"
+    },
+    {
+      "pokemon": "Feebas",
+      "methods": [
+        {
+          "method": "fishing_old_rod",
+          "locations": [
+            {
+              "location": "Route 119",
+              "level_range": [
+                20,
+                25
+              ]
+            }
+          ],
+          "special_conditions": [
+            "Only appears when fishing on 6 specific water tiles of Route 119; the tile positions are randomised per save file.",
+            "Not every cast on those tiles produces a Feebas."
+          ]
+        },
+        {
+          "method": "fishing_good_rod",
+          "locations": [
+            {
+              "location": "Route 119",
+              "level_range": [
+                20,
+                25
+              ]
+            }
+          ],
+          "special_conditions": [
+            "Only appears when fishing on 6 specific water tiles of Route 119; the tile positions are randomised per save file.",
+            "Not every cast on those tiles produces a Feebas."
+          ]
+        },
+        {
+          "method": "fishing_super_rod",
+          "locations": [
+            {
+              "location": "Route 119",
+              "level_range": [
+                20,
+                25
+              ]
+            }
+          ],
+          "special_conditions": [
+            "Only appears when fishing on 6 specific water tiles of Route 119; the tile positions are randomised per save file.",
+            "Not every cast on those tiles produces a Feebas."
+          ]
+        }
+      ],
+      "data_status": "verified"
+    },
+    {
+      "pokemon": "Milotic",
+      "methods": [
+        {
+          "method": "evolution",
+          "details": "Evolve from Feebas by leveling up with a Beauty condition of at least 170 (raised with Pokeblocks)."
         }
       ],
       "data_status": "verified"
