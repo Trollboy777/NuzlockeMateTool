@@ -1,0 +1,12 @@
+{
+  "variant": "Hardcore Nuzlocke",
+  "rules": [
+    "Any Pokemon that faints is considered dead and must be released or put in the PC permanently.",
+    "You can only catch the first Pokemon encountered in each area.",
+    "All Pokemon must be nicknamed.",
+    "No healing items can be used in battle (potions, heals, etc.). Held items are allowed.",
+    "Gym Level Cap: Your Pokemon cannot exceed the highest level of the Gym Leader's Pokemon before challenging that Gym Leader.",
+    "Elite Four Level Cap: Before entering the Elite Four, your Pokemon cannot exceed level 55. This cap is based on Drake's highest-level Pokemon and applies to all four Elite Four battles.",
+    "Champion Level Cap: Before challenging Champion Wallace, your Pokemon cannot exceed level 58."
+  ]
+}

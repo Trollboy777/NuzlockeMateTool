@@ -1,0 +1,569 @@
+{
+  "game": "Pokemon Emerald",
+  "region": "Hoenn",
+  "location": "Ever Grande City",
+  "progression": [
+    "After defeating Juan, the player can travel through Victory Road.",
+    "After Victory Road, the player can challenge the Elite Four.",
+    "The Elite Four must be challenged in this order: Sidney, Phoebe, Glacia, Drake.",
+    "After defeating Drake, the player challenges Champion Wallace."
+  ],
+  "level_cap_rules": {
+    "elite_four": {
+      "level_cap": 55,
+      "based_on": "The highest-level Pokemon used by the final Elite Four member, Drake.",
+      "applies_to": [
+        "Sidney",
+        "Phoebe",
+        "Glacia",
+        "Drake"
+      ],
+      "description": "The player must not have any Pokemon above level 55 when entering the Elite Four. This same level cap applies throughout all four Elite Four battles."
+    }
+  },
+  "elite_four": [
+    {
+      "number": 1,
+      "name": "Sidney",
+      "specialty": "Dark",
+      "level_cap": 55,
+      "highest_level": 49,
+      "ace": "Absol",
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 46,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Roar",
+            "Double-Edge",
+            "Sand Attack",
+            "Crunch"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Shiftry",
+          "level": 48,
+          "type": [
+            "Grass",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Torment",
+            "Double Team",
+            "Swagger",
+            "Extrasensory"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Cacturne",
+          "level": 46,
+          "type": [
+            "Grass",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Leech Seed",
+            "Faint Attack",
+            "Needle Arm",
+            "Cotton Spore"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Crawdaunt",
+          "level": 48,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Surf",
+            "Swords Dance",
+            "Strength",
+            "Facade"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Absol",
+          "level": 49,
+          "type": [
+            "Dark"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 31,
+          "moves": [
+            "Aerial Ace",
+            "Rock Slide",
+            "Swords Dance",
+            "Slash"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_SIDNEY",
+      "trainer_items": [
+        "Full Restore",
+        "Full Restore"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY",
+        "SETUP_FIRST_TURN"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Phoebe",
+      "specialty": "Ghost",
+      "level_cap": 55,
+      "highest_level": 51,
+      "ace": "Dusclops",
+      "team": [
+        {
+          "pokemon": "Dusclops",
+          "level": 48,
+          "type": [
+            "Ghost"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Shadow Punch",
+            "Confuse Ray",
+            "Curse",
+            "Protect"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Banette",
+          "level": 49,
+          "type": [
+            "Ghost"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Shadow Ball",
+            "Grudge",
+            "Will-O-Wisp",
+            "Faint Attack"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Sableye",
+          "level": 50,
+          "type": [
+            "Dark",
+            "Ghost"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Shadow Ball",
+            "Double Team",
+            "Night Shade",
+            "Faint Attack"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Banette",
+          "level": 49,
+          "type": [
+            "Ghost"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Shadow Ball",
+            "Psychic",
+            "Thunderbolt",
+            "Facade"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Dusclops",
+          "level": 51,
+          "type": [
+            "Ghost"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 31,
+          "moves": [
+            "Shadow Ball",
+            "Ice Beam",
+            "Rock Slide",
+            "Earthquake"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_PHOEBE",
+      "trainer_items": [
+        "Full Restore",
+        "Full Restore"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Glacia",
+      "specialty": "Ice",
+      "level_cap": 55,
+      "highest_level": 53,
+      "ace": "Walrein",
+      "team": [
+        {
+          "pokemon": "Sealeo",
+          "level": 50,
+          "type": [
+            "Ice",
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Encore",
+            "Body Slam",
+            "Hail",
+            "Ice Ball"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Glalie",
+          "level": 50,
+          "type": [
+            "Ice"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Light Screen",
+            "Crunch",
+            "Icy Wind",
+            "Ice Beam"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Sealeo",
+          "level": 52,
+          "type": [
+            "Ice",
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Attract",
+            "Double-Edge",
+            "Hail",
+            "Blizzard"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Glalie",
+          "level": 52,
+          "type": [
+            "Ice"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Shadow Ball",
+            "Explosion",
+            "Hail",
+            "Ice Beam"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Walrein",
+          "level": 53,
+          "type": [
+            "Ice",
+            "Water"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 31,
+          "moves": [
+            "Surf",
+            "Body Slam",
+            "Ice Beam",
+            "Sheer Cold"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_GLACIA",
+      "trainer_items": [
+        "Full Restore",
+        "Full Restore"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Drake",
+      "specialty": "Dragon",
+      "level_cap": 55,
+      "highest_level": 55,
+      "ace": "Salamence",
+      "team": [
+        {
+          "pokemon": "Shelgon",
+          "level": 52,
+          "type": [
+            "Dragon"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Rock Tomb",
+            "Dragon Claw",
+            "Protect",
+            "Double-Edge"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Altaria",
+          "level": 54,
+          "type": [
+            "Dragon",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Double-Edge",
+            "DragonBreath",
+            "Dragon Dance",
+            "Aerial Ace"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 53,
+          "type": [
+            "Water",
+            "Dragon"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Smokescreen",
+            "Dragon Dance",
+            "Surf",
+            "Body Slam"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Flygon",
+          "level": 53,
+          "type": [
+            "Ground",
+            "Dragon"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Flamethrower",
+            "Crunch",
+            "DragonBreath",
+            "Earthquake"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Salamence",
+          "level": 55,
+          "type": [
+            "Dragon",
+            "Flying"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 31,
+          "moves": [
+            "Flamethrower",
+            "Dragon Claw",
+            "Rock Slide",
+            "Crunch"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_DRAKE",
+      "trainer_items": [
+        "Full Restore",
+        "Full Restore"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    }
+  ],
+  "champion": {
+    "name": "Wallace",
+    "specialty": "Water",
+    "level_cap": 58,
+    "based_on": "The highest-level Pokemon used by Champion Wallace.",
+    "description": "The player must not have any Pokemon above level 58 before challenging Champion Wallace.",
+    "highest_level": 58,
+    "ace": "Milotic",
+    "team": [
+      {
+        "pokemon": "Wailord",
+        "level": 57,
+        "type": [
+          "Water"
+        ],
+        "held_item": null,
+        "iv": 31,
+        "moves": [
+          "Rain Dance",
+          "Water Spout",
+          "Double-Edge",
+          "Blizzard"
+        ],
+        "move_source": "custom"
+      },
+      {
+        "pokemon": "Tentacruel",
+        "level": 55,
+        "type": [
+          "Water",
+          "Poison"
+        ],
+        "held_item": null,
+        "iv": 31,
+        "moves": [
+          "Toxic",
+          "Hydro Pump",
+          "Sludge Bomb",
+          "Ice Beam"
+        ],
+        "move_source": "custom"
+      },
+      {
+        "pokemon": "Ludicolo",
+        "level": 56,
+        "type": [
+          "Water",
+          "Grass"
+        ],
+        "held_item": null,
+        "iv": 31,
+        "moves": [
+          "Giga Drain",
+          "Surf",
+          "Leech Seed",
+          "Double Team"
+        ],
+        "move_source": "custom"
+      },
+      {
+        "pokemon": "Whiscash",
+        "level": 56,
+        "type": [
+          "Water",
+          "Ground"
+        ],
+        "held_item": null,
+        "iv": 31,
+        "moves": [
+          "Earthquake",
+          "Surf",
+          "Amnesia",
+          "Hyper Beam"
+        ],
+        "move_source": "custom"
+      },
+      {
+        "pokemon": "Gyarados",
+        "level": 56,
+        "type": [
+          "Water",
+          "Flying"
+        ],
+        "held_item": null,
+        "iv": 31,
+        "moves": [
+          "Dragon Dance",
+          "Earthquake",
+          "Hyper Beam",
+          "Surf"
+        ],
+        "move_source": "custom"
+      },
+      {
+        "pokemon": "Milotic",
+        "level": 58,
+        "type": [],
+        "held_item": "Sitrus Berry",
+        "iv": 31,
+        "moves": [
+          "Recover",
+          "Surf",
+          "Ice Beam",
+          "Toxic"
+        ],
+        "move_source": "custom"
+      }
+    ],
+    "trainer_id": "TRAINER_WALLACE",
+    "trainer_items": [
+      "Full Restore",
+      "Full Restore",
+      "Full Restore",
+      "Full Restore"
+    ],
+    "ai_flags": [
+      "CHECK_BAD_MOVE",
+      "TRY_TO_FAINT",
+      "CHECK_VIABILITY"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Pokémon Database - Emerald Gym Leaders & Elite Four",
+      "url": "https://pokemondb.net/emerald/gymleaders-elitefour"
+    },
+    {
+      "name": "Serebii - Pokémon Emerald Elite Four",
+      "url": "https://www.serebii.net/emerald/elite.shtml"
+    }
+  ]
+}

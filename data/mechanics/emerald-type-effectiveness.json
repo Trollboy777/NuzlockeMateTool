@@ -1,0 +1,330 @@
+{
+  "game": "Pokemon Emerald",
+  "generation": 3,
+  "description": "Generation III type effectiveness, damage categories, natures, stat stages, status conditions, move effects, and ability modifiers.",
+  "stabMultiplier": 1.5,
+  "typeEffectiveness": {
+    "Normal": {
+      "Ghost": 0,
+      "Rock": 0.5,
+      "Steel": 0.5
+    },
+    "Fire": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Grass": 2,
+      "Ice": 2,
+      "Bug": 2,
+      "Rock": 0.5,
+      "Dragon": 0.5,
+      "Steel": 2
+    },
+    "Water": {
+      "Fire": 2,
+      "Water": 0.5,
+      "Grass": 0.5,
+      "Ground": 2,
+      "Rock": 2,
+      "Dragon": 0.5
+    },
+    "Electric": {
+      "Water": 2,
+      "Electric": 0.5,
+      "Grass": 0.5,
+      "Ground": 0,
+      "Flying": 2,
+      "Dragon": 0.5
+    },
+    "Grass": {
+      "Fire": 0.5,
+      "Water": 2,
+      "Grass": 0.5,
+      "Poison": 0.5,
+      "Ground": 2,
+      "Flying": 0.5,
+      "Bug": 0.5,
+      "Rock": 2,
+      "Dragon": 0.5,
+      "Steel": 0.5
+    },
+    "Ice": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Grass": 2,
+      "Ice": 0.5,
+      "Ground": 2,
+      "Flying": 2,
+      "Dragon": 2,
+      "Steel": 0.5
+    },
+    "Fighting": {
+      "Normal": 2,
+      "Flying": 0.5,
+      "Poison": 0.5,
+      "Psychic": 0.5,
+      "Bug": 0.5,
+      "Rock": 2,
+      "Ghost": 0,
+      "Ice": 2,
+      "Dark": 2,
+      "Steel": 2
+    },
+    "Poison": {
+      "Grass": 2,
+      "Poison": 0.5,
+      "Ground": 0.5,
+      "Rock": 0.5,
+      "Ghost": 0.5,
+      "Steel": 0
+    },
+    "Ground": {
+      "Fire": 2,
+      "Electric": 2,
+      "Grass": 0.5,
+      "Poison": 2,
+      "Flying": 0,
+      "Bug": 0.5,
+      "Rock": 2,
+      "Steel": 2
+    },
+    "Flying": {
+      "Electric": 0.5,
+      "Grass": 2,
+      "Fighting": 2,
+      "Bug": 2,
+      "Rock": 0.5,
+      "Steel": 0.5
+    },
+    "Psychic": {
+      "Fighting": 2,
+      "Poison": 2,
+      "Psychic": 0.5,
+      "Dark": 0,
+      "Steel": 0.5
+    },
+    "Bug": {
+      "Fire": 0.5,
+      "Grass": 2,
+      "Fighting": 0.5,
+      "Poison": 0.5,
+      "Flying": 0.5,
+      "Psychic": 2,
+      "Ghost": 0.5,
+      "Dark": 2,
+      "Steel": 0.5
+    },
+    "Rock": {
+      "Fire": 2,
+      "Fighting": 0.5,
+      "Ground": 0.5,
+      "Flying": 2,
+      "Bug": 2,
+      "Ice": 2,
+      "Steel": 0.5
+    },
+    "Ghost": {
+      "Normal": 0,
+      "Psychic": 2,
+      "Ghost": 2,
+      "Dark": 0.5,
+      "Steel": 0.5
+    },
+    "Dragon": {
+      "Dragon": 2,
+      "Steel": 0.5
+    },
+    "Dark": {
+      "Fighting": 0.5,
+      "Psychic": 2,
+      "Ghost": 2,
+      "Dark": 0.5,
+      "Steel": 0.5
+    },
+    "Steel": {
+      "Fire": 0.5,
+      "Water": 0.5,
+      "Electric": 0.5,
+      "Ice": 2,
+      "Rock": 2,
+      "Steel": 0.5
+    }
+  },
+  "damageCategories": {
+    "Physical": [
+      "Normal",
+      "Fighting",
+      "Flying",
+      "Poison",
+      "Ground",
+      "Rock",
+      "Bug",
+      "Ghost",
+      "Steel"
+    ],
+    "Special": [
+      "Fire",
+      "Water",
+      "Grass",
+      "Electric",
+      "Psychic",
+      "Ice",
+      "Dragon",
+      "Dark"
+    ]
+  },
+  "natures": {
+    "Hardy": { "up": null, "down": null },
+    "Lonely": { "up": "attack", "down": "defense" },
+    "Brave": { "up": "attack", "down": "speed" },
+    "Adamant": { "up": "attack", "down": "special_attack" },
+    "Naughty": { "up": "attack", "down": "special_defense" },
+    "Bold": { "up": "defense", "down": "attack" },
+    "Docile": { "up": null, "down": null },
+    "Relaxed": { "up": "defense", "down": "speed" },
+    "Impish": { "up": "defense", "down": "special_attack" },
+    "Lax": { "up": "defense", "down": "special_defense" },
+    "Timid": { "up": "speed", "down": "attack" },
+    "Hasty": { "up": "speed", "down": "defense" },
+    "Serious": { "up": null, "down": null },
+    "Jolly": { "up": "speed", "down": "special_attack" },
+    "Naive": { "up": "speed", "down": "special_defense" },
+    "Modest": { "up": "special_attack", "down": "attack" },
+    "Mild": { "up": "special_attack", "down": "defense" },
+    "Quiet": { "up": "special_attack", "down": "speed" },
+    "Bashful": { "up": null, "down": null },
+    "Rash": { "up": "special_attack", "down": "special_defense" },
+    "Calm": { "up": "special_defense", "down": "attack" },
+    "Gentle": { "up": "special_defense", "down": "defense" },
+    "Sassy": { "up": "special_defense", "down": "speed" },
+    "Careful": { "up": "special_defense", "down": "special_attack" },
+    "Quirky": { "up": null, "down": null }
+  },
+  "statStages": {
+    "-6": { "numerator": 2, "denominator": 8, "multiplier": 0.25 },
+    "-5": { "numerator": 2, "denominator": 7, "multiplier": 0.29 },
+    "-4": { "numerator": 2, "denominator": 6, "multiplier": 0.33 },
+    "-3": { "numerator": 2, "denominator": 5, "multiplier": 0.4 },
+    "-2": { "numerator": 2, "denominator": 4, "multiplier": 0.5 },
+    "-1": { "numerator": 2, "denominator": 3, "multiplier": 0.67 },
+    "0": { "numerator": 2, "denominator": 2, "multiplier": 1.0 },
+    "1": { "numerator": 3, "denominator": 2, "multiplier": 1.5 },
+    "2": { "numerator": 4, "denominator": 2, "multiplier": 2.0 },
+    "3": { "numerator": 5, "denominator": 2, "multiplier": 2.5 },
+    "4": { "numerator": 6, "denominator": 2, "multiplier": 3.0 },
+    "5": { "numerator": 7, "denominator": 2, "multiplier": 3.5 },
+    "6": { "numerator": 8, "denominator": 2, "multiplier": 4.0 }
+  },
+  "statusConditions": {
+    "Paralysis": {
+      "speed_multiplier": 0.25,
+      "full_paralysis_chance": "25%",
+      "immunities": ["Limber"],
+      "gen3_notes": "In Generation III, Paralysis cuts Speed to 25% (0.25x, not 50%) and gives a 25% chance to fail acting each turn. Electric-types are NOT immune to Paralysis in Generation III, though Ground-types are immune to the Electric-type move Thunder Wave."
+    },
+    "Burn": {
+      "physical_damage_multiplier": 0.5,
+      "end_of_turn_hp_loss": "1/8 max HP",
+      "immunities": ["Fire-type", "Water Veil"],
+      "gen3_notes": "In Generation III, Burn halves Physical move damage (0.5x, except Facade) and deals 1/8 max HP damage per turn (not 1/16)."
+    },
+    "Poison": {
+      "end_of_turn_hp_loss": "1/8 max HP",
+      "immunities": ["Poison-type", "Steel-type", "Immunity"],
+      "gen3_notes": "Deals 1/8 max HP damage at the end of each turn."
+    },
+    "Badly Poisoned": {
+      "end_of_turn_hp_loss": "Starts at 1/16 max HP and increases by 1/16 each turn (1/16, 2/16, 3/16...)",
+      "immunities": ["Poison-type", "Steel-type", "Immunity"],
+      "gen3_notes": "Inflicted by Toxic. Counter resets to regular Poison if the affected Pokemon switches out in Generation III."
+    },
+    "Freeze": {
+      "thaw_chance_per_turn": "20%",
+      "immunities": ["Ice-type", "Magma Armor"],
+      "gen3_notes": "Prevents the Pokemon from attacking until thawed (20% chance each turn, or immediately when hit by a damaging Fire-type move). Sunny Day prevents Freeze."
+    },
+    "Sleep": {
+      "duration_turns": "1 to 4 turns unable to act",
+      "immunities": ["Insomnia", "Vital Spirit", "Early Bird (halves sleep duration)"],
+      "gen3_notes": "In Generation III, Sleep lasts 1-4 turns of inactivity (sleep counter 2-5). Rest always puts the user to sleep for 2 turns."
+    }
+  },
+  "moveEffects": {
+    "Swords Dance": { "category": "setup", "effect": "Raises user's Attack by +2 stages (2.0x)." },
+    "Dragon Dance": { "category": "setup", "effect": "Raises user's Attack by +1 stage (1.5x) and Speed by +1 stage (1.5x)." },
+    "Bulk Up": { "category": "setup", "effect": "Raises user's Attack by +1 stage (1.5x) and Defense by +1 stage (1.5x)." },
+    "Calm Mind": { "category": "setup", "effect": "Raises user's Special Attack by +1 stage (1.5x) and Special Defense by +1 stage (1.5x)." },
+    "Agility": { "category": "setup", "effect": "Raises user's Speed by +2 stages (2.0x)." },
+    "Belly Drum": { "category": "setup", "effect": "Costs 50% of user's max HP to maximize Attack to +6 stages (4.0x)." },
+    "Curse": { "category": "setup", "effect": "For non-Ghost users: raises Attack (+1, 1.5x) and Defense (+1, 1.5x), lowers Speed (-1, 0.67x). For Ghost users: sacrifices 50% HP to curse target for 1/4 HP per turn." },
+    "Growth": { "category": "setup", "effect": "In Generation III, raises user's Special Attack by +1 stage (1.5x) regardless of weather." },
+    "Amnesia": { "category": "setup", "effect": "Raises user's Special Defense by +2 stages (2.0x)." },
+    "Iron Defense": { "category": "setup", "effect": "Raises user's Defense by +2 stages (2.0x)." },
+    "Harden": { "category": "setup", "effect": "Raises user's Defense by +1 stage (1.5x)." },
+    "Howl": { "category": "setup", "effect": "Raises user's Attack by +1 stage (1.5x)." },
+    "Double Team": { "category": "evasion", "effect": "Raises user's Evasion by +1 stage." },
+    "Minimize": { "category": "evasion", "effect": "Raises user's Evasion by +1 stage (Stomp deals 2x damage against Minimize)." },
+    "Screech": { "category": "stat_drop", "effect": "Lowers target's Defense by -2 stages (0.5x)." },
+    "Charm": { "category": "stat_drop", "effect": "Lowers target's Attack by -2 stages (0.5x)." },
+    "FeatherDance": { "category": "stat_drop", "effect": "Lowers target's Attack by -2 stages (0.5x)." },
+    "Growl": { "category": "stat_drop", "effect": "Lowers target's Attack by -1 stage (0.67x)." },
+    "Leer": { "category": "stat_drop", "effect": "Lowers target's Defense by -1 stage (0.67x)." },
+    "Tail Whip": { "category": "stat_drop", "effect": "Lowers target's Defense by -1 stage (0.67x)." },
+    "String Shot": { "category": "stat_drop", "effect": "Lowers target's Speed by -1 stage (0.67x) in Generation III." },
+    "Sand Attack": { "category": "accuracy_drop", "effect": "Lowers target's Accuracy by -1 stage." },
+    "Smokescreen": { "category": "accuracy_drop", "effect": "Lowers target's Accuracy by -1 stage." },
+    "Thunder Wave": { "category": "status", "effect": "Inflicts Paralysis (Speed x0.25, 25% full paralysis). Fails against Ground-types because it is an Electric-type move." },
+    "Stun Spore": { "category": "status", "effect": "Inflicts Paralysis (Speed x0.25, 25% full paralysis)." },
+    "Glare": { "category": "status", "effect": "Inflicts Paralysis. Fails against Ghost-types in Generation III because it is Normal-type." },
+    "Will-O-Wisp": { "category": "status", "effect": "Inflicts Burn (Physical damage x0.5, 1/8 HP loss per turn). Fails against Fire-types." },
+    "Toxic": { "category": "status", "effect": "Inflicts Badly Poisoned (1/16 HP turn 1, increasing by 1/16 each turn). Fails against Poison- and Steel-types." },
+    "Poison Powder": { "category": "status", "effect": "Inflicts Poison (1/8 HP loss per turn)." },
+    "Sleep Powder": { "category": "status", "effect": "Inflicts Sleep (1-4 turns)." },
+    "Spore": { "category": "status", "effect": "100% accurate Sleep move (1-4 turns)." },
+    "Hypnosis": { "category": "status", "effect": "Inflicts Sleep (1-4 turns, 60% accuracy)." },
+    "Yawn": { "category": "status", "effect": "Drowses target; target falls asleep at the end of the next turn unless it switches out." },
+    "Facade": { "category": "damage_mechanic", "effect": "70 base power Normal (Physical) move; doubles to 140 base power and ignores Burn's 0.5x Physical attack drop if user is Burned, Paralyzed, or Poisoned." },
+    "Counter": { "category": "counter", "effect": "Returns 2x the Physical damage taken this turn (negative priority -5). Fails against Ghost-types." },
+    "Mirror Coat": { "category": "counter", "effect": "Returns 2x the Special damage taken this turn (negative priority -5). Fails against Dark-types." },
+    "Perish Song": { "category": "hazard", "effect": "All active Pokemon faint after 3 turns unless they switch out." },
+    "Encore": { "category": "disruption", "effect": "Forces target to repeat its last used move for 2-6 turns." },
+    "Selfdestruct": { "category": "sacrifice", "effect": "200 base power Normal (Physical) move that halves target's Defense during calculation (effective 400 BP); user faints." },
+    "Explosion": { "category": "sacrifice", "effect": "250 base power Normal (Physical) move that halves target's Defense during calculation (effective 500 BP); user faints." }
+  },
+  "abilityModifiers": {
+    "typeDefense": {
+      "Levitate": { "Ground": 0 },
+      "Thick Fat": { "Fire": 0.5, "Ice": 0.5 },
+      "Volt Absorb": { "Electric": 0 },
+      "Water Absorb": { "Water": 0 },
+      "Flash Fire": { "Fire": 0 },
+      "Wonder Guard": { "onlySuperEffective": true }
+    },
+    "statAndDamage": {
+      "Huge Power": "Doubles the user's Attack stat (2.0x Physical Attack).",
+      "Pure Power": "Doubles the user's Attack stat (2.0x Physical Attack).",
+      "Guts": "Boosts Attack by 1.5x when Burned, Paralyzed, Poisoned, or Asleep, and ignores Burn's Physical attack drop.",
+      "Marvel Scale": "Boosts Defense by 1.5x when affected by a non-volatile status condition.",
+      "Hustle": "Boosts Attack by 1.5x but reduces Physical move accuracy to 80%.",
+      "Intimidate": "Lowers opposing active Pokemon's Attack by -1 stage (0.67x) upon switch-in.",
+      "Swift Swim": "Doubles Speed (2.0x) during Rain.",
+      "Chlorophyll": "Doubles Speed (2.0x) during Harsh Sunlight.",
+      "Overgrow": "Boosts Grass-type moves by 1.5x when HP is at or below 1/3.",
+      "Blaze": "Boosts Fire-type moves by 1.5x when HP is at or below 1/3.",
+      "Torrent": "Boosts Water-type moves by 1.5x when HP is at or below 1/3.",
+      "Swarm": "Boosts Bug-type moves by 1.5x when HP is at or below 1/3."
+    }
+  },
+  "rules": [
+    "Type effectiveness is determined by the attacking move's type and the defending Pokemon's type, modified by defensive abilities such as Levitate, Thick Fat, Volt Absorb, Water Absorb, Flash Fire, and Wonder Guard.",
+    "For dual-type Pokemon, multiply the effectiveness against both types.",
+    "STAB (Same-Type Attack Bonus) multiplies move damage by 1.5x when the move's type matches one of the user's types.",
+    "A multiplier of 0 means the attack has no effect.",
+    "A multiplier of 0.5 means the attack is not very effective.",
+    "A multiplier of 1 means the attack is normally effective.",
+    "A multiplier of 2 means the attack is super effective.",
+    "In Generation III, Physical or Special damage category is determined by the move's type, not by the individual move.",
+    "Physical moves use Attack against Defense.",
+    "Special moves use Special Attack against Special Defense.",
+    "Fairy type does not exist in Generation III."
+  ]
+}

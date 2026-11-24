@@ -1,0 +1,2766 @@
+{
+  "game": "Pokemon Emerald",
+  "generation": 3,
+  "data_scope": "Main-story boss battles (Team Magma, Team Aqua, Wally, Rival May/Brendan) with full Generation III teams, movesets, held items and IVs.",
+  "boss_count": 45,
+  "boss_trainers": [
+    {
+      "id": "TRAINER_MATT",
+      "key": "MATT",
+      "name": "Matt",
+      "group": "Team Aqua",
+      "role": "Aqua Admin",
+      "battle_context": "Main Story",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 34,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Odor Sleuth",
+            "Roar",
+            "Swagger",
+            "Scary Face"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Golbat",
+          "level": 34,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Astonish",
+            "Bite",
+            "Wing Attack",
+            "Confuse Ray"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_SHELLY_WEATHER_INSTITUTE",
+      "key": "SHELLY_WEATHER_INSTITUTE",
+      "name": "Shelly",
+      "group": "Team Aqua",
+      "role": "Aqua Admin",
+      "battle_context": "Weather Institute",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 28,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Carvanha",
+          "level": 28,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Focus Energy",
+            "Scary Face",
+            "Crunch",
+            "Screech"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mightyena",
+          "level": 28,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Bite",
+            "Odor Sleuth",
+            "Roar",
+            "Swagger"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_SHELLY_SEAFLOOR_CAVERN",
+      "key": "SHELLY_SEAFLOOR_CAVERN",
+      "name": "Shelly",
+      "group": "Team Aqua",
+      "role": "Aqua Admin",
+      "battle_context": "Seafloor Cavern",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 37,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Sharpedo",
+          "level": 37,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Scary Face",
+            "Crunch",
+            "Screech",
+            "Slash"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mightyena",
+          "level": 37,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Roar",
+            "Swagger",
+            "Scary Face",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_ARCHIE",
+      "key": "ARCHIE",
+      "name": "Archie",
+      "group": "Team Aqua",
+      "role": "Aqua Leader",
+      "battle_context": "Main Story",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 43,
+      "trainer_items": [
+        "Super Potion",
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 41,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Roar",
+            "Swagger",
+            "Scary Face",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 41,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Bite",
+            "Wing Attack",
+            "Confuse Ray",
+            "Air Cutter"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Sharpedo",
+          "level": 43,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Screech",
+            "Slash",
+            "Taunt",
+            "Swagger"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MATTHEW",
+      "key": "MATTHEW",
+      "name": "Matthew",
+      "group": "Team Aqua",
+      "role": "Aqua Admin",
+      "battle_context": "Hew",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 26,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE"
+      ],
+      "team": [
+        {
+          "pokemon": "Carvanha",
+          "level": 26,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Rage",
+            "Focus Energy",
+            "Scary Face",
+            "Crunch"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_TABITHA_MOSSDEEP",
+      "key": "TABITHA_MOSSDEEP",
+      "name": "Tabitha",
+      "group": "Team Magma",
+      "role": "Magma Admin",
+      "battle_context": "Mossdeep",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 40,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE"
+      ],
+      "team": [
+        {
+          "pokemon": "Camerupt",
+          "level": 36,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Focus Energy",
+            "Take Down",
+            "Amnesia",
+            "Rock Slide"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mightyena",
+          "level": 38,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Roar",
+            "Swagger",
+            "Scary Face",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Golbat",
+          "level": 40,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Bite",
+            "Wing Attack",
+            "Confuse Ray",
+            "Air Cutter"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_WALLY_VR_1",
+      "key": "WALLY_VR_1",
+      "name": "Wally",
+      "group": "Rival",
+      "role": "Rival",
+      "battle_context": "Victory Road",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 45,
+      "trainer_items": [
+        "Full Restore",
+        "Full Restore"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Altaria",
+          "level": 44,
+          "type": [
+            "Dragon",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Aerial Ace",
+            "Safeguard",
+            "DragonBreath",
+            "Dragon Dance"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Delcatty",
+          "level": 43,
+          "type": [
+            "Normal"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Sing",
+            "Assist",
+            "Charm",
+            "Faint Attack"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Roselia",
+          "level": 44,
+          "type": [],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Magical Leaf",
+            "Leech Seed",
+            "Giga Drain",
+            "Toxic"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Magneton",
+          "level": 41,
+          "type": [
+            "Electric",
+            "Steel"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Thunderbolt",
+            "Tri Attack",
+            "Screech"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Gardevoir",
+          "level": 45,
+          "type": [
+            "Psychic"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Double Team",
+            "Calm Mind",
+            "Psychic",
+            "Future Sight"
+          ],
+          "move_source": "custom"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_103_MUDKIP",
+      "key": "BRENDAN_ROUTE_103_MUDKIP",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Treecko",
+          "level": 5,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Pound",
+            "Leer"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_110_MUDKIP",
+      "key": "BRENDAN_ROUTE_110_MUDKIP",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Slugma",
+          "level": 18,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Yawn",
+            "Smog",
+            "Ember",
+            "Rock Throw"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Wingull",
+          "level": 18,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 20,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Quick Attack",
+            "Fury Cutter",
+            "Pursuit"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_119_MUDKIP",
+      "key": "BRENDAN_ROUTE_119_MUDKIP",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Slugma",
+          "level": 29,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 29,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 31,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Fury Cutter",
+            "Pursuit",
+            "Screech",
+            "Leaf Blade"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_103_TREECKO",
+      "key": "BRENDAN_ROUTE_103_TREECKO",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "SETUP_FIRST_TURN"
+      ],
+      "team": [
+        {
+          "pokemon": "Torchic",
+          "level": 5,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Scratch",
+            "Growl"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_110_TREECKO",
+      "key": "BRENDAN_ROUTE_110_TREECKO",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Wingull",
+          "level": 18,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Lombre",
+          "level": 18,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 20,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Focus Energy",
+            "Ember",
+            "Double Kick",
+            "Peck"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_119_TREECKO",
+      "key": "BRENDAN_ROUTE_119_TREECKO",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Pelipper",
+          "level": 29,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Lombre",
+          "level": 29,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Nature Power",
+            "Fake Out",
+            "Fury Swipes"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 31,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Double Kick",
+            "Peck",
+            "Sand Attack",
+            "Bulk Up"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_103_TORCHIC",
+      "key": "BRENDAN_ROUTE_103_TORCHIC",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mudkip",
+          "level": 5,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Tackle",
+            "Growl"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_110_TORCHIC",
+      "key": "BRENDAN_ROUTE_110_TORCHIC",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Lombre",
+          "level": 18,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 18,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Yawn",
+            "Smog",
+            "Ember",
+            "Rock Throw"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 20,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Water Gun",
+            "Bide",
+            "Mud Shot",
+            "Foresight"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_ROUTE_119_TORCHIC",
+      "key": "BRENDAN_ROUTE_119_TORCHIC",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Lombre",
+          "level": 29,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Nature Power",
+            "Fake Out",
+            "Fury Swipes"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 29,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 31,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Mud Shot",
+            "Foresight",
+            "Mud Sport",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_103_MUDKIP",
+      "key": "MAY_ROUTE_103_MUDKIP",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Treecko",
+          "level": 5,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Pound",
+            "Leer"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_110_MUDKIP",
+      "key": "MAY_ROUTE_110_MUDKIP",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Wingull",
+          "level": 18,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 18,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Yawn",
+            "Smog",
+            "Ember",
+            "Rock Throw"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 20,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Quick Attack",
+            "Fury Cutter",
+            "Pursuit"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_119_MUDKIP",
+      "key": "MAY_ROUTE_119_MUDKIP",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Slugma",
+          "level": 29,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Lombre",
+          "level": 29,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Nature Power",
+            "Fake Out",
+            "Fury Swipes"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 31,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Fury Cutter",
+            "Pursuit",
+            "Screech",
+            "Leaf Blade"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_103_TREECKO",
+      "key": "MAY_ROUTE_103_TREECKO",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Torchic",
+          "level": 5,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Scratch",
+            "Growl"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_110_TREECKO",
+      "key": "MAY_ROUTE_110_TREECKO",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Wingull",
+          "level": 18,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Lombre",
+          "level": 18,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 20,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Focus Energy",
+            "Ember",
+            "Double Kick",
+            "Peck"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_119_TREECKO",
+      "key": "MAY_ROUTE_119_TREECKO",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Pelipper",
+          "level": 29,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Lombre",
+          "level": 29,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Nature Power",
+            "Fake Out",
+            "Fury Swipes"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 31,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Double Kick",
+            "Peck",
+            "Sand Attack",
+            "Bulk Up"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_103_TORCHIC",
+      "key": "MAY_ROUTE_103_TORCHIC",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 103",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mudkip",
+          "level": 5,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Tackle",
+            "Growl"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_110_TORCHIC",
+      "key": "MAY_ROUTE_110_TORCHIC",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 110",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 20,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Lombre",
+          "level": 18,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 18,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Yawn",
+            "Smog",
+            "Ember",
+            "Rock Throw"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 20,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Water Gun",
+            "Bide",
+            "Mud Shot",
+            "Foresight"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_ROUTE_119_TORCHIC",
+      "key": "MAY_ROUTE_119_TORCHIC",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Route 119",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 31,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Lombre",
+          "level": 29,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Absorb",
+            "Nature Power",
+            "Fake Out",
+            "Fury Swipes"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 29,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 31,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Mud Shot",
+            "Foresight",
+            "Mud Sport",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_RUSTBORO_TREECKO",
+      "key": "BRENDAN_RUSTBORO_TREECKO",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE"
+      ],
+      "team": [
+        {
+          "pokemon": "Lotad",
+          "level": 13,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Torchic",
+          "level": 15,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Scratch",
+            "Growl",
+            "Focus Energy",
+            "Ember"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_RUSTBORO_MUDKIP",
+      "key": "BRENDAN_RUSTBORO_MUDKIP",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE"
+      ],
+      "team": [
+        {
+          "pokemon": "Wingull",
+          "level": 13,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Treecko",
+          "level": 15,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Pound",
+            "Leer",
+            "Absorb",
+            "Quick Attack"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_TABITHA_MT_CHIMNEY",
+      "key": "TABITHA_MT_CHIMNEY",
+      "name": "Tabitha",
+      "group": "Team Magma",
+      "role": "Magma Admin",
+      "battle_context": "Mt Chimney",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 22,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Numel",
+          "level": 18,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Tackle",
+            "Ember"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Poochyena",
+          "level": 20,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Howl",
+            "Sand Attack",
+            "Bite",
+            "Odor Sleuth"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Numel",
+          "level": 22,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Tackle",
+            "Ember",
+            "Magnitude"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Zubat",
+          "level": 22,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Supersonic",
+            "Astonish",
+            "Bite",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_RUSTBORO_TORCHIC",
+      "key": "BRENDAN_RUSTBORO_TORCHIC",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Slugma",
+          "level": 13,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Yawn",
+            "Smog",
+            "Ember"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mudkip",
+          "level": 15,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Mud-Slap",
+            "Water Gun",
+            "Bide"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_RUSTBORO_MUDKIP",
+      "key": "MAY_RUSTBORO_MUDKIP",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "SETUP_FIRST_TURN"
+      ],
+      "team": [
+        {
+          "pokemon": "Wingull",
+          "level": 13,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Growl",
+            "Water Gun",
+            "Supersonic",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Treecko",
+          "level": 15,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Pound",
+            "Leer",
+            "Absorb",
+            "Quick Attack"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAXIE_MAGMA_HIDEOUT",
+      "key": "MAXIE_MAGMA_HIDEOUT",
+      "name": "Maxie",
+      "group": "Team Magma",
+      "role": "Magma Leader",
+      "battle_context": "Magma Hideout",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 39,
+      "trainer_items": [
+        "Super Potion",
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 37,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Roar",
+            "Swagger",
+            "Scary Face",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 38,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Bite",
+            "Wing Attack",
+            "Confuse Ray",
+            "Air Cutter"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Camerupt",
+          "level": 39,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Take Down",
+            "Amnesia",
+            "Rock Slide",
+            "Earthquake"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAXIE_MT_CHIMNEY",
+      "key": "MAXIE_MT_CHIMNEY",
+      "name": "Maxie",
+      "group": "Team Magma",
+      "role": "Magma Leader",
+      "battle_context": "Mt Chimney",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 25,
+      "trainer_items": [
+        "Super Potion",
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 24,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Sand Attack",
+            "Bite",
+            "Odor Sleuth",
+            "Roar"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Zubat",
+          "level": 24,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Astonish",
+            "Bite",
+            "Wing Attack"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Camerupt",
+          "level": 25,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Tackle",
+            "Ember",
+            "Magnitude",
+            "Focus Energy"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_WALLY_MAUVILLE",
+      "key": "WALLY_MAUVILLE",
+      "name": "Wally",
+      "group": "Rival",
+      "role": "Rival",
+      "battle_context": "Mauville",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 16,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Ralts",
+          "level": 16,
+          "type": [
+            "Psychic"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Growl",
+            "Confusion",
+            "Double Team",
+            "Teleport"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_LILYCOVE_MUDKIP",
+      "key": "BRENDAN_LILYCOVE_MUDKIP",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 32,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 32,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 34,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Fury Cutter",
+            "Pursuit",
+            "Screech",
+            "Leaf Blade"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_LILYCOVE_TREECKO",
+      "key": "BRENDAN_LILYCOVE_TREECKO",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 32,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 32,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 34,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Peck",
+            "Sand Attack",
+            "Bulk Up",
+            "Quick Attack"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_LILYCOVE_TORCHIC",
+      "key": "BRENDAN_LILYCOVE_TORCHIC",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 32,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 32,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 34,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Mud Shot",
+            "Foresight",
+            "Mud Sport",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_LILYCOVE_MUDKIP",
+      "key": "MAY_LILYCOVE_MUDKIP",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Mudkip",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 32,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 32,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Grovyle",
+          "level": 34,
+          "type": [
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Fury Cutter",
+            "Pursuit",
+            "Screech",
+            "Leaf Blade"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_LILYCOVE_TREECKO",
+      "key": "MAY_LILYCOVE_TREECKO",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 32,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Supersonic",
+            "Wing Attack",
+            "Mist",
+            "Protect"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 32,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Combusken",
+          "level": 34,
+          "type": [
+            "Fire",
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Peck",
+            "Sand Attack",
+            "Bulk Up",
+            "Quick Attack"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_LILYCOVE_TORCHIC",
+      "key": "MAY_LILYCOVE_TORCHIC",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Lilycove",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 34,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Tropius",
+          "level": 31,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Stomp",
+            "Sweet Scent",
+            "Whirlwind",
+            "Magical Leaf"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Ludicolo",
+          "level": 32,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 32,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Ember",
+            "Rock Throw",
+            "Harden",
+            "Amnesia"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Marshtomp",
+          "level": 34,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Mud Shot",
+            "Foresight",
+            "Mud Sport",
+            "Take Down"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_TABITHA_MAGMA_HIDEOUT",
+      "key": "TABITHA_MAGMA_HIDEOUT",
+      "name": "Tabitha",
+      "group": "Team Magma",
+      "role": "Magma Admin",
+      "battle_context": "Magma Hideout",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 33,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE"
+      ],
+      "team": [
+        {
+          "pokemon": "Numel",
+          "level": 26,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 9,
+          "moves": [
+            "Tackle",
+            "Ember",
+            "Magnitude",
+            "Focus Energy"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mightyena",
+          "level": 28,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 9,
+          "moves": [
+            "Bite",
+            "Odor Sleuth",
+            "Roar",
+            "Swagger"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Zubat",
+          "level": 30,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 9,
+          "moves": [
+            "Astonish",
+            "Bite",
+            "Wing Attack",
+            "Confuse Ray"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Camerupt",
+          "level": 33,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 9,
+          "moves": [
+            "Focus Energy",
+            "Take Down",
+            "Amnesia",
+            "Rock Slide"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAXIE_MOSSDEEP",
+      "key": "MAXIE_MOSSDEEP",
+      "name": "Maxie",
+      "group": "Team Magma",
+      "role": "Magma Leader",
+      "battle_context": "Mossdeep",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 44,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Mightyena",
+          "level": 42,
+          "type": [
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Swagger",
+            "Scary Face",
+            "Take Down",
+            "Taunt"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Crobat",
+          "level": 43,
+          "type": [
+            "Poison",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Wing Attack",
+            "Confuse Ray",
+            "Air Cutter",
+            "Mean Look"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Camerupt",
+          "level": 44,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 18,
+          "moves": [
+            "Take Down",
+            "Amnesia",
+            "Rock Slide",
+            "Earthquake"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_RUSTBORO_TREECKO",
+      "key": "MAY_RUSTBORO_TREECKO",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Treecko",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Lotad",
+          "level": 13,
+          "type": [
+            "Water",
+            "Grass"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Astonish",
+            "Growl",
+            "Absorb",
+            "Nature Power"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Torchic",
+          "level": 15,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Scratch",
+            "Growl",
+            "Focus Energy",
+            "Ember"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_RUSTBORO_TORCHIC",
+      "key": "MAY_RUSTBORO_TORCHIC",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Rustboro",
+      "player_starter_variant": "Torchic",
+      "battle_format": "Single",
+      "highest_level": 15,
+      "trainer_items": [],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ],
+      "team": [
+        {
+          "pokemon": "Torkoal",
+          "level": 13,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 3,
+          "moves": [
+            "Ember",
+            "Smog",
+            "Curse"
+          ],
+          "move_source": "default_level_up"
+        },
+        {
+          "pokemon": "Mudkip",
+          "level": 15,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 6,
+          "moves": [
+            "Growl",
+            "Mud-Slap",
+            "Water Gun",
+            "Bide"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_BRENDAN_PLACEHOLDER",
+      "key": "BRENDAN_PLACEHOLDER",
+      "name": "Brendan",
+      "group": "Rival",
+      "role": "Rival (Brendan)",
+      "battle_context": "Placeholder",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [],
+      "team": [
+        {
+          "pokemon": "Groudon",
+          "level": 5,
+          "type": [
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Mud Shot",
+            "Scary Face"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    },
+    {
+      "id": "TRAINER_MAY_PLACEHOLDER",
+      "key": "MAY_PLACEHOLDER",
+      "name": "May",
+      "group": "Rival",
+      "role": "Rival (May)",
+      "battle_context": "Placeholder",
+      "player_starter_variant": null,
+      "battle_format": "Single",
+      "highest_level": 5,
+      "trainer_items": [],
+      "ai_flags": [],
+      "team": [
+        {
+          "pokemon": "Kyogre",
+          "level": 5,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 0,
+          "moves": [
+            "Water Pulse",
+            "Scary Face"
+          ],
+          "move_source": "default_level_up"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://github.com/pret/pokeemerald/blob/master/src/data/trainers.h",
+    "https://github.com/pret/pokeemerald/blob/master/src/data/trainer_parties.h"
+  ]
+}

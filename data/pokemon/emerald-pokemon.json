@@ -1,0 +1,6870 @@
+{
+  "game": "Pokemon Emerald",
+  "generation": 3,
+  "region": "Hoenn",
+  "data_scope": "All Pokemon normally obtainable in-game in Pokemon Emerald (excluding external trades and event-only mythicals)",
+  "pokemon_count": 233,
+  "pokemon": [
+    {
+      "national_dex": 252,
+      "hoenn_dex": 1,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Treecko",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 65,
+        "special_defense": 55,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 253,
+      "hoenn_dex": 2,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Grovyle",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 45,
+        "special_attack": 85,
+        "special_defense": 65,
+        "speed": 95
+      },
+      "evolution": {
+        "from": "Treecko",
+        "method": "level",
+        "level": 16
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 254,
+      "hoenn_dex": 3,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Sceptile",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "special_attack": 105,
+        "special_defense": 85,
+        "speed": 120
+      },
+      "evolution": {
+        "from": "Grovyle",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 255,
+      "hoenn_dex": 4,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Torchic",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 40,
+        "special_attack": 70,
+        "special_defense": 50,
+        "speed": 45
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 256,
+      "hoenn_dex": 5,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Combusken",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 60,
+        "special_attack": 85,
+        "special_defense": 60,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Torchic",
+        "method": "level",
+        "level": 16
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 257,
+      "hoenn_dex": 6,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Blaziken",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 70,
+        "special_attack": 110,
+        "special_defense": 70,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Combusken",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 258,
+      "hoenn_dex": 7,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Mudkip",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 50,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 259,
+      "hoenn_dex": 8,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Marshtomp",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 70,
+        "special_attack": 60,
+        "special_defense": 70,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Mudkip",
+        "method": "level",
+        "level": 16
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 260,
+      "hoenn_dex": 9,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Swampert",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 110,
+        "defense": 90,
+        "special_attack": 85,
+        "special_defense": 90,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Marshtomp",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 261,
+      "hoenn_dex": 10,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Poochyena",
+      "types": [
+        "Dark"
+      ],
+      "abilities": [
+        "Run Away"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 35,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 262,
+      "hoenn_dex": 11,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Mightyena",
+      "types": [
+        "Dark"
+      ],
+      "abilities": [
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 70,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Poochyena",
+        "method": "level",
+        "level": 18
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 263,
+      "hoenn_dex": 12,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Zigzagoon",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 38,
+        "attack": 30,
+        "defense": 41,
+        "special_attack": 30,
+        "special_defense": 41,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 264,
+      "hoenn_dex": 13,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Linoone",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 78,
+        "attack": 70,
+        "defense": 61,
+        "special_attack": 50,
+        "special_defense": 61,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Zigzagoon",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 265,
+      "hoenn_dex": 14,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wurmple",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Shield Dust"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 20,
+        "special_defense": 30,
+        "speed": 20
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 266,
+      "hoenn_dex": 15,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Silcoon",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Shed Skin"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 35,
+        "defense": 55,
+        "special_attack": 25,
+        "special_defense": 25,
+        "speed": 15
+      },
+      "evolution": {
+        "from": "Wurmple",
+        "method": "level",
+        "level": 7,
+        "condition": "level_silcoon"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 267,
+      "hoenn_dex": 16,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Beautifly",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "abilities": [
+        "Swarm"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 70,
+        "defense": 50,
+        "special_attack": 90,
+        "special_defense": 50,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Silcoon",
+        "method": "level",
+        "level": 10
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 268,
+      "hoenn_dex": 17,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Cascoon",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Shed Skin"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 35,
+        "defense": 55,
+        "special_attack": 25,
+        "special_defense": 25,
+        "speed": 15
+      },
+      "evolution": {
+        "from": "Wurmple",
+        "method": "level",
+        "level": 7,
+        "condition": "level_cascoon"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 269,
+      "hoenn_dex": 18,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Dustox",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "abilities": [
+        "Shield Dust"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "special_attack": 50,
+        "special_defense": 90,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Cascoon",
+        "method": "level",
+        "level": 10
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 270,
+      "hoenn_dex": 19,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Lotad",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Rain Dish"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "special_attack": 40,
+        "special_defense": 50,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 271,
+      "hoenn_dex": 20,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Lombre",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Rain Dish"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 50,
+        "special_attack": 60,
+        "special_defense": 70,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Lotad",
+        "method": "level",
+        "level": 14
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 272,
+      "hoenn_dex": 21,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ludicolo",
+      "types": [
+        "Water",
+        "Grass"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Rain Dish"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 70,
+        "special_attack": 90,
+        "special_defense": 100,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Lombre",
+        "method": "stone",
+        "item": "Water Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 273,
+      "hoenn_dex": 22,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "in_game_trade"
+      ],
+      "name": "Seedot",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Chlorophyll",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 50,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 274,
+      "hoenn_dex": 23,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Nuzleaf",
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "abilities": [
+        "Chlorophyll",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 40,
+        "special_attack": 60,
+        "special_defense": 40,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Seedot",
+        "method": "level",
+        "level": 14
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 275,
+      "hoenn_dex": 24,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Shiftry",
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "abilities": [
+        "Chlorophyll",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 60,
+        "special_attack": 90,
+        "special_defense": 60,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Nuzleaf",
+        "method": "stone",
+        "item": "Leaf Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 276,
+      "hoenn_dex": 25,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Taillow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 30,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 277,
+      "hoenn_dex": 26,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Swellow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 60,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 125
+      },
+      "evolution": {
+        "from": "Taillow",
+        "method": "level",
+        "level": 22
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 278,
+      "hoenn_dex": 27,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wingull",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "abilities": [
+        "Keen Eye"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "special_attack": 55,
+        "special_defense": 30,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 279,
+      "hoenn_dex": 28,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Pelipper",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "abilities": [
+        "Keen Eye"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 100,
+        "special_attack": 85,
+        "special_defense": 70,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Wingull",
+        "method": "level",
+        "level": 25
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 280,
+      "hoenn_dex": 29,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Ralts",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Trace"
+      ],
+      "base_stats": {
+        "hp": 28,
+        "attack": 25,
+        "defense": 25,
+        "special_attack": 45,
+        "special_defense": 35,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 281,
+      "hoenn_dex": 30,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Kirlia",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Trace"
+      ],
+      "base_stats": {
+        "hp": 38,
+        "attack": 35,
+        "defense": 35,
+        "special_attack": 65,
+        "special_defense": 55,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Ralts",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 282,
+      "hoenn_dex": 31,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Gardevoir",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Trace"
+      ],
+      "base_stats": {
+        "hp": 68,
+        "attack": 65,
+        "defense": 65,
+        "special_attack": 125,
+        "special_defense": 115,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Kirlia",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 285,
+      "hoenn_dex": 34,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Shroomish",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Effect Spore"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 60,
+        "special_attack": 40,
+        "special_defense": 60,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 286,
+      "hoenn_dex": 35,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Breloom",
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "abilities": [
+        "Effect Spore"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 130,
+        "defense": 80,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Shroomish",
+        "method": "level",
+        "level": 23
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 287,
+      "hoenn_dex": 36,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Slakoth",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Truant"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 288,
+      "hoenn_dex": 37,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Vigoroth",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Vital Spirit"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 90
+      },
+      "evolution": {
+        "from": "Slakoth",
+        "method": "level",
+        "level": 18
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 289,
+      "hoenn_dex": 38,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Slaking",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Truant"
+      ],
+      "base_stats": {
+        "hp": 150,
+        "attack": 160,
+        "defense": 100,
+        "special_attack": 95,
+        "special_defense": 65,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Vigoroth",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 63,
+      "hoenn_dex": 39,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Abra",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 15,
+        "special_attack": 105,
+        "special_defense": 55,
+        "speed": 90
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 64,
+      "hoenn_dex": 40,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Kadabra",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "special_attack": 120,
+        "special_defense": 70,
+        "speed": 105
+      },
+      "evolution": {
+        "from": "Abra",
+        "method": "level",
+        "level": 16
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 65,
+      "hoenn_dex": 41,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Alakazam",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 45,
+        "special_attack": 135,
+        "special_defense": 85,
+        "speed": 120
+      },
+      "evolution": {
+        "from": "Kadabra",
+        "method": "trade"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 290,
+      "hoenn_dex": 42,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Nincada",
+      "types": [
+        "Bug",
+        "Ground"
+      ],
+      "abilities": [
+        "Compound Eyes"
+      ],
+      "base_stats": {
+        "hp": 31,
+        "attack": 45,
+        "defense": 90,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 291,
+      "hoenn_dex": 43,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ninjask",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "abilities": [
+        "Speed Boost"
+      ],
+      "base_stats": {
+        "hp": 61,
+        "attack": 90,
+        "defense": 45,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 160
+      },
+      "evolution": {
+        "from": "Nincada",
+        "method": "level",
+        "level": 20,
+        "condition": "level_ninjask"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 292,
+      "hoenn_dex": 44,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Shedinja",
+      "types": [
+        "Bug",
+        "Ghost"
+      ],
+      "abilities": [
+        "Wonder Guard"
+      ],
+      "base_stats": {
+        "hp": 1,
+        "attack": 90,
+        "defense": 45,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Nincada",
+        "method": "level",
+        "level": 20,
+        "condition": "level_shedinja"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 293,
+      "hoenn_dex": 45,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Whismur",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Soundproof"
+      ],
+      "base_stats": {
+        "hp": 64,
+        "attack": 51,
+        "defense": 23,
+        "special_attack": 51,
+        "special_defense": 23,
+        "speed": 28
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 294,
+      "hoenn_dex": 46,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Loudred",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Soundproof"
+      ],
+      "base_stats": {
+        "hp": 84,
+        "attack": 71,
+        "defense": 43,
+        "special_attack": 71,
+        "special_defense": 43,
+        "speed": 48
+      },
+      "evolution": {
+        "from": "Whismur",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 295,
+      "hoenn_dex": 47,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Exploud",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Soundproof"
+      ],
+      "base_stats": {
+        "hp": 104,
+        "attack": 91,
+        "defense": 63,
+        "special_attack": 91,
+        "special_defense": 63,
+        "speed": 68
+      },
+      "evolution": {
+        "from": "Loudred",
+        "method": "level",
+        "level": 40
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 296,
+      "hoenn_dex": 48,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Makuhita",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 72,
+        "attack": 60,
+        "defense": 30,
+        "special_attack": 20,
+        "special_defense": 30,
+        "speed": 25
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 297,
+      "hoenn_dex": 49,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Hariyama",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 144,
+        "attack": 120,
+        "defense": 60,
+        "special_attack": 40,
+        "special_defense": 60,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Makuhita",
+        "method": "level",
+        "level": 24
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 118,
+      "hoenn_dex": 50,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Goldeen",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 67,
+        "defense": 60,
+        "special_attack": 35,
+        "special_defense": 50,
+        "speed": 63
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 119,
+      "hoenn_dex": 51,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Seaking",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 65,
+        "special_attack": 65,
+        "special_defense": 80,
+        "speed": 68
+      },
+      "evolution": {
+        "from": "Goldeen",
+        "method": "level",
+        "level": 33
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 129,
+      "hoenn_dex": 52,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Magikarp",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "special_attack": 15,
+        "special_defense": 20,
+        "speed": 80
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 130,
+      "hoenn_dex": 53,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Gyarados",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "abilities": [
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "special_attack": 60,
+        "special_defense": 100,
+        "speed": 81
+      },
+      "evolution": {
+        "from": "Magikarp",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 298,
+      "hoenn_dex": 54,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "breeding"
+      ],
+      "name": "Azurill",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Huge Power"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 20,
+        "defense": 40,
+        "special_attack": 20,
+        "special_defense": 40,
+        "speed": 20
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 183,
+      "hoenn_dex": 55,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Marill",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Huge Power"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 20,
+        "defense": 50,
+        "special_attack": 20,
+        "special_defense": 50,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Azurill",
+        "method": "friendship",
+        "condition": "friendship"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 184,
+      "hoenn_dex": 56,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Azumarill",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Huge Power"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 50,
+        "defense": 80,
+        "special_attack": 50,
+        "special_defense": 80,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Marill",
+        "method": "level",
+        "level": 18
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 74,
+      "hoenn_dex": 57,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Geodude",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 20
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 75,
+      "hoenn_dex": 58,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Graveler",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 115,
+        "special_attack": 45,
+        "special_defense": 45,
+        "speed": 35
+      },
+      "evolution": {
+        "from": "Geodude",
+        "method": "level",
+        "level": 25
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 76,
+      "hoenn_dex": 59,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Golem",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "abilities": [
+        "Rock Head",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 110,
+        "defense": 130,
+        "special_attack": 55,
+        "special_defense": 65,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Graveler",
+        "method": "trade"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 299,
+      "hoenn_dex": 60,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Nosepass",
+      "types": [
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy",
+        "Magnet Pull"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 135,
+        "special_attack": 45,
+        "special_defense": 90,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 300,
+      "hoenn_dex": 61,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Skitty",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Cute Charm"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 45,
+        "defense": 45,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 301,
+      "hoenn_dex": 62,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Delcatty",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Cute Charm"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 65,
+        "defense": 65,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Skitty",
+        "method": "stone",
+        "item": "Moon Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 41,
+      "hoenn_dex": 63,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Zubat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "abilities": [
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 30,
+        "special_defense": 40,
+        "speed": 55
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 42,
+      "hoenn_dex": 64,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Golbat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "abilities": [
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "special_attack": 65,
+        "special_defense": 75,
+        "speed": 90
+      },
+      "evolution": {
+        "from": "Zubat",
+        "method": "level",
+        "level": 22
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 169,
+      "hoenn_dex": 65,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Crobat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "abilities": [
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 90,
+        "defense": 80,
+        "special_attack": 70,
+        "special_defense": 80,
+        "speed": 130
+      },
+      "evolution": {
+        "from": "Golbat",
+        "method": "friendship",
+        "condition": "friendship"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 72,
+      "hoenn_dex": 66,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Tentacool",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "abilities": [
+        "Clear Body",
+        "Liquid Ooze"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "special_attack": 50,
+        "special_defense": 100,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 73,
+      "hoenn_dex": 67,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Tentacruel",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "abilities": [
+        "Clear Body",
+        "Liquid Ooze"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "special_attack": 80,
+        "special_defense": 120,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Tentacool",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 302,
+      "hoenn_dex": 68,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Sableye",
+      "types": [
+        "Dark",
+        "Ghost"
+      ],
+      "abilities": [
+        "Keen Eye"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 75,
+        "special_attack": 65,
+        "special_defense": 65,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 303,
+      "hoenn_dex": 69,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Mawile",
+      "types": [
+        "Steel"
+      ],
+      "abilities": [
+        "Hyper Cutter",
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 85,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 304,
+      "hoenn_dex": 70,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Aron",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 100,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 305,
+      "hoenn_dex": 71,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Lairon",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 140,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Aron",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 306,
+      "hoenn_dex": 72,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Aggron",
+      "types": [
+        "Steel",
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 180,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Lairon",
+        "method": "level",
+        "level": 42
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 66,
+      "hoenn_dex": 73,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 50,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 67,
+      "hoenn_dex": 74,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 70,
+        "special_attack": 50,
+        "special_defense": 60,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Machop",
+        "method": "level",
+        "level": 28
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 68,
+      "hoenn_dex": 75,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Machamp",
+      "types": [
+        "Fighting"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "special_attack": 65,
+        "special_defense": 85,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Machoke",
+        "method": "trade"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 309,
+      "hoenn_dex": 78,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Electrike",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "special_attack": 65,
+        "special_defense": 40,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 310,
+      "hoenn_dex": 79,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Manectric",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 60,
+        "special_attack": 105,
+        "special_defense": 60,
+        "speed": 105
+      },
+      "evolution": {
+        "from": "Electrike",
+        "method": "level",
+        "level": 26
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 311,
+      "hoenn_dex": 80,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "in_game_trade"
+      ],
+      "name": "Plusle",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Plus"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 40,
+        "special_attack": 85,
+        "special_defense": 75,
+        "speed": 95
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 312,
+      "hoenn_dex": 81,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Minun",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Minus"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 50,
+        "special_attack": 75,
+        "special_defense": 85,
+        "speed": 95
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 81,
+      "hoenn_dex": 82,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Magnemite",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "abilities": [
+        "Magnet Pull",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 70,
+        "special_attack": 95,
+        "special_defense": 55,
+        "speed": 45
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 82,
+      "hoenn_dex": 83,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Magneton",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "abilities": [
+        "Magnet Pull",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "special_attack": 120,
+        "special_defense": 70,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Magnemite",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 100,
+      "hoenn_dex": 84,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "gift_or_static"
+      ],
+      "name": "Voltorb",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Soundproof",
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "special_attack": 55,
+        "special_defense": 55,
+        "speed": 100
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 101,
+      "hoenn_dex": 85,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "gift_or_static"
+      ],
+      "name": "Electrode",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Soundproof",
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "special_attack": 80,
+        "special_defense": 80,
+        "speed": 140
+      },
+      "evolution": {
+        "from": "Voltorb",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 313,
+      "hoenn_dex": 86,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Volbeat",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Illuminate",
+        "Swarm"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 73,
+        "defense": 55,
+        "special_attack": 47,
+        "special_defense": 75,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 314,
+      "hoenn_dex": 87,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Illumise",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 47,
+        "defense": 55,
+        "special_attack": 73,
+        "special_defense": 75,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 43,
+      "hoenn_dex": 88,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Oddish",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "special_attack": 75,
+        "special_defense": 65,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 44,
+      "hoenn_dex": 89,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Gloom",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 70,
+        "special_attack": 85,
+        "special_defense": 75,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Oddish",
+        "method": "level",
+        "level": 21
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 45,
+      "hoenn_dex": 90,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Vileplume",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "special_attack": 100,
+        "special_defense": 90,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Gloom",
+        "method": "stone",
+        "item": "Leaf Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 182,
+      "hoenn_dex": 91,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Bellossom",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 85,
+        "special_attack": 90,
+        "special_defense": 100,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Gloom",
+        "method": "stone",
+        "item": "Sun Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 84,
+      "hoenn_dex": 92,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Doduo",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Run Away",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "attack": 85,
+        "defense": 45,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 75
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 85,
+      "hoenn_dex": 93,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Dodrio",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Run Away",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Doduo",
+        "method": "level",
+        "level": 31
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 316,
+      "hoenn_dex": 95,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Gulpin",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Liquid Ooze",
+        "Sticky Hold"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 43,
+        "defense": 53,
+        "special_attack": 43,
+        "special_defense": 53,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 317,
+      "hoenn_dex": 96,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Swalot",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Liquid Ooze",
+        "Sticky Hold"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 73,
+        "defense": 83,
+        "special_attack": 73,
+        "special_defense": 83,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Gulpin",
+        "method": "level",
+        "level": 26
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 318,
+      "hoenn_dex": 97,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Carvanha",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "abilities": [
+        "Rough Skin"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 90,
+        "defense": 20,
+        "special_attack": 65,
+        "special_defense": 20,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 319,
+      "hoenn_dex": 98,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Sharpedo",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "abilities": [
+        "Rough Skin"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 40,
+        "special_attack": 95,
+        "special_defense": 40,
+        "speed": 95
+      },
+      "evolution": {
+        "from": "Carvanha",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 320,
+      "hoenn_dex": 99,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wailmer",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Water Veil",
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 130,
+        "attack": 70,
+        "defense": 35,
+        "special_attack": 70,
+        "special_defense": 35,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 321,
+      "hoenn_dex": 100,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wailord",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Water Veil",
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 170,
+        "attack": 90,
+        "defense": 45,
+        "special_attack": 90,
+        "special_defense": 45,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Wailmer",
+        "method": "level",
+        "level": 40
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 322,
+      "hoenn_dex": 101,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Numel",
+      "types": [
+        "Fire",
+        "Ground"
+      ],
+      "abilities": [
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 40,
+        "special_attack": 65,
+        "special_defense": 45,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 323,
+      "hoenn_dex": 102,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Camerupt",
+      "types": [
+        "Fire",
+        "Ground"
+      ],
+      "abilities": [
+        "Magma Armor"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 70,
+        "special_attack": 105,
+        "special_defense": 75,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Numel",
+        "method": "level",
+        "level": 33
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 218,
+      "hoenn_dex": 103,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Slugma",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Magma Armor",
+        "Flame Body"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "special_attack": 70,
+        "special_defense": 40,
+        "speed": 20
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 219,
+      "hoenn_dex": 104,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Magcargo",
+      "types": [
+        "Fire",
+        "Rock"
+      ],
+      "abilities": [
+        "Magma Armor",
+        "Flame Body"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 120,
+        "special_attack": 80,
+        "special_defense": 80,
+        "speed": 30
+      },
+      "evolution": {
+        "from": "Slugma",
+        "method": "level",
+        "level": 38
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 324,
+      "hoenn_dex": 105,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Torkoal",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "White Smoke"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 140,
+        "special_attack": 85,
+        "special_defense": 70,
+        "speed": 20
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 88,
+      "hoenn_dex": 106,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Grimer",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Stench",
+        "Sticky Hold"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "special_attack": 40,
+        "special_defense": 50,
+        "speed": 25
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 89,
+      "hoenn_dex": 107,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Muk",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Stench",
+        "Sticky Hold"
+      ],
+      "base_stats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "special_attack": 65,
+        "special_defense": 100,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Grimer",
+        "method": "level",
+        "level": 38
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 109,
+      "hoenn_dex": 108,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Koffing",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 95,
+        "special_attack": 60,
+        "special_defense": 45,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 110,
+      "hoenn_dex": 109,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Weezing",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "special_attack": 85,
+        "special_defense": 70,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Koffing",
+        "method": "level",
+        "level": 35
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 325,
+      "hoenn_dex": 110,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Spoink",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Own Tempo"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 25,
+        "defense": 35,
+        "special_attack": 70,
+        "special_defense": 80,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 326,
+      "hoenn_dex": 111,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Grumpig",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Thick Fat",
+        "Own Tempo"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 45,
+        "defense": 65,
+        "special_attack": 90,
+        "special_defense": 110,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Spoink",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 27,
+      "hoenn_dex": 112,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Sandshrew",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Sand Veil"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "special_attack": 20,
+        "special_defense": 30,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 28,
+      "hoenn_dex": 113,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Sandslash",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Sand Veil"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "special_attack": 45,
+        "special_defense": 55,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Sandshrew",
+        "method": "level",
+        "level": 22
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 327,
+      "hoenn_dex": 114,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Spinda",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Own Tempo"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 227,
+      "hoenn_dex": 115,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Skarmory",
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "abilities": [
+        "Keen Eye",
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 140,
+        "special_attack": 40,
+        "special_defense": 70,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 328,
+      "hoenn_dex": 116,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Trapinch",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Hyper Cutter",
+        "Arena Trap"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 100,
+        "defense": 45,
+        "special_attack": 45,
+        "special_defense": 45,
+        "speed": 10
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 329,
+      "hoenn_dex": 117,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Vibrava",
+      "types": [
+        "Ground",
+        "Dragon"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 50,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Trapinch",
+        "method": "level",
+        "level": 35
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 330,
+      "hoenn_dex": 118,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Flygon",
+      "types": [
+        "Ground",
+        "Dragon"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 80,
+        "special_attack": 80,
+        "special_defense": 80,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Vibrava",
+        "method": "level",
+        "level": 45
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 331,
+      "hoenn_dex": 119,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Cacnea",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Sand Veil"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 40,
+        "special_attack": 85,
+        "special_defense": 40,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 332,
+      "hoenn_dex": 120,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Cacturne",
+      "types": [
+        "Grass",
+        "Dark"
+      ],
+      "abilities": [
+        "Sand Veil"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 60,
+        "special_attack": 115,
+        "special_defense": 60,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Cacnea",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 333,
+      "hoenn_dex": 121,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Swablu",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Natural Cure"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 40,
+        "defense": 60,
+        "special_attack": 40,
+        "special_defense": 75,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 334,
+      "hoenn_dex": 122,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Altaria",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "abilities": [
+        "Natural Cure"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 90,
+        "special_attack": 70,
+        "special_defense": 105,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Swablu",
+        "method": "level",
+        "level": 35
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 336,
+      "hoenn_dex": 124,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Seviper",
+      "types": [
+        "Poison"
+      ],
+      "abilities": [
+        "Shed Skin"
+      ],
+      "base_stats": {
+        "hp": 73,
+        "attack": 100,
+        "defense": 60,
+        "special_attack": 100,
+        "special_defense": 60,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 338,
+      "hoenn_dex": 126,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Solrock",
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 95,
+        "defense": 85,
+        "special_attack": 55,
+        "special_defense": 65,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 339,
+      "hoenn_dex": 127,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Barboach",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 48,
+        "defense": 43,
+        "special_attack": 46,
+        "special_defense": 41,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 340,
+      "hoenn_dex": 128,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Whiscash",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Oblivious"
+      ],
+      "base_stats": {
+        "hp": 110,
+        "attack": 78,
+        "defense": 73,
+        "special_attack": 76,
+        "special_defense": 71,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Barboach",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 341,
+      "hoenn_dex": 129,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Corphish",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Hyper Cutter",
+        "Shell Armor"
+      ],
+      "base_stats": {
+        "hp": 43,
+        "attack": 80,
+        "defense": 65,
+        "special_attack": 50,
+        "special_defense": 35,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 342,
+      "hoenn_dex": 130,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Crawdaunt",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "abilities": [
+        "Hyper Cutter",
+        "Shell Armor"
+      ],
+      "base_stats": {
+        "hp": 63,
+        "attack": 120,
+        "defense": 85,
+        "special_attack": 90,
+        "special_defense": 55,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Corphish",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 343,
+      "hoenn_dex": 131,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Baltoy",
+      "types": [
+        "Ground",
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 55,
+        "special_attack": 40,
+        "special_defense": 70,
+        "speed": 55
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 344,
+      "hoenn_dex": 132,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Claydol",
+      "types": [
+        "Ground",
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 70,
+        "defense": 105,
+        "special_attack": 70,
+        "special_defense": 120,
+        "speed": 75
+      },
+      "evolution": {
+        "from": "Baltoy",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 345,
+      "hoenn_dex": 133,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Lileep",
+      "types": [
+        "Rock",
+        "Grass"
+      ],
+      "abilities": [
+        "Suction Cups"
+      ],
+      "base_stats": {
+        "hp": 66,
+        "attack": 41,
+        "defense": 77,
+        "special_attack": 61,
+        "special_defense": 87,
+        "speed": 23
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 346,
+      "hoenn_dex": 134,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Cradily",
+      "types": [
+        "Rock",
+        "Grass"
+      ],
+      "abilities": [
+        "Suction Cups"
+      ],
+      "base_stats": {
+        "hp": 86,
+        "attack": 81,
+        "defense": 97,
+        "special_attack": 81,
+        "special_defense": 107,
+        "speed": 43
+      },
+      "evolution": {
+        "from": "Lileep",
+        "method": "level",
+        "level": 40
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 347,
+      "hoenn_dex": 135,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Anorith",
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "abilities": [
+        "Battle Armor"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 95,
+        "defense": 50,
+        "special_attack": 40,
+        "special_defense": 50,
+        "speed": 75
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 348,
+      "hoenn_dex": 136,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Armaldo",
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "abilities": [
+        "Battle Armor"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 100,
+        "special_attack": 70,
+        "special_defense": 80,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Anorith",
+        "method": "level",
+        "level": 40
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 174,
+      "hoenn_dex": 137,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "breeding"
+      ],
+      "name": "Igglybuff",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Cute Charm"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 30,
+        "defense": 15,
+        "special_attack": 40,
+        "special_defense": 20,
+        "speed": 15
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 39,
+      "hoenn_dex": 138,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Jigglypuff",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Cute Charm"
+      ],
+      "base_stats": {
+        "hp": 115,
+        "attack": 45,
+        "defense": 20,
+        "special_attack": 45,
+        "special_defense": 25,
+        "speed": 20
+      },
+      "evolution": {
+        "from": "Igglybuff",
+        "method": "friendship",
+        "condition": "friendship"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 40,
+      "hoenn_dex": 139,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Wigglytuff",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Cute Charm"
+      ],
+      "base_stats": {
+        "hp": 140,
+        "attack": 70,
+        "defense": 45,
+        "special_attack": 75,
+        "special_defense": 50,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Jigglypuff",
+        "method": "stone",
+        "item": "Moon Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 351,
+      "hoenn_dex": 142,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Castform",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Forecast"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 70,
+        "special_attack": 70,
+        "special_defense": 70,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 120,
+      "hoenn_dex": 143,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Staryu",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Illuminate",
+        "Natural Cure"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "special_attack": 70,
+        "special_defense": 55,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 121,
+      "hoenn_dex": 144,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Starmie",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "abilities": [
+        "Illuminate",
+        "Natural Cure"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 85,
+        "special_attack": 100,
+        "special_defense": 85,
+        "speed": 115
+      },
+      "evolution": {
+        "from": "Staryu",
+        "method": "stone",
+        "item": "Water Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 352,
+      "hoenn_dex": 145,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "gift_or_static"
+      ],
+      "name": "Kecleon",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Color Change"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 70,
+        "special_attack": 60,
+        "special_defense": 120,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 353,
+      "hoenn_dex": 146,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Shuppet",
+      "types": [
+        "Ghost"
+      ],
+      "abilities": [
+        "Insomnia"
+      ],
+      "base_stats": {
+        "hp": 44,
+        "attack": 75,
+        "defense": 35,
+        "special_attack": 63,
+        "special_defense": 33,
+        "speed": 45
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 354,
+      "hoenn_dex": 147,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Banette",
+      "types": [
+        "Ghost"
+      ],
+      "abilities": [
+        "Insomnia"
+      ],
+      "base_stats": {
+        "hp": 64,
+        "attack": 115,
+        "defense": 65,
+        "special_attack": 83,
+        "special_defense": 63,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Shuppet",
+        "method": "level",
+        "level": 37
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 355,
+      "hoenn_dex": 148,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Duskull",
+      "types": [
+        "Ghost"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 90,
+        "special_attack": 30,
+        "special_defense": 90,
+        "speed": 25
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 356,
+      "hoenn_dex": 149,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Dusclops",
+      "types": [
+        "Ghost"
+      ],
+      "abilities": [
+        "Pressure"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 70,
+        "defense": 130,
+        "special_attack": 60,
+        "special_defense": 130,
+        "speed": 25
+      },
+      "evolution": {
+        "from": "Duskull",
+        "method": "level",
+        "level": 37
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 357,
+      "hoenn_dex": 150,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Tropius",
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 99,
+        "attack": 68,
+        "defense": 83,
+        "special_attack": 72,
+        "special_defense": 87,
+        "speed": 51
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 358,
+      "hoenn_dex": 151,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Chimecho",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 70,
+        "special_attack": 95,
+        "special_defense": 80,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 359,
+      "hoenn_dex": 152,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Absol",
+      "types": [
+        "Dark"
+      ],
+      "abilities": [
+        "Pressure"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 60,
+        "special_attack": 75,
+        "special_defense": 60,
+        "speed": 75
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 37,
+      "hoenn_dex": 153,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Vulpix",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Flash Fire"
+      ],
+      "base_stats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "special_attack": 50,
+        "special_defense": 65,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 38,
+      "hoenn_dex": 154,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ninetales",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Flash Fire"
+      ],
+      "base_stats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "special_attack": 81,
+        "special_defense": 100,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Vulpix",
+        "method": "stone",
+        "item": "Fire Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 172,
+      "hoenn_dex": 155,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "breeding"
+      ],
+      "name": "Pichu",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 15,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 25,
+      "hoenn_dex": 156,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Pikachu",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 30,
+        "special_attack": 50,
+        "special_defense": 40,
+        "speed": 90
+      },
+      "evolution": {
+        "from": "Pichu",
+        "method": "friendship",
+        "condition": "friendship"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 26,
+      "hoenn_dex": 157,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Raichu",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 55,
+        "special_attack": 90,
+        "special_defense": 80,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Pikachu",
+        "method": "stone",
+        "item": "Thunder Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 54,
+      "hoenn_dex": 158,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Psyduck",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Damp",
+        "Cloud Nine"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 52,
+        "defense": 48,
+        "special_attack": 65,
+        "special_defense": 50,
+        "speed": 55
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 55,
+      "hoenn_dex": 159,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Golduck",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Damp",
+        "Cloud Nine"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 78,
+        "special_attack": 95,
+        "special_defense": 80,
+        "speed": 85
+      },
+      "evolution": {
+        "from": "Psyduck",
+        "method": "level",
+        "level": 33
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 360,
+      "hoenn_dex": 160,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "gift_or_static"
+      ],
+      "name": "Wynaut",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Shadow Tag"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 23,
+        "defense": 48,
+        "special_attack": 23,
+        "special_defense": 48,
+        "speed": 23
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 202,
+      "hoenn_dex": 161,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wobbuffet",
+      "types": [
+        "Psychic"
+      ],
+      "abilities": [
+        "Shadow Tag"
+      ],
+      "base_stats": {
+        "hp": 190,
+        "attack": 33,
+        "defense": 58,
+        "special_attack": 33,
+        "special_defense": 58,
+        "speed": 33
+      },
+      "evolution": {
+        "from": "Wynaut",
+        "method": "level",
+        "level": 15
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 177,
+      "hoenn_dex": 162,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Natu",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 45,
+        "special_attack": 70,
+        "special_defense": 45,
+        "speed": 70
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 178,
+      "hoenn_dex": 163,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Xatu",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "abilities": [
+        "Synchronize",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 70,
+        "special_attack": 95,
+        "special_defense": 70,
+        "speed": 95
+      },
+      "evolution": {
+        "from": "Natu",
+        "method": "level",
+        "level": 25
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 203,
+      "hoenn_dex": 164,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Girafarig",
+      "types": [
+        "Normal",
+        "Psychic"
+      ],
+      "abilities": [
+        "Inner Focus",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 65,
+        "special_attack": 90,
+        "special_defense": 65,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 231,
+      "hoenn_dex": 165,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Phanpy",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 60,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 232,
+      "hoenn_dex": 166,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Donphan",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 120,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Phanpy",
+        "method": "level",
+        "level": 25
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 127,
+      "hoenn_dex": 167,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Pinsir",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Hyper Cutter"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "special_attack": 55,
+        "special_defense": 70,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 214,
+      "hoenn_dex": 168,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Heracross",
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "abilities": [
+        "Swarm",
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 75,
+        "special_attack": 40,
+        "special_defense": 95,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 111,
+      "hoenn_dex": 169,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Rhyhorn",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "abilities": [
+        "Lightning Rod",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 95,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 25
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 112,
+      "hoenn_dex": 170,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Rhydon",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "abilities": [
+        "Lightning Rod",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 105,
+        "attack": 130,
+        "defense": 120,
+        "special_attack": 45,
+        "special_defense": 45,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Rhyhorn",
+        "method": "level",
+        "level": 42
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 361,
+      "hoenn_dex": 171,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Snorunt",
+      "types": [
+        "Ice"
+      ],
+      "abilities": [
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 50,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 362,
+      "hoenn_dex": 172,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Glalie",
+      "types": [
+        "Ice"
+      ],
+      "abilities": [
+        "Inner Focus"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "special_attack": 80,
+        "special_defense": 80,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Snorunt",
+        "method": "level",
+        "level": 42
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 363,
+      "hoenn_dex": 173,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Spheal",
+      "types": [
+        "Ice",
+        "Water"
+      ],
+      "abilities": [
+        "Thick Fat"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 40,
+        "defense": 50,
+        "special_attack": 55,
+        "special_defense": 50,
+        "speed": 25
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 364,
+      "hoenn_dex": 174,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Sealeo",
+      "types": [
+        "Ice",
+        "Water"
+      ],
+      "abilities": [
+        "Thick Fat"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 70,
+        "special_attack": 75,
+        "special_defense": 70,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Spheal",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 365,
+      "hoenn_dex": 175,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Walrein",
+      "types": [
+        "Ice",
+        "Water"
+      ],
+      "abilities": [
+        "Thick Fat"
+      ],
+      "base_stats": {
+        "hp": 110,
+        "attack": 80,
+        "defense": 90,
+        "special_attack": 95,
+        "special_defense": 90,
+        "speed": 65
+      },
+      "evolution": {
+        "from": "Sealeo",
+        "method": "level",
+        "level": 44
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 366,
+      "hoenn_dex": 176,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Clamperl",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Shell Armor"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "attack": 64,
+        "defense": 85,
+        "special_attack": 74,
+        "special_defense": 55,
+        "speed": 32
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 367,
+      "hoenn_dex": 177,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Huntail",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 104,
+        "defense": 105,
+        "special_attack": 94,
+        "special_defense": 75,
+        "speed": 52
+      },
+      "evolution": {
+        "from": "Clamperl",
+        "method": "trade",
+        "item": "Deep Sea Tooth"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 368,
+      "hoenn_dex": 178,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Gorebyss",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 84,
+        "defense": 105,
+        "special_attack": 114,
+        "special_defense": 75,
+        "speed": 52
+      },
+      "evolution": {
+        "from": "Clamperl",
+        "method": "trade",
+        "item": "Deep Sea Scale"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 369,
+      "hoenn_dex": 179,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Relicanth",
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "abilities": [
+        "Swift Swim",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 90,
+        "defense": 130,
+        "special_attack": 45,
+        "special_defense": 65,
+        "speed": 55
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 222,
+      "hoenn_dex": 180,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Corsola",
+      "types": [
+        "Water",
+        "Rock"
+      ],
+      "abilities": [
+        "Hustle",
+        "Natural Cure"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 85,
+        "special_attack": 65,
+        "special_defense": 85,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 170,
+      "hoenn_dex": 181,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Chinchou",
+      "types": [
+        "Water",
+        "Electric"
+      ],
+      "abilities": [
+        "Volt Absorb",
+        "Illuminate"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 38,
+        "defense": 38,
+        "special_attack": 56,
+        "special_defense": 56,
+        "speed": 67
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 171,
+      "hoenn_dex": 182,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Lanturn",
+      "types": [
+        "Water",
+        "Electric"
+      ],
+      "abilities": [
+        "Volt Absorb",
+        "Illuminate"
+      ],
+      "base_stats": {
+        "hp": 125,
+        "attack": 58,
+        "defense": 58,
+        "special_attack": 76,
+        "special_defense": 76,
+        "speed": 67
+      },
+      "evolution": {
+        "from": "Chinchou",
+        "method": "level",
+        "level": 27
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 370,
+      "hoenn_dex": 183,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Luvdisc",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 43,
+        "attack": 30,
+        "defense": 55,
+        "special_attack": 40,
+        "special_defense": 65,
+        "speed": 97
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 116,
+      "hoenn_dex": 184,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild",
+        "in_game_trade"
+      ],
+      "name": "Horsea",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 70,
+        "special_attack": 70,
+        "special_defense": 25,
+        "speed": 60
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 117,
+      "hoenn_dex": 185,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Seadra",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Poison Point"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 95,
+        "special_attack": 95,
+        "special_defense": 45,
+        "speed": 85
+      },
+      "evolution": {
+        "from": "Horsea",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 230,
+      "hoenn_dex": 186,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Kingdra",
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "abilities": [
+        "Swift Swim"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 95,
+        "special_attack": 95,
+        "special_defense": 95,
+        "speed": 85
+      },
+      "evolution": {
+        "from": "Seadra",
+        "method": "trade",
+        "item": "Dragon Scale"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 371,
+      "hoenn_dex": 187,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Bagon",
+      "types": [
+        "Dragon"
+      ],
+      "abilities": [
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 75,
+        "defense": 60,
+        "special_attack": 40,
+        "special_defense": 30,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 372,
+      "hoenn_dex": 188,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Shelgon",
+      "types": [
+        "Dragon"
+      ],
+      "abilities": [
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 100,
+        "special_attack": 60,
+        "special_defense": 50,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Bagon",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 373,
+      "hoenn_dex": 189,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Salamence",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "abilities": [
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 135,
+        "defense": 80,
+        "special_attack": 110,
+        "special_defense": 80,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Shelgon",
+        "method": "level",
+        "level": 50
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 374,
+      "hoenn_dex": 190,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Beldum",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 80,
+        "special_attack": 35,
+        "special_defense": 60,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 375,
+      "hoenn_dex": 191,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Metang",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 100,
+        "special_attack": 55,
+        "special_defense": 80,
+        "speed": 50
+      },
+      "evolution": {
+        "from": "Beldum",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 376,
+      "hoenn_dex": 192,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Metagross",
+      "types": [
+        "Steel",
+        "Psychic"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 135,
+        "defense": 130,
+        "special_attack": 95,
+        "special_defense": 90,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Metang",
+        "method": "level",
+        "level": 45
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 377,
+      "hoenn_dex": 193,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Regirock",
+      "types": [
+        "Rock"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 200,
+        "special_attack": 50,
+        "special_defense": 100,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 378,
+      "hoenn_dex": 194,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Regice",
+      "types": [
+        "Ice"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 50,
+        "defense": 100,
+        "special_attack": 100,
+        "special_defense": 200,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 379,
+      "hoenn_dex": 195,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Registeel",
+      "types": [
+        "Steel"
+      ],
+      "abilities": [
+        "Clear Body"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 75,
+        "defense": 150,
+        "special_attack": 75,
+        "special_defense": 150,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 380,
+      "hoenn_dex": 196,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Latias",
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 90,
+        "special_attack": 110,
+        "special_defense": 130,
+        "speed": 110
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 381,
+      "hoenn_dex": 197,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Latios",
+      "types": [
+        "Dragon",
+        "Psychic"
+      ],
+      "abilities": [
+        "Levitate"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 90,
+        "defense": 80,
+        "special_attack": 130,
+        "special_defense": 110,
+        "speed": 110
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 382,
+      "hoenn_dex": 198,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Kyogre",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Drizzle"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 90,
+        "special_attack": 150,
+        "special_defense": 140,
+        "speed": 90
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 383,
+      "hoenn_dex": 199,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Groudon",
+      "types": [
+        "Ground"
+      ],
+      "abilities": [
+        "Drought"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 140,
+        "special_attack": 100,
+        "special_defense": 90,
+        "speed": 90
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 384,
+      "hoenn_dex": 200,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Rayquaza",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "abilities": [
+        "Air Lock"
+      ],
+      "base_stats": {
+        "hp": 105,
+        "attack": 150,
+        "defense": 90,
+        "special_attack": 150,
+        "special_defense": 90,
+        "speed": 95
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 52,
+      "hoenn_dex": 241,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "in_game_trade"
+      ],
+      "name": "Meowth",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 90
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 53,
+      "hoenn_dex": 242,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Persian",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Limber"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 70,
+        "defense": 60,
+        "special_attack": 65,
+        "special_defense": 65,
+        "speed": 115
+      },
+      "evolution": {
+        "from": "Meowth",
+        "method": "level",
+        "level": 28
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 132,
+      "hoenn_dex": 287,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Ditto",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Limber"
+      ],
+      "base_stats": {
+        "hp": 48,
+        "attack": 48,
+        "defense": 48,
+        "special_attack": 48,
+        "special_defense": 48,
+        "speed": 48
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 152,
+      "hoenn_dex": 307,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Chikorita",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 65,
+        "special_attack": 49,
+        "special_defense": 65,
+        "speed": 45
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 153,
+      "hoenn_dex": 308,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Bayleef",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 62,
+        "defense": 80,
+        "special_attack": 63,
+        "special_defense": 80,
+        "speed": 60
+      },
+      "evolution": {
+        "from": "Chikorita",
+        "method": "level",
+        "level": 16
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 154,
+      "hoenn_dex": 309,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Meganium",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Overgrow"
+      ],
+      "base_stats": {
+        "hp": 80,
+        "attack": 82,
+        "defense": 100,
+        "special_attack": 83,
+        "special_defense": 100,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Bayleef",
+        "method": "level",
+        "level": 32
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 155,
+      "hoenn_dex": 310,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Cyndaquil",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "special_attack": 60,
+        "special_defense": 50,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 156,
+      "hoenn_dex": 311,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Quilava",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "special_attack": 80,
+        "special_defense": 65,
+        "speed": 80
+      },
+      "evolution": {
+        "from": "Cyndaquil",
+        "method": "level",
+        "level": 14
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 157,
+      "hoenn_dex": 312,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Typhlosion",
+      "types": [
+        "Fire"
+      ],
+      "abilities": [
+        "Blaze"
+      ],
+      "base_stats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "special_attack": 109,
+        "special_defense": 85,
+        "speed": 100
+      },
+      "evolution": {
+        "from": "Quilava",
+        "method": "level",
+        "level": 36
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 158,
+      "hoenn_dex": 313,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Totodile",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 64,
+        "special_attack": 44,
+        "special_defense": 48,
+        "speed": 43
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 159,
+      "hoenn_dex": 314,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Croconaw",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 80,
+        "special_attack": 59,
+        "special_defense": 63,
+        "speed": 58
+      },
+      "evolution": {
+        "from": "Totodile",
+        "method": "level",
+        "level": 18
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 160,
+      "hoenn_dex": 315,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Feraligatr",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Torrent"
+      ],
+      "base_stats": {
+        "hp": 85,
+        "attack": 105,
+        "defense": 100,
+        "special_attack": 79,
+        "special_defense": 83,
+        "speed": 78
+      },
+      "evolution": {
+        "from": "Croconaw",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 163,
+      "hoenn_dex": 318,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Hoothoot",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Insomnia",
+        "Keen Eye"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 30,
+        "defense": 30,
+        "special_attack": 36,
+        "special_defense": 56,
+        "speed": 50
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 164,
+      "hoenn_dex": 319,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Noctowl",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "abilities": [
+        "Insomnia",
+        "Keen Eye"
+      ],
+      "base_stats": {
+        "hp": 100,
+        "attack": 50,
+        "defense": 50,
+        "special_attack": 76,
+        "special_defense": 96,
+        "speed": 70
+      },
+      "evolution": {
+        "from": "Hoothoot",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 165,
+      "hoenn_dex": 320,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Ledyba",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "abilities": [
+        "Swarm",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 20,
+        "defense": 30,
+        "special_attack": 40,
+        "special_defense": 80,
+        "speed": 55
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 166,
+      "hoenn_dex": 321,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ledian",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "abilities": [
+        "Swarm",
+        "Early Bird"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 35,
+        "defense": 50,
+        "special_attack": 55,
+        "special_defense": 110,
+        "speed": 85
+      },
+      "evolution": {
+        "from": "Ledyba",
+        "method": "level",
+        "level": 18
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 167,
+      "hoenn_dex": 322,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Spinarak",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "abilities": [
+        "Swarm",
+        "Insomnia"
+      ],
+      "base_stats": {
+        "hp": 40,
+        "attack": 60,
+        "defense": 40,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 168,
+      "hoenn_dex": 323,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ariados",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "abilities": [
+        "Swarm",
+        "Insomnia"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 70,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Spinarak",
+        "method": "level",
+        "level": 22
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 179,
+      "hoenn_dex": 327,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Mareep",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 40,
+        "special_attack": 65,
+        "special_defense": 45,
+        "speed": 35
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 180,
+      "hoenn_dex": 328,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Flaaffy",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 55,
+        "special_attack": 80,
+        "special_defense": 60,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Mareep",
+        "method": "level",
+        "level": 15
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 181,
+      "hoenn_dex": 329,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ampharos",
+      "types": [
+        "Electric"
+      ],
+      "abilities": [
+        "Static"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 75,
+        "defense": 75,
+        "special_attack": 115,
+        "special_defense": 90,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Flaaffy",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 185,
+      "hoenn_dex": 330,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "gift_or_static"
+      ],
+      "name": "Sudowoodo",
+      "types": [
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy",
+        "Rock Head"
+      ],
+      "base_stats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 115,
+        "special_attack": 30,
+        "special_defense": 65,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 190,
+      "hoenn_dex": 335,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Aipom",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Run Away",
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 55,
+        "special_attack": 40,
+        "special_defense": 55,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 191,
+      "hoenn_dex": 336,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Sunkern",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "special_attack": 30,
+        "special_defense": 30,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 192,
+      "hoenn_dex": 337,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Sunflora",
+      "types": [
+        "Grass"
+      ],
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 75,
+        "defense": 55,
+        "special_attack": 105,
+        "special_defense": 85,
+        "speed": 30
+      },
+      "evolution": {
+        "from": "Sunkern",
+        "method": "stone",
+        "item": "Sun Stone"
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 194,
+      "hoenn_dex": 339,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Wooper",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Damp",
+        "Water Absorb"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 45,
+        "defense": 45,
+        "special_attack": 25,
+        "special_defense": 25,
+        "speed": 15
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 195,
+      "hoenn_dex": 340,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Quagsire",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "abilities": [
+        "Damp",
+        "Water Absorb"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 85,
+        "defense": 85,
+        "special_attack": 65,
+        "special_defense": 65,
+        "speed": 35
+      },
+      "evolution": {
+        "from": "Wooper",
+        "method": "level",
+        "level": 20
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 204,
+      "hoenn_dex": 347,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Pineco",
+      "types": [
+        "Bug"
+      ],
+      "abilities": [
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 90,
+        "special_attack": 35,
+        "special_defense": 35,
+        "speed": 15
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 205,
+      "hoenn_dex": 348,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Forretress",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "abilities": [
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 140,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 40
+      },
+      "evolution": {
+        "from": "Pineco",
+        "method": "level",
+        "level": 31
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 207,
+      "hoenn_dex": 350,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Gligar",
+      "types": [
+        "Ground",
+        "Flying"
+      ],
+      "abilities": [
+        "Hyper Cutter",
+        "Sand Veil"
+      ],
+      "base_stats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 105,
+        "special_attack": 35,
+        "special_defense": 65,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 209,
+      "hoenn_dex": 352,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Snubbull",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Intimidate",
+        "Run Away"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 50,
+        "special_attack": 40,
+        "special_defense": 40,
+        "speed": 30
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 210,
+      "hoenn_dex": 353,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Granbull",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 75,
+        "special_attack": 60,
+        "special_defense": 60,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Snubbull",
+        "method": "level",
+        "level": 23
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 213,
+      "hoenn_dex": 356,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Shuckle",
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "abilities": [
+        "Sturdy"
+      ],
+      "base_stats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 230,
+        "special_attack": 10,
+        "special_defense": 230,
+        "speed": 5
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 216,
+      "hoenn_dex": 358,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Teddiursa",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Pickup"
+      ],
+      "base_stats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 50,
+        "special_attack": 50,
+        "special_defense": 50,
+        "speed": 40
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 217,
+      "hoenn_dex": 359,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Ursaring",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Guts"
+      ],
+      "base_stats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 75,
+        "special_attack": 75,
+        "special_defense": 75,
+        "speed": 55
+      },
+      "evolution": {
+        "from": "Teddiursa",
+        "method": "level",
+        "level": 30
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 223,
+      "hoenn_dex": 362,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Remoraid",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Hustle"
+      ],
+      "base_stats": {
+        "hp": 35,
+        "attack": 65,
+        "defense": 35,
+        "special_attack": 65,
+        "special_defense": 35,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 224,
+      "hoenn_dex": 363,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Octillery",
+      "types": [
+        "Water"
+      ],
+      "abilities": [
+        "Suction Cups"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 105,
+        "defense": 75,
+        "special_attack": 105,
+        "special_defense": 75,
+        "speed": 45
+      },
+      "evolution": {
+        "from": "Remoraid",
+        "method": "level",
+        "level": 25
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 228,
+      "hoenn_dex": 366,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Houndour",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "abilities": [
+        "Early Bird",
+        "Flash Fire"
+      ],
+      "base_stats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 30,
+        "special_attack": 80,
+        "special_defense": 50,
+        "speed": 65
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 229,
+      "hoenn_dex": 367,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "evolution"
+      ],
+      "name": "Houndoom",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "abilities": [
+        "Early Bird",
+        "Flash Fire"
+      ],
+      "base_stats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 50,
+        "special_attack": 110,
+        "special_defense": 80,
+        "speed": 95
+      },
+      "evolution": {
+        "from": "Houndour",
+        "method": "level",
+        "level": 24
+      },
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 234,
+      "hoenn_dex": 369,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Stantler",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Intimidate"
+      ],
+      "base_stats": {
+        "hp": 73,
+        "attack": 95,
+        "defense": 62,
+        "special_attack": 85,
+        "special_defense": 65,
+        "speed": 85
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 235,
+      "hoenn_dex": 370,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Smeargle",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Own Tempo"
+      ],
+      "base_stats": {
+        "hp": 55,
+        "attack": 20,
+        "defense": 35,
+        "special_attack": 20,
+        "special_defense": 45,
+        "speed": 75
+      },
+      "evolution": null,
+      "data_status": "verified"
+    },
+    {
+      "national_dex": 241,
+      "hoenn_dex": 376,
+      "in_hoenn_dex": true,
+      "obtainable_in_emerald": true,
+      "obtainability_methods": [
+        "wild"
+      ],
+      "name": "Miltank",
+      "types": [
+        "Normal"
+      ],
+      "abilities": [
+        "Thick Fat"
+      ],
+      "base_stats": {
+        "hp": 95,
+        "attack": 80,
+        "defense": 105,
+        "special_attack": 40,
+        "special_defense": 70,
+        "speed": 100
+      },
+      "evolution": null,
+      "data_status": "verified"
+    }
+  ],
+  "unobtainable_in_emerald": [
+    "Bulbasaur",
+    "Ivysaur",
+    "Venusaur",
+    "Charmander",
+    "Charmeleon",
+    "Charizard",
+    "Squirtle",
+    "Wartortle",
+    "Blastoise",
+    "Caterpie",
+    "Metapod",
+    "Butterfree",
+    "Weedle",
+    "Kakuna",
+    "Beedrill",
+    "Pidgey",
+    "Pidgeotto",
+    "Pidgeot",
+    "Rattata",
+    "Raticate",
+    "Spearow",
+    "Fearow",
+    "Ekans",
+    "Arbok",
+    "Nidoran-F",
+    "Nidorina",
+    "Nidoqueen",
+    "Nidoran-M",
+    "Nidorino",
+    "Nidoking",
+    "Clefairy",
+    "Clefable",
+    "Paras",
+    "Parasect",
+    "Venonat",
+    "Venomoth",
+    "Diglett",
+    "Dugtrio",
+    "Mankey",
+    "Primeape",
+    "Growlithe",
+    "Arcanine",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Bellsprout",
+    "Weepinbell",
+    "Victreebel",
+    "Ponyta",
+    "Rapidash",
+    "Slowpoke",
+    "Slowbro",
+    "Farfetch'd",
+    "Seel",
+    "Dewgong",
+    "Shellder",
+    "Cloyster",
+    "Gastly",
+    "Haunter",
+    "Gengar",
+    "Onix",
+    "Drowzee",
+    "Hypno",
+    "Krabby",
+    "Kingler",
+    "Exeggcute",
+    "Exeggutor",
+    "Cubone",
+    "Marowak",
+    "Hitmonlee",
+    "Hitmonchan",
+    "Lickitung",
+    "Chansey",
+    "Tangela",
+    "Kangaskhan",
+    "Mr. Mime",
+    "Scyther",
+    "Jynx",
+    "Electabuzz",
+    "Magmar",
+    "Tauros",
+    "Lapras",
+    "Eevee",
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Porygon",
+    "Omanyte",
+    "Omastar",
+    "Kabuto",
+    "Kabutops",
+    "Aerodactyl",
+    "Snorlax",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Dratini",
+    "Dragonair",
+    "Dragonite",
+    "Mewtwo",
+    "Mew",
+    "Sentret",
+    "Furret",
+    "Cleffa",
+    "Togepi",
+    "Togetic",
+    "Politoed",
+    "Hoppip",
+    "Skiploom",
+    "Jumpluff",
+    "Yanma",
+    "Espeon",
+    "Umbreon",
+    "Murkrow",
+    "Slowking",
+    "Misdreavus",
+    "Unown",
+    "Dunsparce",
+    "Steelix",
+    "Qwilfish",
+    "Scizor",
+    "Sneasel",
+    "Swinub",
+    "Piloswine",
+    "Delibird",
+    "Mantine",
+    "Porygon2",
+    "Tyrogue",
+    "Hitmontop",
+    "Smoochum",
+    "Elekid",
+    "Magby",
+    "Blissey",
+    "Raikou",
+    "Entei",
+    "Suicune",
+    "Larvitar",
+    "Pupitar",
+    "Tyranitar",
+    "Lugia",
+    "Ho-Oh",
+    "Celebi",
+    "Surskit",
+    "Masquerain",
+    "Feebas",
+    "Milotic",
+    "Lunatone",
+    "Meditite",
+    "Medicham",
+    "Roselia",
+    "Zangoose",
+    "Jirachi",
+    "Deoxys"
+  ],
+  "data_policy": [
+    "Use Generation III typings; Fairy type does not exist in this game.",
+    "Only species normally obtainable in-game in Pokemon Emerald are included in the pokemon array.",
+    "Species listed under unobtainable_in_emerald exist in Generation III code but cannot be obtained normally in-game in Emerald.",
+    "Do not infer moves, locations, or other facts from later-generation games."
+  ],
+  "sources": [
+    "https://github.com/pret/pokeemerald/blob/master/include/constants/pokedex.h",
+    "https://github.com/pret/pokeemerald/blob/master/src/data/pokemon/species_info.h",
+    "https://github.com/pret/pokeemerald/blob/master/src/data/pokemon/evolution.h",
+    "https://github.com/pret/pokeemerald/blob/master/src/data/wild_encounters.json"
+  ]
+}

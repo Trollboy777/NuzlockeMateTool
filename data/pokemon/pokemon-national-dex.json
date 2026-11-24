@@ -1,0 +1,6156 @@
+{
+  "source": "PokeAPI (pokemon_species.csv)",
+  "total_species": 1025,
+  "pokemon": [
+    {
+      "national_dex": 1,
+      "name": "Bulbasaur",
+      "identifier": "bulbasaur",
+      "generation": 1
+    },
+    {
+      "national_dex": 2,
+      "name": "Ivysaur",
+      "identifier": "ivysaur",
+      "generation": 1
+    },
+    {
+      "national_dex": 3,
+      "name": "Venusaur",
+      "identifier": "venusaur",
+      "generation": 1
+    },
+    {
+      "national_dex": 4,
+      "name": "Charmander",
+      "identifier": "charmander",
+      "generation": 1
+    },
+    {
+      "national_dex": 5,
+      "name": "Charmeleon",
+      "identifier": "charmeleon",
+      "generation": 1
+    },
+    {
+      "national_dex": 6,
+      "name": "Charizard",
+      "identifier": "charizard",
+      "generation": 1
+    },
+    {
+      "national_dex": 7,
+      "name": "Squirtle",
+      "identifier": "squirtle",
+      "generation": 1
+    },
+    {
+      "national_dex": 8,
+      "name": "Wartortle",
+      "identifier": "wartortle",
+      "generation": 1
+    },
+    {
+      "national_dex": 9,
+      "name": "Blastoise",
+      "identifier": "blastoise",
+      "generation": 1
+    },
+    {
+      "national_dex": 10,
+      "name": "Caterpie",
+      "identifier": "caterpie",
+      "generation": 1
+    },
+    {
+      "national_dex": 11,
+      "name": "Metapod",
+      "identifier": "metapod",
+      "generation": 1
+    },
+    {
+      "national_dex": 12,
+      "name": "Butterfree",
+      "identifier": "butterfree",
+      "generation": 1
+    },
+    {
+      "national_dex": 13,
+      "name": "Weedle",
+      "identifier": "weedle",
+      "generation": 1
+    },
+    {
+      "national_dex": 14,
+      "name": "Kakuna",
+      "identifier": "kakuna",
+      "generation": 1
+    },
+    {
+      "national_dex": 15,
+      "name": "Beedrill",
+      "identifier": "beedrill",
+      "generation": 1
+    },
+    {
+      "national_dex": 16,
+      "name": "Pidgey",
+      "identifier": "pidgey",
+      "generation": 1
+    },
+    {
+      "national_dex": 17,
+      "name": "Pidgeotto",
+      "identifier": "pidgeotto",
+      "generation": 1
+    },
+    {
+      "national_dex": 18,
+      "name": "Pidgeot",
+      "identifier": "pidgeot",
+      "generation": 1
+    },
+    {
+      "national_dex": 19,
+      "name": "Rattata",
+      "identifier": "rattata",
+      "generation": 1
+    },
+    {
+      "national_dex": 20,
+      "name": "Raticate",
+      "identifier": "raticate",
+      "generation": 1
+    },
+    {
+      "national_dex": 21,
+      "name": "Spearow",
+      "identifier": "spearow",
+      "generation": 1
+    },
+    {
+      "national_dex": 22,
+      "name": "Fearow",
+      "identifier": "fearow",
+      "generation": 1
+    },
+    {
+      "national_dex": 23,
+      "name": "Ekans",
+      "identifier": "ekans",
+      "generation": 1
+    },
+    {
+      "national_dex": 24,
+      "name": "Arbok",
+      "identifier": "arbok",
+      "generation": 1
+    },
+    {
+      "national_dex": 25,
+      "name": "Pikachu",
+      "identifier": "pikachu",
+      "generation": 1
+    },
+    {
+      "national_dex": 26,
+      "name": "Raichu",
+      "identifier": "raichu",
+      "generation": 1
+    },
+    {
+      "national_dex": 27,
+      "name": "Sandshrew",
+      "identifier": "sandshrew",
+      "generation": 1
+    },
+    {
+      "national_dex": 28,
+      "name": "Sandslash",
+      "identifier": "sandslash",
+      "generation": 1
+    },
+    {
+      "national_dex": 29,
+      "name": "Nidoran-F",
+      "identifier": "nidoran-f",
+      "generation": 1
+    },
+    {
+      "national_dex": 30,
+      "name": "Nidorina",
+      "identifier": "nidorina",
+      "generation": 1
+    },
+    {
+      "national_dex": 31,
+      "name": "Nidoqueen",
+      "identifier": "nidoqueen",
+      "generation": 1
+    },
+    {
+      "national_dex": 32,
+      "name": "Nidoran-M",
+      "identifier": "nidoran-m",
+      "generation": 1
+    },
+    {
+      "national_dex": 33,
+      "name": "Nidorino",
+      "identifier": "nidorino",
+      "generation": 1
+    },
+    {
+      "national_dex": 34,
+      "name": "Nidoking",
+      "identifier": "nidoking",
+      "generation": 1
+    },
+    {
+      "national_dex": 35,
+      "name": "Clefairy",
+      "identifier": "clefairy",
+      "generation": 1
+    },
+    {
+      "national_dex": 36,
+      "name": "Clefable",
+      "identifier": "clefable",
+      "generation": 1
+    },
+    {
+      "national_dex": 37,
+      "name": "Vulpix",
+      "identifier": "vulpix",
+      "generation": 1
+    },
+    {
+      "national_dex": 38,
+      "name": "Ninetales",
+      "identifier": "ninetales",
+      "generation": 1
+    },
+    {
+      "national_dex": 39,
+      "name": "Jigglypuff",
+      "identifier": "jigglypuff",
+      "generation": 1
+    },
+    {
+      "national_dex": 40,
+      "name": "Wigglytuff",
+      "identifier": "wigglytuff",
+      "generation": 1
+    },
+    {
+      "national_dex": 41,
+      "name": "Zubat",
+      "identifier": "zubat",
+      "generation": 1
+    },
+    {
+      "national_dex": 42,
+      "name": "Golbat",
+      "identifier": "golbat",
+      "generation": 1
+    },
+    {
+      "national_dex": 43,
+      "name": "Oddish",
+      "identifier": "oddish",
+      "generation": 1
+    },
+    {
+      "national_dex": 44,
+      "name": "Gloom",
+      "identifier": "gloom",
+      "generation": 1
+    },
+    {
+      "national_dex": 45,
+      "name": "Vileplume",
+      "identifier": "vileplume",
+      "generation": 1
+    },
+    {
+      "national_dex": 46,
+      "name": "Paras",
+      "identifier": "paras",
+      "generation": 1
+    },
+    {
+      "national_dex": 47,
+      "name": "Parasect",
+      "identifier": "parasect",
+      "generation": 1
+    },
+    {
+      "national_dex": 48,
+      "name": "Venonat",
+      "identifier": "venonat",
+      "generation": 1
+    },
+    {
+      "national_dex": 49,
+      "name": "Venomoth",
+      "identifier": "venomoth",
+      "generation": 1
+    },
+    {
+      "national_dex": 50,
+      "name": "Diglett",
+      "identifier": "diglett",
+      "generation": 1
+    },
+    {
+      "national_dex": 51,
+      "name": "Dugtrio",
+      "identifier": "dugtrio",
+      "generation": 1
+    },
+    {
+      "national_dex": 52,
+      "name": "Meowth",
+      "identifier": "meowth",
+      "generation": 1
+    },
+    {
+      "national_dex": 53,
+      "name": "Persian",
+      "identifier": "persian",
+      "generation": 1
+    },
+    {
+      "national_dex": 54,
+      "name": "Psyduck",
+      "identifier": "psyduck",
+      "generation": 1
+    },
+    {
+      "national_dex": 55,
+      "name": "Golduck",
+      "identifier": "golduck",
+      "generation": 1
+    },
+    {
+      "national_dex": 56,
+      "name": "Mankey",
+      "identifier": "mankey",
+      "generation": 1
+    },
+    {
+      "national_dex": 57,
+      "name": "Primeape",
+      "identifier": "primeape",
+      "generation": 1
+    },
+    {
+      "national_dex": 58,
+      "name": "Growlithe",
+      "identifier": "growlithe",
+      "generation": 1
+    },
+    {
+      "national_dex": 59,
+      "name": "Arcanine",
+      "identifier": "arcanine",
+      "generation": 1
+    },
+    {
+      "national_dex": 60,
+      "name": "Poliwag",
+      "identifier": "poliwag",
+      "generation": 1
+    },
+    {
+      "national_dex": 61,
+      "name": "Poliwhirl",
+      "identifier": "poliwhirl",
+      "generation": 1
+    },
+    {
+      "national_dex": 62,
+      "name": "Poliwrath",
+      "identifier": "poliwrath",
+      "generation": 1
+    },
+    {
+      "national_dex": 63,
+      "name": "Abra",
+      "identifier": "abra",
+      "generation": 1
+    },
+    {
+      "national_dex": 64,
+      "name": "Kadabra",
+      "identifier": "kadabra",
+      "generation": 1
+    },
+    {
+      "national_dex": 65,
+      "name": "Alakazam",
+      "identifier": "alakazam",
+      "generation": 1
+    },
+    {
+      "national_dex": 66,
+      "name": "Machop",
+      "identifier": "machop",
+      "generation": 1
+    },
+    {
+      "national_dex": 67,
+      "name": "Machoke",
+      "identifier": "machoke",
+      "generation": 1
+    },
+    {
+      "national_dex": 68,
+      "name": "Machamp",
+      "identifier": "machamp",
+      "generation": 1
+    },
+    {
+      "national_dex": 69,
+      "name": "Bellsprout",
+      "identifier": "bellsprout",
+      "generation": 1
+    },
+    {
+      "national_dex": 70,
+      "name": "Weepinbell",
+      "identifier": "weepinbell",
+      "generation": 1
+    },
+    {
+      "national_dex": 71,
+      "name": "Victreebel",
+      "identifier": "victreebel",
+      "generation": 1
+    },
+    {
+      "national_dex": 72,
+      "name": "Tentacool",
+      "identifier": "tentacool",
+      "generation": 1
+    },
+    {
+      "national_dex": 73,
+      "name": "Tentacruel",
+      "identifier": "tentacruel",
+      "generation": 1
+    },
+    {
+      "national_dex": 74,
+      "name": "Geodude",
+      "identifier": "geodude",
+      "generation": 1
+    },
+    {
+      "national_dex": 75,
+      "name": "Graveler",
+      "identifier": "graveler",
+      "generation": 1
+    },
+    {
+      "national_dex": 76,
+      "name": "Golem",
+      "identifier": "golem",
+      "generation": 1
+    },
+    {
+      "national_dex": 77,
+      "name": "Ponyta",
+      "identifier": "ponyta",
+      "generation": 1
+    },
+    {
+      "national_dex": 78,
+      "name": "Rapidash",
+      "identifier": "rapidash",
+      "generation": 1
+    },
+    {
+      "national_dex": 79,
+      "name": "Slowpoke",
+      "identifier": "slowpoke",
+      "generation": 1
+    },
+    {
+      "national_dex": 80,
+      "name": "Slowbro",
+      "identifier": "slowbro",
+      "generation": 1
+    },
+    {
+      "national_dex": 81,
+      "name": "Magnemite",
+      "identifier": "magnemite",
+      "generation": 1
+    },
+    {
+      "national_dex": 82,
+      "name": "Magneton",
+      "identifier": "magneton",
+      "generation": 1
+    },
+    {
+      "national_dex": 83,
+      "name": "Farfetch'd",
+      "identifier": "farfetchd",
+      "generation": 1
+    },
+    {
+      "national_dex": 84,
+      "name": "Doduo",
+      "identifier": "doduo",
+      "generation": 1
+    },
+    {
+      "national_dex": 85,
+      "name": "Dodrio",
+      "identifier": "dodrio",
+      "generation": 1
+    },
+    {
+      "national_dex": 86,
+      "name": "Seel",
+      "identifier": "seel",
+      "generation": 1
+    },
+    {
+      "national_dex": 87,
+      "name": "Dewgong",
+      "identifier": "dewgong",
+      "generation": 1
+    },
+    {
+      "national_dex": 88,
+      "name": "Grimer",
+      "identifier": "grimer",
+      "generation": 1
+    },
+    {
+      "national_dex": 89,
+      "name": "Muk",
+      "identifier": "muk",
+      "generation": 1
+    },
+    {
+      "national_dex": 90,
+      "name": "Shellder",
+      "identifier": "shellder",
+      "generation": 1
+    },
+    {
+      "national_dex": 91,
+      "name": "Cloyster",
+      "identifier": "cloyster",
+      "generation": 1
+    },
+    {
+      "national_dex": 92,
+      "name": "Gastly",
+      "identifier": "gastly",
+      "generation": 1
+    },
+    {
+      "national_dex": 93,
+      "name": "Haunter",
+      "identifier": "haunter",
+      "generation": 1
+    },
+    {
+      "national_dex": 94,
+      "name": "Gengar",
+      "identifier": "gengar",
+      "generation": 1
+    },
+    {
+      "national_dex": 95,
+      "name": "Onix",
+      "identifier": "onix",
+      "generation": 1
+    },
+    {
+      "national_dex": 96,
+      "name": "Drowzee",
+      "identifier": "drowzee",
+      "generation": 1
+    },
+    {
+      "national_dex": 97,
+      "name": "Hypno",
+      "identifier": "hypno",
+      "generation": 1
+    },
+    {
+      "national_dex": 98,
+      "name": "Krabby",
+      "identifier": "krabby",
+      "generation": 1
+    },
+    {
+      "national_dex": 99,
+      "name": "Kingler",
+      "identifier": "kingler",
+      "generation": 1
+    },
+    {
+      "national_dex": 100,
+      "name": "Voltorb",
+      "identifier": "voltorb",
+      "generation": 1
+    },
+    {
+      "national_dex": 101,
+      "name": "Electrode",
+      "identifier": "electrode",
+      "generation": 1
+    },
+    {
+      "national_dex": 102,
+      "name": "Exeggcute",
+      "identifier": "exeggcute",
+      "generation": 1
+    },
+    {
+      "national_dex": 103,
+      "name": "Exeggutor",
+      "identifier": "exeggutor",
+      "generation": 1
+    },
+    {
+      "national_dex": 104,
+      "name": "Cubone",
+      "identifier": "cubone",
+      "generation": 1
+    },
+    {
+      "national_dex": 105,
+      "name": "Marowak",
+      "identifier": "marowak",
+      "generation": 1
+    },
+    {
+      "national_dex": 106,
+      "name": "Hitmonlee",
+      "identifier": "hitmonlee",
+      "generation": 1
+    },
+    {
+      "national_dex": 107,
+      "name": "Hitmonchan",
+      "identifier": "hitmonchan",
+      "generation": 1
+    },
+    {
+      "national_dex": 108,
+      "name": "Lickitung",
+      "identifier": "lickitung",
+      "generation": 1
+    },
+    {
+      "national_dex": 109,
+      "name": "Koffing",
+      "identifier": "koffing",
+      "generation": 1
+    },
+    {
+      "national_dex": 110,
+      "name": "Weezing",
+      "identifier": "weezing",
+      "generation": 1
+    },
+    {
+      "national_dex": 111,
+      "name": "Rhyhorn",
+      "identifier": "rhyhorn",
+      "generation": 1
+    },
+    {
+      "national_dex": 112,
+      "name": "Rhydon",
+      "identifier": "rhydon",
+      "generation": 1
+    },
+    {
+      "national_dex": 113,
+      "name": "Chansey",
+      "identifier": "chansey",
+      "generation": 1
+    },
+    {
+      "national_dex": 114,
+      "name": "Tangela",
+      "identifier": "tangela",
+      "generation": 1
+    },
+    {
+      "national_dex": 115,
+      "name": "Kangaskhan",
+      "identifier": "kangaskhan",
+      "generation": 1
+    },
+    {
+      "national_dex": 116,
+      "name": "Horsea",
+      "identifier": "horsea",
+      "generation": 1
+    },
+    {
+      "national_dex": 117,
+      "name": "Seadra",
+      "identifier": "seadra",
+      "generation": 1
+    },
+    {
+      "national_dex": 118,
+      "name": "Goldeen",
+      "identifier": "goldeen",
+      "generation": 1
+    },
+    {
+      "national_dex": 119,
+      "name": "Seaking",
+      "identifier": "seaking",
+      "generation": 1
+    },
+    {
+      "national_dex": 120,
+      "name": "Staryu",
+      "identifier": "staryu",
+      "generation": 1
+    },
+    {
+      "national_dex": 121,
+      "name": "Starmie",
+      "identifier": "starmie",
+      "generation": 1
+    },
+    {
+      "national_dex": 122,
+      "name": "Mr. Mime",
+      "identifier": "mr-mime",
+      "generation": 1
+    },
+    {
+      "national_dex": 123,
+      "name": "Scyther",
+      "identifier": "scyther",
+      "generation": 1
+    },
+    {
+      "national_dex": 124,
+      "name": "Jynx",
+      "identifier": "jynx",
+      "generation": 1
+    },
+    {
+      "national_dex": 125,
+      "name": "Electabuzz",
+      "identifier": "electabuzz",
+      "generation": 1
+    },
+    {
+      "national_dex": 126,
+      "name": "Magmar",
+      "identifier": "magmar",
+      "generation": 1
+    },
+    {
+      "national_dex": 127,
+      "name": "Pinsir",
+      "identifier": "pinsir",
+      "generation": 1
+    },
+    {
+      "national_dex": 128,
+      "name": "Tauros",
+      "identifier": "tauros",
+      "generation": 1
+    },
+    {
+      "national_dex": 129,
+      "name": "Magikarp",
+      "identifier": "magikarp",
+      "generation": 1
+    },
+    {
+      "national_dex": 130,
+      "name": "Gyarados",
+      "identifier": "gyarados",
+      "generation": 1
+    },
+    {
+      "national_dex": 131,
+      "name": "Lapras",
+      "identifier": "lapras",
+      "generation": 1
+    },
+    {
+      "national_dex": 132,
+      "name": "Ditto",
+      "identifier": "ditto",
+      "generation": 1
+    },
+    {
+      "national_dex": 133,
+      "name": "Eevee",
+      "identifier": "eevee",
+      "generation": 1
+    },
+    {
+      "national_dex": 134,
+      "name": "Vaporeon",
+      "identifier": "vaporeon",
+      "generation": 1
+    },
+    {
+      "national_dex": 135,
+      "name": "Jolteon",
+      "identifier": "jolteon",
+      "generation": 1
+    },
+    {
+      "national_dex": 136,
+      "name": "Flareon",
+      "identifier": "flareon",
+      "generation": 1
+    },
+    {
+      "national_dex": 137,
+      "name": "Porygon",
+      "identifier": "porygon",
+      "generation": 1
+    },
+    {
+      "national_dex": 138,
+      "name": "Omanyte",
+      "identifier": "omanyte",
+      "generation": 1
+    },
+    {
+      "national_dex": 139,
+      "name": "Omastar",
+      "identifier": "omastar",
+      "generation": 1
+    },
+    {
+      "national_dex": 140,
+      "name": "Kabuto",
+      "identifier": "kabuto",
+      "generation": 1
+    },
+    {
+      "national_dex": 141,
+      "name": "Kabutops",
+      "identifier": "kabutops",
+      "generation": 1
+    },
+    {
+      "national_dex": 142,
+      "name": "Aerodactyl",
+      "identifier": "aerodactyl",
+      "generation": 1
+    },
+    {
+      "national_dex": 143,
+      "name": "Snorlax",
+      "identifier": "snorlax",
+      "generation": 1
+    },
+    {
+      "national_dex": 144,
+      "name": "Articuno",
+      "identifier": "articuno",
+      "generation": 1
+    },
+    {
+      "national_dex": 145,
+      "name": "Zapdos",
+      "identifier": "zapdos",
+      "generation": 1
+    },
+    {
+      "national_dex": 146,
+      "name": "Moltres",
+      "identifier": "moltres",
+      "generation": 1
+    },
+    {
+      "national_dex": 147,
+      "name": "Dratini",
+      "identifier": "dratini",
+      "generation": 1
+    },
+    {
+      "national_dex": 148,
+      "name": "Dragonair",
+      "identifier": "dragonair",
+      "generation": 1
+    },
+    {
+      "national_dex": 149,
+      "name": "Dragonite",
+      "identifier": "dragonite",
+      "generation": 1
+    },
+    {
+      "national_dex": 150,
+      "name": "Mewtwo",
+      "identifier": "mewtwo",
+      "generation": 1
+    },
+    {
+      "national_dex": 151,
+      "name": "Mew",
+      "identifier": "mew",
+      "generation": 1
+    },
+    {
+      "national_dex": 152,
+      "name": "Chikorita",
+      "identifier": "chikorita",
+      "generation": 2
+    },
+    {
+      "national_dex": 153,
+      "name": "Bayleef",
+      "identifier": "bayleef",
+      "generation": 2
+    },
+    {
+      "national_dex": 154,
+      "name": "Meganium",
+      "identifier": "meganium",
+      "generation": 2
+    },
+    {
+      "national_dex": 155,
+      "name": "Cyndaquil",
+      "identifier": "cyndaquil",
+      "generation": 2
+    },
+    {
+      "national_dex": 156,
+      "name": "Quilava",
+      "identifier": "quilava",
+      "generation": 2
+    },
+    {
+      "national_dex": 157,
+      "name": "Typhlosion",
+      "identifier": "typhlosion",
+      "generation": 2
+    },
+    {
+      "national_dex": 158,
+      "name": "Totodile",
+      "identifier": "totodile",
+      "generation": 2
+    },
+    {
+      "national_dex": 159,
+      "name": "Croconaw",
+      "identifier": "croconaw",
+      "generation": 2
+    },
+    {
+      "national_dex": 160,
+      "name": "Feraligatr",
+      "identifier": "feraligatr",
+      "generation": 2
+    },
+    {
+      "national_dex": 161,
+      "name": "Sentret",
+      "identifier": "sentret",
+      "generation": 2
+    },
+    {
+      "national_dex": 162,
+      "name": "Furret",
+      "identifier": "furret",
+      "generation": 2
+    },
+    {
+      "national_dex": 163,
+      "name": "Hoothoot",
+      "identifier": "hoothoot",
+      "generation": 2
+    },
+    {
+      "national_dex": 164,
+      "name": "Noctowl",
+      "identifier": "noctowl",
+      "generation": 2
+    },
+    {
+      "national_dex": 165,
+      "name": "Ledyba",
+      "identifier": "ledyba",
+      "generation": 2
+    },
+    {
+      "national_dex": 166,
+      "name": "Ledian",
+      "identifier": "ledian",
+      "generation": 2
+    },
+    {
+      "national_dex": 167,
+      "name": "Spinarak",
+      "identifier": "spinarak",
+      "generation": 2
+    },
+    {
+      "national_dex": 168,
+      "name": "Ariados",
+      "identifier": "ariados",
+      "generation": 2
+    },
+    {
+      "national_dex": 169,
+      "name": "Crobat",
+      "identifier": "crobat",
+      "generation": 2
+    },
+    {
+      "national_dex": 170,
+      "name": "Chinchou",
+      "identifier": "chinchou",
+      "generation": 2
+    },
+    {
+      "national_dex": 171,
+      "name": "Lanturn",
+      "identifier": "lanturn",
+      "generation": 2
+    },
+    {
+      "national_dex": 172,
+      "name": "Pichu",
+      "identifier": "pichu",
+      "generation": 2
+    },
+    {
+      "national_dex": 173,
+      "name": "Cleffa",
+      "identifier": "cleffa",
+      "generation": 2
+    },
+    {
+      "national_dex": 174,
+      "name": "Igglybuff",
+      "identifier": "igglybuff",
+      "generation": 2
+    },
+    {
+      "national_dex": 175,
+      "name": "Togepi",
+      "identifier": "togepi",
+      "generation": 2
+    },
+    {
+      "national_dex": 176,
+      "name": "Togetic",
+      "identifier": "togetic",
+      "generation": 2
+    },
+    {
+      "national_dex": 177,
+      "name": "Natu",
+      "identifier": "natu",
+      "generation": 2
+    },
+    {
+      "national_dex": 178,
+      "name": "Xatu",
+      "identifier": "xatu",
+      "generation": 2
+    },
+    {
+      "national_dex": 179,
+      "name": "Mareep",
+      "identifier": "mareep",
+      "generation": 2
+    },
+    {
+      "national_dex": 180,
+      "name": "Flaaffy",
+      "identifier": "flaaffy",
+      "generation": 2
+    },
+    {
+      "national_dex": 181,
+      "name": "Ampharos",
+      "identifier": "ampharos",
+      "generation": 2
+    },
+    {
+      "national_dex": 182,
+      "name": "Bellossom",
+      "identifier": "bellossom",
+      "generation": 2
+    },
+    {
+      "national_dex": 183,
+      "name": "Marill",
+      "identifier": "marill",
+      "generation": 2
+    },
+    {
+      "national_dex": 184,
+      "name": "Azumarill",
+      "identifier": "azumarill",
+      "generation": 2
+    },
+    {
+      "national_dex": 185,
+      "name": "Sudowoodo",
+      "identifier": "sudowoodo",
+      "generation": 2
+    },
+    {
+      "national_dex": 186,
+      "name": "Politoed",
+      "identifier": "politoed",
+      "generation": 2
+    },
+    {
+      "national_dex": 187,
+      "name": "Hoppip",
+      "identifier": "hoppip",
+      "generation": 2
+    },
+    {
+      "national_dex": 188,
+      "name": "Skiploom",
+      "identifier": "skiploom",
+      "generation": 2
+    },
+    {
+      "national_dex": 189,
+      "name": "Jumpluff",
+      "identifier": "jumpluff",
+      "generation": 2
+    },
+    {
+      "national_dex": 190,
+      "name": "Aipom",
+      "identifier": "aipom",
+      "generation": 2
+    },
+    {
+      "national_dex": 191,
+      "name": "Sunkern",
+      "identifier": "sunkern",
+      "generation": 2
+    },
+    {
+      "national_dex": 192,
+      "name": "Sunflora",
+      "identifier": "sunflora",
+      "generation": 2
+    },
+    {
+      "national_dex": 193,
+      "name": "Yanma",
+      "identifier": "yanma",
+      "generation": 2
+    },
+    {
+      "national_dex": 194,
+      "name": "Wooper",
+      "identifier": "wooper",
+      "generation": 2
+    },
+    {
+      "national_dex": 195,
+      "name": "Quagsire",
+      "identifier": "quagsire",
+      "generation": 2
+    },
+    {
+      "national_dex": 196,
+      "name": "Espeon",
+      "identifier": "espeon",
+      "generation": 2
+    },
+    {
+      "national_dex": 197,
+      "name": "Umbreon",
+      "identifier": "umbreon",
+      "generation": 2
+    },
+    {
+      "national_dex": 198,
+      "name": "Murkrow",
+      "identifier": "murkrow",
+      "generation": 2
+    },
+    {
+      "national_dex": 199,
+      "name": "Slowking",
+      "identifier": "slowking",
+      "generation": 2
+    },
+    {
+      "national_dex": 200,
+      "name": "Misdreavus",
+      "identifier": "misdreavus",
+      "generation": 2
+    },
+    {
+      "national_dex": 201,
+      "name": "Unown",
+      "identifier": "unown",
+      "generation": 2
+    },
+    {
+      "national_dex": 202,
+      "name": "Wobbuffet",
+      "identifier": "wobbuffet",
+      "generation": 2
+    },
+    {
+      "national_dex": 203,
+      "name": "Girafarig",
+      "identifier": "girafarig",
+      "generation": 2
+    },
+    {
+      "national_dex": 204,
+      "name": "Pineco",
+      "identifier": "pineco",
+      "generation": 2
+    },
+    {
+      "national_dex": 205,
+      "name": "Forretress",
+      "identifier": "forretress",
+      "generation": 2
+    },
+    {
+      "national_dex": 206,
+      "name": "Dunsparce",
+      "identifier": "dunsparce",
+      "generation": 2
+    },
+    {
+      "national_dex": 207,
+      "name": "Gligar",
+      "identifier": "gligar",
+      "generation": 2
+    },
+    {
+      "national_dex": 208,
+      "name": "Steelix",
+      "identifier": "steelix",
+      "generation": 2
+    },
+    {
+      "national_dex": 209,
+      "name": "Snubbull",
+      "identifier": "snubbull",
+      "generation": 2
+    },
+    {
+      "national_dex": 210,
+      "name": "Granbull",
+      "identifier": "granbull",
+      "generation": 2
+    },
+    {
+      "national_dex": 211,
+      "name": "Qwilfish",
+      "identifier": "qwilfish",
+      "generation": 2
+    },
+    {
+      "national_dex": 212,
+      "name": "Scizor",
+      "identifier": "scizor",
+      "generation": 2
+    },
+    {
+      "national_dex": 213,
+      "name": "Shuckle",
+      "identifier": "shuckle",
+      "generation": 2
+    },
+    {
+      "national_dex": 214,
+      "name": "Heracross",
+      "identifier": "heracross",
+      "generation": 2
+    },
+    {
+      "national_dex": 215,
+      "name": "Sneasel",
+      "identifier": "sneasel",
+      "generation": 2
+    },
+    {
+      "national_dex": 216,
+      "name": "Teddiursa",
+      "identifier": "teddiursa",
+      "generation": 2
+    },
+    {
+      "national_dex": 217,
+      "name": "Ursaring",
+      "identifier": "ursaring",
+      "generation": 2
+    },
+    {
+      "national_dex": 218,
+      "name": "Slugma",
+      "identifier": "slugma",
+      "generation": 2
+    },
+    {
+      "national_dex": 219,
+      "name": "Magcargo",
+      "identifier": "magcargo",
+      "generation": 2
+    },
+    {
+      "national_dex": 220,
+      "name": "Swinub",
+      "identifier": "swinub",
+      "generation": 2
+    },
+    {
+      "national_dex": 221,
+      "name": "Piloswine",
+      "identifier": "piloswine",
+      "generation": 2
+    },
+    {
+      "national_dex": 222,
+      "name": "Corsola",
+      "identifier": "corsola",
+      "generation": 2
+    },
+    {
+      "national_dex": 223,
+      "name": "Remoraid",
+      "identifier": "remoraid",
+      "generation": 2
+    },
+    {
+      "national_dex": 224,
+      "name": "Octillery",
+      "identifier": "octillery",
+      "generation": 2
+    },
+    {
+      "national_dex": 225,
+      "name": "Delibird",
+      "identifier": "delibird",
+      "generation": 2
+    },
+    {
+      "national_dex": 226,
+      "name": "Mantine",
+      "identifier": "mantine",
+      "generation": 2
+    },
+    {
+      "national_dex": 227,
+      "name": "Skarmory",
+      "identifier": "skarmory",
+      "generation": 2
+    },
+    {
+      "national_dex": 228,
+      "name": "Houndour",
+      "identifier": "houndour",
+      "generation": 2
+    },
+    {
+      "national_dex": 229,
+      "name": "Houndoom",
+      "identifier": "houndoom",
+      "generation": 2
+    },
+    {
+      "national_dex": 230,
+      "name": "Kingdra",
+      "identifier": "kingdra",
+      "generation": 2
+    },
+    {
+      "national_dex": 231,
+      "name": "Phanpy",
+      "identifier": "phanpy",
+      "generation": 2
+    },
+    {
+      "national_dex": 232,
+      "name": "Donphan",
+      "identifier": "donphan",
+      "generation": 2
+    },
+    {
+      "national_dex": 233,
+      "name": "Porygon2",
+      "identifier": "porygon2",
+      "generation": 2
+    },
+    {
+      "national_dex": 234,
+      "name": "Stantler",
+      "identifier": "stantler",
+      "generation": 2
+    },
+    {
+      "national_dex": 235,
+      "name": "Smeargle",
+      "identifier": "smeargle",
+      "generation": 2
+    },
+    {
+      "national_dex": 236,
+      "name": "Tyrogue",
+      "identifier": "tyrogue",
+      "generation": 2
+    },
+    {
+      "national_dex": 237,
+      "name": "Hitmontop",
+      "identifier": "hitmontop",
+      "generation": 2
+    },
+    {
+      "national_dex": 238,
+      "name": "Smoochum",
+      "identifier": "smoochum",
+      "generation": 2
+    },
+    {
+      "national_dex": 239,
+      "name": "Elekid",
+      "identifier": "elekid",
+      "generation": 2
+    },
+    {
+      "national_dex": 240,
+      "name": "Magby",
+      "identifier": "magby",
+      "generation": 2
+    },
+    {
+      "national_dex": 241,
+      "name": "Miltank",
+      "identifier": "miltank",
+      "generation": 2
+    },
+    {
+      "national_dex": 242,
+      "name": "Blissey",
+      "identifier": "blissey",
+      "generation": 2
+    },
+    {
+      "national_dex": 243,
+      "name": "Raikou",
+      "identifier": "raikou",
+      "generation": 2
+    },
+    {
+      "national_dex": 244,
+      "name": "Entei",
+      "identifier": "entei",
+      "generation": 2
+    },
+    {
+      "national_dex": 245,
+      "name": "Suicune",
+      "identifier": "suicune",
+      "generation": 2
+    },
+    {
+      "national_dex": 246,
+      "name": "Larvitar",
+      "identifier": "larvitar",
+      "generation": 2
+    },
+    {
+      "national_dex": 247,
+      "name": "Pupitar",
+      "identifier": "pupitar",
+      "generation": 2
+    },
+    {
+      "national_dex": 248,
+      "name": "Tyranitar",
+      "identifier": "tyranitar",
+      "generation": 2
+    },
+    {
+      "national_dex": 249,
+      "name": "Lugia",
+      "identifier": "lugia",
+      "generation": 2
+    },
+    {
+      "national_dex": 250,
+      "name": "Ho-Oh",
+      "identifier": "ho-oh",
+      "generation": 2
+    },
+    {
+      "national_dex": 251,
+      "name": "Celebi",
+      "identifier": "celebi",
+      "generation": 2
+    },
+    {
+      "national_dex": 252,
+      "name": "Treecko",
+      "identifier": "treecko",
+      "generation": 3
+    },
+    {
+      "national_dex": 253,
+      "name": "Grovyle",
+      "identifier": "grovyle",
+      "generation": 3
+    },
+    {
+      "national_dex": 254,
+      "name": "Sceptile",
+      "identifier": "sceptile",
+      "generation": 3
+    },
+    {
+      "national_dex": 255,
+      "name": "Torchic",
+      "identifier": "torchic",
+      "generation": 3
+    },
+    {
+      "national_dex": 256,
+      "name": "Combusken",
+      "identifier": "combusken",
+      "generation": 3
+    },
+    {
+      "national_dex": 257,
+      "name": "Blaziken",
+      "identifier": "blaziken",
+      "generation": 3
+    },
+    {
+      "national_dex": 258,
+      "name": "Mudkip",
+      "identifier": "mudkip",
+      "generation": 3
+    },
+    {
+      "national_dex": 259,
+      "name": "Marshtomp",
+      "identifier": "marshtomp",
+      "generation": 3
+    },
+    {
+      "national_dex": 260,
+      "name": "Swampert",
+      "identifier": "swampert",
+      "generation": 3
+    },
+    {
+      "national_dex": 261,
+      "name": "Poochyena",
+      "identifier": "poochyena",
+      "generation": 3
+    },
+    {
+      "national_dex": 262,
+      "name": "Mightyena",
+      "identifier": "mightyena",
+      "generation": 3
+    },
+    {
+      "national_dex": 263,
+      "name": "Zigzagoon",
+      "identifier": "zigzagoon",
+      "generation": 3
+    },
+    {
+      "national_dex": 264,
+      "name": "Linoone",
+      "identifier": "linoone",
+      "generation": 3
+    },
+    {
+      "national_dex": 265,
+      "name": "Wurmple",
+      "identifier": "wurmple",
+      "generation": 3
+    },
+    {
+      "national_dex": 266,
+      "name": "Silcoon",
+      "identifier": "silcoon",
+      "generation": 3
+    },
+    {
+      "national_dex": 267,
+      "name": "Beautifly",
+      "identifier": "beautifly",
+      "generation": 3
+    },
+    {
+      "national_dex": 268,
+      "name": "Cascoon",
+      "identifier": "cascoon",
+      "generation": 3
+    },
+    {
+      "national_dex": 269,
+      "name": "Dustox",
+      "identifier": "dustox",
+      "generation": 3
+    },
+    {
+      "national_dex": 270,
+      "name": "Lotad",
+      "identifier": "lotad",
+      "generation": 3
+    },
+    {
+      "national_dex": 271,
+      "name": "Lombre",
+      "identifier": "lombre",
+      "generation": 3
+    },
+    {
+      "national_dex": 272,
+      "name": "Ludicolo",
+      "identifier": "ludicolo",
+      "generation": 3
+    },
+    {
+      "national_dex": 273,
+      "name": "Seedot",
+      "identifier": "seedot",
+      "generation": 3
+    },
+    {
+      "national_dex": 274,
+      "name": "Nuzleaf",
+      "identifier": "nuzleaf",
+      "generation": 3
+    },
+    {
+      "national_dex": 275,
+      "name": "Shiftry",
+      "identifier": "shiftry",
+      "generation": 3
+    },
+    {
+      "national_dex": 276,
+      "name": "Taillow",
+      "identifier": "taillow",
+      "generation": 3
+    },
+    {
+      "national_dex": 277,
+      "name": "Swellow",
+      "identifier": "swellow",
+      "generation": 3
+    },
+    {
+      "national_dex": 278,
+      "name": "Wingull",
+      "identifier": "wingull",
+      "generation": 3
+    },
+    {
+      "national_dex": 279,
+      "name": "Pelipper",
+      "identifier": "pelipper",
+      "generation": 3
+    },
+    {
+      "national_dex": 280,
+      "name": "Ralts",
+      "identifier": "ralts",
+      "generation": 3
+    },
+    {
+      "national_dex": 281,
+      "name": "Kirlia",
+      "identifier": "kirlia",
+      "generation": 3
+    },
+    {
+      "national_dex": 282,
+      "name": "Gardevoir",
+      "identifier": "gardevoir",
+      "generation": 3
+    },
+    {
+      "national_dex": 283,
+      "name": "Surskit",
+      "identifier": "surskit",
+      "generation": 3
+    },
+    {
+      "national_dex": 284,
+      "name": "Masquerain",
+      "identifier": "masquerain",
+      "generation": 3
+    },
+    {
+      "national_dex": 285,
+      "name": "Shroomish",
+      "identifier": "shroomish",
+      "generation": 3
+    },
+    {
+      "national_dex": 286,
+      "name": "Breloom",
+      "identifier": "breloom",
+      "generation": 3
+    },
+    {
+      "national_dex": 287,
+      "name": "Slakoth",
+      "identifier": "slakoth",
+      "generation": 3
+    },
+    {
+      "national_dex": 288,
+      "name": "Vigoroth",
+      "identifier": "vigoroth",
+      "generation": 3
+    },
+    {
+      "national_dex": 289,
+      "name": "Slaking",
+      "identifier": "slaking",
+      "generation": 3
+    },
+    {
+      "national_dex": 290,
+      "name": "Nincada",
+      "identifier": "nincada",
+      "generation": 3
+    },
+    {
+      "national_dex": 291,
+      "name": "Ninjask",
+      "identifier": "ninjask",
+      "generation": 3
+    },
+    {
+      "national_dex": 292,
+      "name": "Shedinja",
+      "identifier": "shedinja",
+      "generation": 3
+    },
+    {
+      "national_dex": 293,
+      "name": "Whismur",
+      "identifier": "whismur",
+      "generation": 3
+    },
+    {
+      "national_dex": 294,
+      "name": "Loudred",
+      "identifier": "loudred",
+      "generation": 3
+    },
+    {
+      "national_dex": 295,
+      "name": "Exploud",
+      "identifier": "exploud",
+      "generation": 3
+    },
+    {
+      "national_dex": 296,
+      "name": "Makuhita",
+      "identifier": "makuhita",
+      "generation": 3
+    },
+    {
+      "national_dex": 297,
+      "name": "Hariyama",
+      "identifier": "hariyama",
+      "generation": 3
+    },
+    {
+      "national_dex": 298,
+      "name": "Azurill",
+      "identifier": "azurill",
+      "generation": 3
+    },
+    {
+      "national_dex": 299,
+      "name": "Nosepass",
+      "identifier": "nosepass",
+      "generation": 3
+    },
+    {
+      "national_dex": 300,
+      "name": "Skitty",
+      "identifier": "skitty",
+      "generation": 3
+    },
+    {
+      "national_dex": 301,
+      "name": "Delcatty",
+      "identifier": "delcatty",
+      "generation": 3
+    },
+    {
+      "national_dex": 302,
+      "name": "Sableye",
+      "identifier": "sableye",
+      "generation": 3
+    },
+    {
+      "national_dex": 303,
+      "name": "Mawile",
+      "identifier": "mawile",
+      "generation": 3
+    },
+    {
+      "national_dex": 304,
+      "name": "Aron",
+      "identifier": "aron",
+      "generation": 3
+    },
+    {
+      "national_dex": 305,
+      "name": "Lairon",
+      "identifier": "lairon",
+      "generation": 3
+    },
+    {
+      "national_dex": 306,
+      "name": "Aggron",
+      "identifier": "aggron",
+      "generation": 3
+    },
+    {
+      "national_dex": 307,
+      "name": "Meditite",
+      "identifier": "meditite",
+      "generation": 3
+    },
+    {
+      "national_dex": 308,
+      "name": "Medicham",
+      "identifier": "medicham",
+      "generation": 3
+    },
+    {
+      "national_dex": 309,
+      "name": "Electrike",
+      "identifier": "electrike",
+      "generation": 3
+    },
+    {
+      "national_dex": 310,
+      "name": "Manectric",
+      "identifier": "manectric",
+      "generation": 3
+    },
+    {
+      "national_dex": 311,
+      "name": "Plusle",
+      "identifier": "plusle",
+      "generation": 3
+    },
+    {
+      "national_dex": 312,
+      "name": "Minun",
+      "identifier": "minun",
+      "generation": 3
+    },
+    {
+      "national_dex": 313,
+      "name": "Volbeat",
+      "identifier": "volbeat",
+      "generation": 3
+    },
+    {
+      "national_dex": 314,
+      "name": "Illumise",
+      "identifier": "illumise",
+      "generation": 3
+    },
+    {
+      "national_dex": 315,
+      "name": "Roselia",
+      "identifier": "roselia",
+      "generation": 3
+    },
+    {
+      "national_dex": 316,
+      "name": "Gulpin",
+      "identifier": "gulpin",
+      "generation": 3
+    },
+    {
+      "national_dex": 317,
+      "name": "Swalot",
+      "identifier": "swalot",
+      "generation": 3
+    },
+    {
+      "national_dex": 318,
+      "name": "Carvanha",
+      "identifier": "carvanha",
+      "generation": 3
+    },
+    {
+      "national_dex": 319,
+      "name": "Sharpedo",
+      "identifier": "sharpedo",
+      "generation": 3
+    },
+    {
+      "national_dex": 320,
+      "name": "Wailmer",
+      "identifier": "wailmer",
+      "generation": 3
+    },
+    {
+      "national_dex": 321,
+      "name": "Wailord",
+      "identifier": "wailord",
+      "generation": 3
+    },
+    {
+      "national_dex": 322,
+      "name": "Numel",
+      "identifier": "numel",
+      "generation": 3
+    },
+    {
+      "national_dex": 323,
+      "name": "Camerupt",
+      "identifier": "camerupt",
+      "generation": 3
+    },
+    {
+      "national_dex": 324,
+      "name": "Torkoal",
+      "identifier": "torkoal",
+      "generation": 3
+    },
+    {
+      "national_dex": 325,
+      "name": "Spoink",
+      "identifier": "spoink",
+      "generation": 3
+    },
+    {
+      "national_dex": 326,
+      "name": "Grumpig",
+      "identifier": "grumpig",
+      "generation": 3
+    },
+    {
+      "national_dex": 327,
+      "name": "Spinda",
+      "identifier": "spinda",
+      "generation": 3
+    },
+    {
+      "national_dex": 328,
+      "name": "Trapinch",
+      "identifier": "trapinch",
+      "generation": 3
+    },
+    {
+      "national_dex": 329,
+      "name": "Vibrava",
+      "identifier": "vibrava",
+      "generation": 3
+    },
+    {
+      "national_dex": 330,
+      "name": "Flygon",
+      "identifier": "flygon",
+      "generation": 3
+    },
+    {
+      "national_dex": 331,
+      "name": "Cacnea",
+      "identifier": "cacnea",
+      "generation": 3
+    },
+    {
+      "national_dex": 332,
+      "name": "Cacturne",
+      "identifier": "cacturne",
+      "generation": 3
+    },
+    {
+      "national_dex": 333,
+      "name": "Swablu",
+      "identifier": "swablu",
+      "generation": 3
+    },
+    {
+      "national_dex": 334,
+      "name": "Altaria",
+      "identifier": "altaria",
+      "generation": 3
+    },
+    {
+      "national_dex": 335,
+      "name": "Zangoose",
+      "identifier": "zangoose",
+      "generation": 3
+    },
+    {
+      "national_dex": 336,
+      "name": "Seviper",
+      "identifier": "seviper",
+      "generation": 3
+    },
+    {
+      "national_dex": 337,
+      "name": "Lunatone",
+      "identifier": "lunatone",
+      "generation": 3
+    },
+    {
+      "national_dex": 338,
+      "name": "Solrock",
+      "identifier": "solrock",
+      "generation": 3
+    },
+    {
+      "national_dex": 339,
+      "name": "Barboach",
+      "identifier": "barboach",
+      "generation": 3
+    },
+    {
+      "national_dex": 340,
+      "name": "Whiscash",
+      "identifier": "whiscash",
+      "generation": 3
+    },
+    {
+      "national_dex": 341,
+      "name": "Corphish",
+      "identifier": "corphish",
+      "generation": 3
+    },
+    {
+      "national_dex": 342,
+      "name": "Crawdaunt",
+      "identifier": "crawdaunt",
+      "generation": 3
+    },
+    {
+      "national_dex": 343,
+      "name": "Baltoy",
+      "identifier": "baltoy",
+      "generation": 3
+    },
+    {
+      "national_dex": 344,
+      "name": "Claydol",
+      "identifier": "claydol",
+      "generation": 3
+    },
+    {
+      "national_dex": 345,
+      "name": "Lileep",
+      "identifier": "lileep",
+      "generation": 3
+    },
+    {
+      "national_dex": 346,
+      "name": "Cradily",
+      "identifier": "cradily",
+      "generation": 3
+    },
+    {
+      "national_dex": 347,
+      "name": "Anorith",
+      "identifier": "anorith",
+      "generation": 3
+    },
+    {
+      "national_dex": 348,
+      "name": "Armaldo",
+      "identifier": "armaldo",
+      "generation": 3
+    },
+    {
+      "national_dex": 349,
+      "name": "Feebas",
+      "identifier": "feebas",
+      "generation": 3
+    },
+    {
+      "national_dex": 350,
+      "name": "Milotic",
+      "identifier": "milotic",
+      "generation": 3
+    },
+    {
+      "national_dex": 351,
+      "name": "Castform",
+      "identifier": "castform",
+      "generation": 3
+    },
+    {
+      "national_dex": 352,
+      "name": "Kecleon",
+      "identifier": "kecleon",
+      "generation": 3
+    },
+    {
+      "national_dex": 353,
+      "name": "Shuppet",
+      "identifier": "shuppet",
+      "generation": 3
+    },
+    {
+      "national_dex": 354,
+      "name": "Banette",
+      "identifier": "banette",
+      "generation": 3
+    },
+    {
+      "national_dex": 355,
+      "name": "Duskull",
+      "identifier": "duskull",
+      "generation": 3
+    },
+    {
+      "national_dex": 356,
+      "name": "Dusclops",
+      "identifier": "dusclops",
+      "generation": 3
+    },
+    {
+      "national_dex": 357,
+      "name": "Tropius",
+      "identifier": "tropius",
+      "generation": 3
+    },
+    {
+      "national_dex": 358,
+      "name": "Chimecho",
+      "identifier": "chimecho",
+      "generation": 3
+    },
+    {
+      "national_dex": 359,
+      "name": "Absol",
+      "identifier": "absol",
+      "generation": 3
+    },
+    {
+      "national_dex": 360,
+      "name": "Wynaut",
+      "identifier": "wynaut",
+      "generation": 3
+    },
+    {
+      "national_dex": 361,
+      "name": "Snorunt",
+      "identifier": "snorunt",
+      "generation": 3
+    },
+    {
+      "national_dex": 362,
+      "name": "Glalie",
+      "identifier": "glalie",
+      "generation": 3
+    },
+    {
+      "national_dex": 363,
+      "name": "Spheal",
+      "identifier": "spheal",
+      "generation": 3
+    },
+    {
+      "national_dex": 364,
+      "name": "Sealeo",
+      "identifier": "sealeo",
+      "generation": 3
+    },
+    {
+      "national_dex": 365,
+      "name": "Walrein",
+      "identifier": "walrein",
+      "generation": 3
+    },
+    {
+      "national_dex": 366,
+      "name": "Clamperl",
+      "identifier": "clamperl",
+      "generation": 3
+    },
+    {
+      "national_dex": 367,
+      "name": "Huntail",
+      "identifier": "huntail",
+      "generation": 3
+    },
+    {
+      "national_dex": 368,
+      "name": "Gorebyss",
+      "identifier": "gorebyss",
+      "generation": 3
+    },
+    {
+      "national_dex": 369,
+      "name": "Relicanth",
+      "identifier": "relicanth",
+      "generation": 3
+    },
+    {
+      "national_dex": 370,
+      "name": "Luvdisc",
+      "identifier": "luvdisc",
+      "generation": 3
+    },
+    {
+      "national_dex": 371,
+      "name": "Bagon",
+      "identifier": "bagon",
+      "generation": 3
+    },
+    {
+      "national_dex": 372,
+      "name": "Shelgon",
+      "identifier": "shelgon",
+      "generation": 3
+    },
+    {
+      "national_dex": 373,
+      "name": "Salamence",
+      "identifier": "salamence",
+      "generation": 3
+    },
+    {
+      "national_dex": 374,
+      "name": "Beldum",
+      "identifier": "beldum",
+      "generation": 3
+    },
+    {
+      "national_dex": 375,
+      "name": "Metang",
+      "identifier": "metang",
+      "generation": 3
+    },
+    {
+      "national_dex": 376,
+      "name": "Metagross",
+      "identifier": "metagross",
+      "generation": 3
+    },
+    {
+      "national_dex": 377,
+      "name": "Regirock",
+      "identifier": "regirock",
+      "generation": 3
+    },
+    {
+      "national_dex": 378,
+      "name": "Regice",
+      "identifier": "regice",
+      "generation": 3
+    },
+    {
+      "national_dex": 379,
+      "name": "Registeel",
+      "identifier": "registeel",
+      "generation": 3
+    },
+    {
+      "national_dex": 380,
+      "name": "Latias",
+      "identifier": "latias",
+      "generation": 3
+    },
+    {
+      "national_dex": 381,
+      "name": "Latios",
+      "identifier": "latios",
+      "generation": 3
+    },
+    {
+      "national_dex": 382,
+      "name": "Kyogre",
+      "identifier": "kyogre",
+      "generation": 3
+    },
+    {
+      "national_dex": 383,
+      "name": "Groudon",
+      "identifier": "groudon",
+      "generation": 3
+    },
+    {
+      "national_dex": 384,
+      "name": "Rayquaza",
+      "identifier": "rayquaza",
+      "generation": 3
+    },
+    {
+      "national_dex": 385,
+      "name": "Jirachi",
+      "identifier": "jirachi",
+      "generation": 3
+    },
+    {
+      "national_dex": 386,
+      "name": "Deoxys",
+      "identifier": "deoxys",
+      "generation": 3
+    },
+    {
+      "national_dex": 387,
+      "name": "Turtwig",
+      "identifier": "turtwig",
+      "generation": 4
+    },
+    {
+      "national_dex": 388,
+      "name": "Grotle",
+      "identifier": "grotle",
+      "generation": 4
+    },
+    {
+      "national_dex": 389,
+      "name": "Torterra",
+      "identifier": "torterra",
+      "generation": 4
+    },
+    {
+      "national_dex": 390,
+      "name": "Chimchar",
+      "identifier": "chimchar",
+      "generation": 4
+    },
+    {
+      "national_dex": 391,
+      "name": "Monferno",
+      "identifier": "monferno",
+      "generation": 4
+    },
+    {
+      "national_dex": 392,
+      "name": "Infernape",
+      "identifier": "infernape",
+      "generation": 4
+    },
+    {
+      "national_dex": 393,
+      "name": "Piplup",
+      "identifier": "piplup",
+      "generation": 4
+    },
+    {
+      "national_dex": 394,
+      "name": "Prinplup",
+      "identifier": "prinplup",
+      "generation": 4
+    },
+    {
+      "national_dex": 395,
+      "name": "Empoleon",
+      "identifier": "empoleon",
+      "generation": 4
+    },
+    {
+      "national_dex": 396,
+      "name": "Starly",
+      "identifier": "starly",
+      "generation": 4
+    },
+    {
+      "national_dex": 397,
+      "name": "Staravia",
+      "identifier": "staravia",
+      "generation": 4
+    },
+    {
+      "national_dex": 398,
+      "name": "Staraptor",
+      "identifier": "staraptor",
+      "generation": 4
+    },
+    {
+      "national_dex": 399,
+      "name": "Bidoof",
+      "identifier": "bidoof",
+      "generation": 4
+    },
+    {
+      "national_dex": 400,
+      "name": "Bibarel",
+      "identifier": "bibarel",
+      "generation": 4
+    },
+    {
+      "national_dex": 401,
+      "name": "Kricketot",
+      "identifier": "kricketot",
+      "generation": 4
+    },
+    {
+      "national_dex": 402,
+      "name": "Kricketune",
+      "identifier": "kricketune",
+      "generation": 4
+    },
+    {
+      "national_dex": 403,
+      "name": "Shinx",
+      "identifier": "shinx",
+      "generation": 4
+    },
+    {
+      "national_dex": 404,
+      "name": "Luxio",
+      "identifier": "luxio",
+      "generation": 4
+    },
+    {
+      "national_dex": 405,
+      "name": "Luxray",
+      "identifier": "luxray",
+      "generation": 4
+    },
+    {
+      "national_dex": 406,
+      "name": "Budew",
+      "identifier": "budew",
+      "generation": 4
+    },
+    {
+      "national_dex": 407,
+      "name": "Roserade",
+      "identifier": "roserade",
+      "generation": 4
+    },
+    {
+      "national_dex": 408,
+      "name": "Cranidos",
+      "identifier": "cranidos",
+      "generation": 4
+    },
+    {
+      "national_dex": 409,
+      "name": "Rampardos",
+      "identifier": "rampardos",
+      "generation": 4
+    },
+    {
+      "national_dex": 410,
+      "name": "Shieldon",
+      "identifier": "shieldon",
+      "generation": 4
+    },
+    {
+      "national_dex": 411,
+      "name": "Bastiodon",
+      "identifier": "bastiodon",
+      "generation": 4
+    },
+    {
+      "national_dex": 412,
+      "name": "Burmy",
+      "identifier": "burmy",
+      "generation": 4
+    },
+    {
+      "national_dex": 413,
+      "name": "Wormadam",
+      "identifier": "wormadam",
+      "generation": 4
+    },
+    {
+      "national_dex": 414,
+      "name": "Mothim",
+      "identifier": "mothim",
+      "generation": 4
+    },
+    {
+      "national_dex": 415,
+      "name": "Combee",
+      "identifier": "combee",
+      "generation": 4
+    },
+    {
+      "national_dex": 416,
+      "name": "Vespiquen",
+      "identifier": "vespiquen",
+      "generation": 4
+    },
+    {
+      "national_dex": 417,
+      "name": "Pachirisu",
+      "identifier": "pachirisu",
+      "generation": 4
+    },
+    {
+      "national_dex": 418,
+      "name": "Buizel",
+      "identifier": "buizel",
+      "generation": 4
+    },
+    {
+      "national_dex": 419,
+      "name": "Floatzel",
+      "identifier": "floatzel",
+      "generation": 4
+    },
+    {
+      "national_dex": 420,
+      "name": "Cherubi",
+      "identifier": "cherubi",
+      "generation": 4
+    },
+    {
+      "national_dex": 421,
+      "name": "Cherrim",
+      "identifier": "cherrim",
+      "generation": 4
+    },
+    {
+      "national_dex": 422,
+      "name": "Shellos",
+      "identifier": "shellos",
+      "generation": 4
+    },
+    {
+      "national_dex": 423,
+      "name": "Gastrodon",
+      "identifier": "gastrodon",
+      "generation": 4
+    },
+    {
+      "national_dex": 424,
+      "name": "Ambipom",
+      "identifier": "ambipom",
+      "generation": 4
+    },
+    {
+      "national_dex": 425,
+      "name": "Drifloon",
+      "identifier": "drifloon",
+      "generation": 4
+    },
+    {
+      "national_dex": 426,
+      "name": "Drifblim",
+      "identifier": "drifblim",
+      "generation": 4
+    },
+    {
+      "national_dex": 427,
+      "name": "Buneary",
+      "identifier": "buneary",
+      "generation": 4
+    },
+    {
+      "national_dex": 428,
+      "name": "Lopunny",
+      "identifier": "lopunny",
+      "generation": 4
+    },
+    {
+      "national_dex": 429,
+      "name": "Mismagius",
+      "identifier": "mismagius",
+      "generation": 4
+    },
+    {
+      "national_dex": 430,
+      "name": "Honchkrow",
+      "identifier": "honchkrow",
+      "generation": 4
+    },
+    {
+      "national_dex": 431,
+      "name": "Glameow",
+      "identifier": "glameow",
+      "generation": 4
+    },
+    {
+      "national_dex": 432,
+      "name": "Purugly",
+      "identifier": "purugly",
+      "generation": 4
+    },
+    {
+      "national_dex": 433,
+      "name": "Chingling",
+      "identifier": "chingling",
+      "generation": 4
+    },
+    {
+      "national_dex": 434,
+      "name": "Stunky",
+      "identifier": "stunky",
+      "generation": 4
+    },
+    {
+      "national_dex": 435,
+      "name": "Skuntank",
+      "identifier": "skuntank",
+      "generation": 4
+    },
+    {
+      "national_dex": 436,
+      "name": "Bronzor",
+      "identifier": "bronzor",
+      "generation": 4
+    },
+    {
+      "national_dex": 437,
+      "name": "Bronzong",
+      "identifier": "bronzong",
+      "generation": 4
+    },
+    {
+      "national_dex": 438,
+      "name": "Bonsly",
+      "identifier": "bonsly",
+      "generation": 4
+    },
+    {
+      "national_dex": 439,
+      "name": "Mime Jr.",
+      "identifier": "mime-jr",
+      "generation": 4
+    },
+    {
+      "national_dex": 440,
+      "name": "Happiny",
+      "identifier": "happiny",
+      "generation": 4
+    },
+    {
+      "national_dex": 441,
+      "name": "Chatot",
+      "identifier": "chatot",
+      "generation": 4
+    },
+    {
+      "national_dex": 442,
+      "name": "Spiritomb",
+      "identifier": "spiritomb",
+      "generation": 4
+    },
+    {
+      "national_dex": 443,
+      "name": "Gible",
+      "identifier": "gible",
+      "generation": 4
+    },
+    {
+      "national_dex": 444,
+      "name": "Gabite",
+      "identifier": "gabite",
+      "generation": 4
+    },
+    {
+      "national_dex": 445,
+      "name": "Garchomp",
+      "identifier": "garchomp",
+      "generation": 4
+    },
+    {
+      "national_dex": 446,
+      "name": "Munchlax",
+      "identifier": "munchlax",
+      "generation": 4
+    },
+    {
+      "national_dex": 447,
+      "name": "Riolu",
+      "identifier": "riolu",
+      "generation": 4
+    },
+    {
+      "national_dex": 448,
+      "name": "Lucario",
+      "identifier": "lucario",
+      "generation": 4
+    },
+    {
+      "national_dex": 449,
+      "name": "Hippopotas",
+      "identifier": "hippopotas",
+      "generation": 4
+    },
+    {
+      "national_dex": 450,
+      "name": "Hippowdon",
+      "identifier": "hippowdon",
+      "generation": 4
+    },
+    {
+      "national_dex": 451,
+      "name": "Skorupi",
+      "identifier": "skorupi",
+      "generation": 4
+    },
+    {
+      "national_dex": 452,
+      "name": "Drapion",
+      "identifier": "drapion",
+      "generation": 4
+    },
+    {
+      "national_dex": 453,
+      "name": "Croagunk",
+      "identifier": "croagunk",
+      "generation": 4
+    },
+    {
+      "national_dex": 454,
+      "name": "Toxicroak",
+      "identifier": "toxicroak",
+      "generation": 4
+    },
+    {
+      "national_dex": 455,
+      "name": "Carnivine",
+      "identifier": "carnivine",
+      "generation": 4
+    },
+    {
+      "national_dex": 456,
+      "name": "Finneon",
+      "identifier": "finneon",
+      "generation": 4
+    },
+    {
+      "national_dex": 457,
+      "name": "Lumineon",
+      "identifier": "lumineon",
+      "generation": 4
+    },
+    {
+      "national_dex": 458,
+      "name": "Mantyke",
+      "identifier": "mantyke",
+      "generation": 4
+    },
+    {
+      "national_dex": 459,
+      "name": "Snover",
+      "identifier": "snover",
+      "generation": 4
+    },
+    {
+      "national_dex": 460,
+      "name": "Abomasnow",
+      "identifier": "abomasnow",
+      "generation": 4
+    },
+    {
+      "national_dex": 461,
+      "name": "Weavile",
+      "identifier": "weavile",
+      "generation": 4
+    },
+    {
+      "national_dex": 462,
+      "name": "Magnezone",
+      "identifier": "magnezone",
+      "generation": 4
+    },
+    {
+      "national_dex": 463,
+      "name": "Lickilicky",
+      "identifier": "lickilicky",
+      "generation": 4
+    },
+    {
+      "national_dex": 464,
+      "name": "Rhyperior",
+      "identifier": "rhyperior",
+      "generation": 4
+    },
+    {
+      "national_dex": 465,
+      "name": "Tangrowth",
+      "identifier": "tangrowth",
+      "generation": 4
+    },
+    {
+      "national_dex": 466,
+      "name": "Electivire",
+      "identifier": "electivire",
+      "generation": 4
+    },
+    {
+      "national_dex": 467,
+      "name": "Magmortar",
+      "identifier": "magmortar",
+      "generation": 4
+    },
+    {
+      "national_dex": 468,
+      "name": "Togekiss",
+      "identifier": "togekiss",
+      "generation": 4
+    },
+    {
+      "national_dex": 469,
+      "name": "Yanmega",
+      "identifier": "yanmega",
+      "generation": 4
+    },
+    {
+      "national_dex": 470,
+      "name": "Leafeon",
+      "identifier": "leafeon",
+      "generation": 4
+    },
+    {
+      "national_dex": 471,
+      "name": "Glaceon",
+      "identifier": "glaceon",
+      "generation": 4
+    },
+    {
+      "national_dex": 472,
+      "name": "Gliscor",
+      "identifier": "gliscor",
+      "generation": 4
+    },
+    {
+      "national_dex": 473,
+      "name": "Mamoswine",
+      "identifier": "mamoswine",
+      "generation": 4
+    },
+    {
+      "national_dex": 474,
+      "name": "Porygon-Z",
+      "identifier": "porygon-z",
+      "generation": 4
+    },
+    {
+      "national_dex": 475,
+      "name": "Gallade",
+      "identifier": "gallade",
+      "generation": 4
+    },
+    {
+      "national_dex": 476,
+      "name": "Probopass",
+      "identifier": "probopass",
+      "generation": 4
+    },
+    {
+      "national_dex": 477,
+      "name": "Dusknoir",
+      "identifier": "dusknoir",
+      "generation": 4
+    },
+    {
+      "national_dex": 478,
+      "name": "Froslass",
+      "identifier": "froslass",
+      "generation": 4
+    },
+    {
+      "national_dex": 479,
+      "name": "Rotom",
+      "identifier": "rotom",
+      "generation": 4
+    },
+    {
+      "national_dex": 480,
+      "name": "Uxie",
+      "identifier": "uxie",
+      "generation": 4
+    },
+    {
+      "national_dex": 481,
+      "name": "Mesprit",
+      "identifier": "mesprit",
+      "generation": 4
+    },
+    {
+      "national_dex": 482,
+      "name": "Azelf",
+      "identifier": "azelf",
+      "generation": 4
+    },
+    {
+      "national_dex": 483,
+      "name": "Dialga",
+      "identifier": "dialga",
+      "generation": 4
+    },
+    {
+      "national_dex": 484,
+      "name": "Palkia",
+      "identifier": "palkia",
+      "generation": 4
+    },
+    {
+      "national_dex": 485,
+      "name": "Heatran",
+      "identifier": "heatran",
+      "generation": 4
+    },
+    {
+      "national_dex": 486,
+      "name": "Regigigas",
+      "identifier": "regigigas",
+      "generation": 4
+    },
+    {
+      "national_dex": 487,
+      "name": "Giratina",
+      "identifier": "giratina",
+      "generation": 4
+    },
+    {
+      "national_dex": 488,
+      "name": "Cresselia",
+      "identifier": "cresselia",
+      "generation": 4
+    },
+    {
+      "national_dex": 489,
+      "name": "Phione",
+      "identifier": "phione",
+      "generation": 4
+    },
+    {
+      "national_dex": 490,
+      "name": "Manaphy",
+      "identifier": "manaphy",
+      "generation": 4
+    },
+    {
+      "national_dex": 491,
+      "name": "Darkrai",
+      "identifier": "darkrai",
+      "generation": 4
+    },
+    {
+      "national_dex": 492,
+      "name": "Shaymin",
+      "identifier": "shaymin",
+      "generation": 4
+    },
+    {
+      "national_dex": 493,
+      "name": "Arceus",
+      "identifier": "arceus",
+      "generation": 4
+    },
+    {
+      "national_dex": 494,
+      "name": "Victini",
+      "identifier": "victini",
+      "generation": 5
+    },
+    {
+      "national_dex": 495,
+      "name": "Snivy",
+      "identifier": "snivy",
+      "generation": 5
+    },
+    {
+      "national_dex": 496,
+      "name": "Servine",
+      "identifier": "servine",
+      "generation": 5
+    },
+    {
+      "national_dex": 497,
+      "name": "Serperior",
+      "identifier": "serperior",
+      "generation": 5
+    },
+    {
+      "national_dex": 498,
+      "name": "Tepig",
+      "identifier": "tepig",
+      "generation": 5
+    },
+    {
+      "national_dex": 499,
+      "name": "Pignite",
+      "identifier": "pignite",
+      "generation": 5
+    },
+    {
+      "national_dex": 500,
+      "name": "Emboar",
+      "identifier": "emboar",
+      "generation": 5
+    },
+    {
+      "national_dex": 501,
+      "name": "Oshawott",
+      "identifier": "oshawott",
+      "generation": 5
+    },
+    {
+      "national_dex": 502,
+      "name": "Dewott",
+      "identifier": "dewott",
+      "generation": 5
+    },
+    {
+      "national_dex": 503,
+      "name": "Samurott",
+      "identifier": "samurott",
+      "generation": 5
+    },
+    {
+      "national_dex": 504,
+      "name": "Patrat",
+      "identifier": "patrat",
+      "generation": 5
+    },
+    {
+      "national_dex": 505,
+      "name": "Watchog",
+      "identifier": "watchog",
+      "generation": 5
+    },
+    {
+      "national_dex": 506,
+      "name": "Lillipup",
+      "identifier": "lillipup",
+      "generation": 5
+    },
+    {
+      "national_dex": 507,
+      "name": "Herdier",
+      "identifier": "herdier",
+      "generation": 5
+    },
+    {
+      "national_dex": 508,
+      "name": "Stoutland",
+      "identifier": "stoutland",
+      "generation": 5
+    },
+    {
+      "national_dex": 509,
+      "name": "Purrloin",
+      "identifier": "purrloin",
+      "generation": 5
+    },
+    {
+      "national_dex": 510,
+      "name": "Liepard",
+      "identifier": "liepard",
+      "generation": 5
+    },
+    {
+      "national_dex": 511,
+      "name": "Pansage",
+      "identifier": "pansage",
+      "generation": 5
+    },
+    {
+      "national_dex": 512,
+      "name": "Simisage",
+      "identifier": "simisage",
+      "generation": 5
+    },
+    {
+      "national_dex": 513,
+      "name": "Pansear",
+      "identifier": "pansear",
+      "generation": 5
+    },
+    {
+      "national_dex": 514,
+      "name": "Simisear",
+      "identifier": "simisear",
+      "generation": 5
+    },
+    {
+      "national_dex": 515,
+      "name": "Panpour",
+      "identifier": "panpour",
+      "generation": 5
+    },
+    {
+      "national_dex": 516,
+      "name": "Simipour",
+      "identifier": "simipour",
+      "generation": 5
+    },
+    {
+      "national_dex": 517,
+      "name": "Munna",
+      "identifier": "munna",
+      "generation": 5
+    },
+    {
+      "national_dex": 518,
+      "name": "Musharna",
+      "identifier": "musharna",
+      "generation": 5
+    },
+    {
+      "national_dex": 519,
+      "name": "Pidove",
+      "identifier": "pidove",
+      "generation": 5
+    },
+    {
+      "national_dex": 520,
+      "name": "Tranquill",
+      "identifier": "tranquill",
+      "generation": 5
+    },
+    {
+      "national_dex": 521,
+      "name": "Unfezant",
+      "identifier": "unfezant",
+      "generation": 5
+    },
+    {
+      "national_dex": 522,
+      "name": "Blitzle",
+      "identifier": "blitzle",
+      "generation": 5
+    },
+    {
+      "national_dex": 523,
+      "name": "Zebstrika",
+      "identifier": "zebstrika",
+      "generation": 5
+    },
+    {
+      "national_dex": 524,
+      "name": "Roggenrola",
+      "identifier": "roggenrola",
+      "generation": 5
+    },
+    {
+      "national_dex": 525,
+      "name": "Boldore",
+      "identifier": "boldore",
+      "generation": 5
+    },
+    {
+      "national_dex": 526,
+      "name": "Gigalith",
+      "identifier": "gigalith",
+      "generation": 5
+    },
+    {
+      "national_dex": 527,
+      "name": "Woobat",
+      "identifier": "woobat",
+      "generation": 5
+    },
+    {
+      "national_dex": 528,
+      "name": "Swoobat",
+      "identifier": "swoobat",
+      "generation": 5
+    },
+    {
+      "national_dex": 529,
+      "name": "Drilbur",
+      "identifier": "drilbur",
+      "generation": 5
+    },
+    {
+      "national_dex": 530,
+      "name": "Excadrill",
+      "identifier": "excadrill",
+      "generation": 5
+    },
+    {
+      "national_dex": 531,
+      "name": "Audino",
+      "identifier": "audino",
+      "generation": 5
+    },
+    {
+      "national_dex": 532,
+      "name": "Timburr",
+      "identifier": "timburr",
+      "generation": 5
+    },
+    {
+      "national_dex": 533,
+      "name": "Gurdurr",
+      "identifier": "gurdurr",
+      "generation": 5
+    },
+    {
+      "national_dex": 534,
+      "name": "Conkeldurr",
+      "identifier": "conkeldurr",
+      "generation": 5
+    },
+    {
+      "national_dex": 535,
+      "name": "Tympole",
+      "identifier": "tympole",
+      "generation": 5
+    },
+    {
+      "national_dex": 536,
+      "name": "Palpitoad",
+      "identifier": "palpitoad",
+      "generation": 5
+    },
+    {
+      "national_dex": 537,
+      "name": "Seismitoad",
+      "identifier": "seismitoad",
+      "generation": 5
+    },
+    {
+      "national_dex": 538,
+      "name": "Throh",
+      "identifier": "throh",
+      "generation": 5
+    },
+    {
+      "national_dex": 539,
+      "name": "Sawk",
+      "identifier": "sawk",
+      "generation": 5
+    },
+    {
+      "national_dex": 540,
+      "name": "Sewaddle",
+      "identifier": "sewaddle",
+      "generation": 5
+    },
+    {
+      "national_dex": 541,
+      "name": "Swadloon",
+      "identifier": "swadloon",
+      "generation": 5
+    },
+    {
+      "national_dex": 542,
+      "name": "Leavanny",
+      "identifier": "leavanny",
+      "generation": 5
+    },
+    {
+      "national_dex": 543,
+      "name": "Venipede",
+      "identifier": "venipede",
+      "generation": 5
+    },
+    {
+      "national_dex": 544,
+      "name": "Whirlipede",
+      "identifier": "whirlipede",
+      "generation": 5
+    },
+    {
+      "national_dex": 545,
+      "name": "Scolipede",
+      "identifier": "scolipede",
+      "generation": 5
+    },
+    {
+      "national_dex": 546,
+      "name": "Cottonee",
+      "identifier": "cottonee",
+      "generation": 5
+    },
+    {
+      "national_dex": 547,
+      "name": "Whimsicott",
+      "identifier": "whimsicott",
+      "generation": 5
+    },
+    {
+      "national_dex": 548,
+      "name": "Petilil",
+      "identifier": "petilil",
+      "generation": 5
+    },
+    {
+      "national_dex": 549,
+      "name": "Lilligant",
+      "identifier": "lilligant",
+      "generation": 5
+    },
+    {
+      "national_dex": 550,
+      "name": "Basculin",
+      "identifier": "basculin",
+      "generation": 5
+    },
+    {
+      "national_dex": 551,
+      "name": "Sandile",
+      "identifier": "sandile",
+      "generation": 5
+    },
+    {
+      "national_dex": 552,
+      "name": "Krokorok",
+      "identifier": "krokorok",
+      "generation": 5
+    },
+    {
+      "national_dex": 553,
+      "name": "Krookodile",
+      "identifier": "krookodile",
+      "generation": 5
+    },
+    {
+      "national_dex": 554,
+      "name": "Darumaka",
+      "identifier": "darumaka",
+      "generation": 5
+    },
+    {
+      "national_dex": 555,
+      "name": "Darmanitan",
+      "identifier": "darmanitan",
+      "generation": 5
+    },
+    {
+      "national_dex": 556,
+      "name": "Maractus",
+      "identifier": "maractus",
+      "generation": 5
+    },
+    {
+      "national_dex": 557,
+      "name": "Dwebble",
+      "identifier": "dwebble",
+      "generation": 5
+    },
+    {
+      "national_dex": 558,
+      "name": "Crustle",
+      "identifier": "crustle",
+      "generation": 5
+    },
+    {
+      "national_dex": 559,
+      "name": "Scraggy",
+      "identifier": "scraggy",
+      "generation": 5
+    },
+    {
+      "national_dex": 560,
+      "name": "Scrafty",
+      "identifier": "scrafty",
+      "generation": 5
+    },
+    {
+      "national_dex": 561,
+      "name": "Sigilyph",
+      "identifier": "sigilyph",
+      "generation": 5
+    },
+    {
+      "national_dex": 562,
+      "name": "Yamask",
+      "identifier": "yamask",
+      "generation": 5
+    },
+    {
+      "national_dex": 563,
+      "name": "Cofagrigus",
+      "identifier": "cofagrigus",
+      "generation": 5
+    },
+    {
+      "national_dex": 564,
+      "name": "Tirtouga",
+      "identifier": "tirtouga",
+      "generation": 5
+    },
+    {
+      "national_dex": 565,
+      "name": "Carracosta",
+      "identifier": "carracosta",
+      "generation": 5
+    },
+    {
+      "national_dex": 566,
+      "name": "Archen",
+      "identifier": "archen",
+      "generation": 5
+    },
+    {
+      "national_dex": 567,
+      "name": "Archeops",
+      "identifier": "archeops",
+      "generation": 5
+    },
+    {
+      "national_dex": 568,
+      "name": "Trubbish",
+      "identifier": "trubbish",
+      "generation": 5
+    },
+    {
+      "national_dex": 569,
+      "name": "Garbodor",
+      "identifier": "garbodor",
+      "generation": 5
+    },
+    {
+      "national_dex": 570,
+      "name": "Zorua",
+      "identifier": "zorua",
+      "generation": 5
+    },
+    {
+      "national_dex": 571,
+      "name": "Zoroark",
+      "identifier": "zoroark",
+      "generation": 5
+    },
+    {
+      "national_dex": 572,
+      "name": "Minccino",
+      "identifier": "minccino",
+      "generation": 5
+    },
+    {
+      "national_dex": 573,
+      "name": "Cinccino",
+      "identifier": "cinccino",
+      "generation": 5
+    },
+    {
+      "national_dex": 574,
+      "name": "Gothita",
+      "identifier": "gothita",
+      "generation": 5
+    },
+    {
+      "national_dex": 575,
+      "name": "Gothorita",
+      "identifier": "gothorita",
+      "generation": 5
+    },
+    {
+      "national_dex": 576,
+      "name": "Gothitelle",
+      "identifier": "gothitelle",
+      "generation": 5
+    },
+    {
+      "national_dex": 577,
+      "name": "Solosis",
+      "identifier": "solosis",
+      "generation": 5
+    },
+    {
+      "national_dex": 578,
+      "name": "Duosion",
+      "identifier": "duosion",
+      "generation": 5
+    },
+    {
+      "national_dex": 579,
+      "name": "Reuniclus",
+      "identifier": "reuniclus",
+      "generation": 5
+    },
+    {
+      "national_dex": 580,
+      "name": "Ducklett",
+      "identifier": "ducklett",
+      "generation": 5
+    },
+    {
+      "national_dex": 581,
+      "name": "Swanna",
+      "identifier": "swanna",
+      "generation": 5
+    },
+    {
+      "national_dex": 582,
+      "name": "Vanillite",
+      "identifier": "vanillite",
+      "generation": 5
+    },
+    {
+      "national_dex": 583,
+      "name": "Vanillish",
+      "identifier": "vanillish",
+      "generation": 5
+    },
+    {
+      "national_dex": 584,
+      "name": "Vanilluxe",
+      "identifier": "vanilluxe",
+      "generation": 5
+    },
+    {
+      "national_dex": 585,
+      "name": "Deerling",
+      "identifier": "deerling",
+      "generation": 5
+    },
+    {
+      "national_dex": 586,
+      "name": "Sawsbuck",
+      "identifier": "sawsbuck",
+      "generation": 5
+    },
+    {
+      "national_dex": 587,
+      "name": "Emolga",
+      "identifier": "emolga",
+      "generation": 5
+    },
+    {
+      "national_dex": 588,
+      "name": "Karrablast",
+      "identifier": "karrablast",
+      "generation": 5
+    },
+    {
+      "national_dex": 589,
+      "name": "Escavalier",
+      "identifier": "escavalier",
+      "generation": 5
+    },
+    {
+      "national_dex": 590,
+      "name": "Foongus",
+      "identifier": "foongus",
+      "generation": 5
+    },
+    {
+      "national_dex": 591,
+      "name": "Amoonguss",
+      "identifier": "amoonguss",
+      "generation": 5
+    },
+    {
+      "national_dex": 592,
+      "name": "Frillish",
+      "identifier": "frillish",
+      "generation": 5
+    },
+    {
+      "national_dex": 593,
+      "name": "Jellicent",
+      "identifier": "jellicent",
+      "generation": 5
+    },
+    {
+      "national_dex": 594,
+      "name": "Alomomola",
+      "identifier": "alomomola",
+      "generation": 5
+    },
+    {
+      "national_dex": 595,
+      "name": "Joltik",
+      "identifier": "joltik",
+      "generation": 5
+    },
+    {
+      "national_dex": 596,
+      "name": "Galvantula",
+      "identifier": "galvantula",
+      "generation": 5
+    },
+    {
+      "national_dex": 597,
+      "name": "Ferroseed",
+      "identifier": "ferroseed",
+      "generation": 5
+    },
+    {
+      "national_dex": 598,
+      "name": "Ferrothorn",
+      "identifier": "ferrothorn",
+      "generation": 5
+    },
+    {
+      "national_dex": 599,
+      "name": "Klink",
+      "identifier": "klink",
+      "generation": 5
+    },
+    {
+      "national_dex": 600,
+      "name": "Klang",
+      "identifier": "klang",
+      "generation": 5
+    },
+    {
+      "national_dex": 601,
+      "name": "Klinklang",
+      "identifier": "klinklang",
+      "generation": 5
+    },
+    {
+      "national_dex": 602,
+      "name": "Tynamo",
+      "identifier": "tynamo",
+      "generation": 5
+    },
+    {
+      "national_dex": 603,
+      "name": "Eelektrik",
+      "identifier": "eelektrik",
+      "generation": 5
+    },
+    {
+      "national_dex": 604,
+      "name": "Eelektross",
+      "identifier": "eelektross",
+      "generation": 5
+    },
+    {
+      "national_dex": 605,
+      "name": "Elgyem",
+      "identifier": "elgyem",
+      "generation": 5
+    },
+    {
+      "national_dex": 606,
+      "name": "Beheeyem",
+      "identifier": "beheeyem",
+      "generation": 5
+    },
+    {
+      "national_dex": 607,
+      "name": "Litwick",
+      "identifier": "litwick",
+      "generation": 5
+    },
+    {
+      "national_dex": 608,
+      "name": "Lampent",
+      "identifier": "lampent",
+      "generation": 5
+    },
+    {
+      "national_dex": 609,
+      "name": "Chandelure",
+      "identifier": "chandelure",
+      "generation": 5
+    },
+    {
+      "national_dex": 610,
+      "name": "Axew",
+      "identifier": "axew",
+      "generation": 5
+    },
+    {
+      "national_dex": 611,
+      "name": "Fraxure",
+      "identifier": "fraxure",
+      "generation": 5
+    },
+    {
+      "national_dex": 612,
+      "name": "Haxorus",
+      "identifier": "haxorus",
+      "generation": 5
+    },
+    {
+      "national_dex": 613,
+      "name": "Cubchoo",
+      "identifier": "cubchoo",
+      "generation": 5
+    },
+    {
+      "national_dex": 614,
+      "name": "Beartic",
+      "identifier": "beartic",
+      "generation": 5
+    },
+    {
+      "national_dex": 615,
+      "name": "Cryogonal",
+      "identifier": "cryogonal",
+      "generation": 5
+    },
+    {
+      "national_dex": 616,
+      "name": "Shelmet",
+      "identifier": "shelmet",
+      "generation": 5
+    },
+    {
+      "national_dex": 617,
+      "name": "Accelgor",
+      "identifier": "accelgor",
+      "generation": 5
+    },
+    {
+      "national_dex": 618,
+      "name": "Stunfisk",
+      "identifier": "stunfisk",
+      "generation": 5
+    },
+    {
+      "national_dex": 619,
+      "name": "Mienfoo",
+      "identifier": "mienfoo",
+      "generation": 5
+    },
+    {
+      "national_dex": 620,
+      "name": "Mienshao",
+      "identifier": "mienshao",
+      "generation": 5
+    },
+    {
+      "national_dex": 621,
+      "name": "Druddigon",
+      "identifier": "druddigon",
+      "generation": 5
+    },
+    {
+      "national_dex": 622,
+      "name": "Golett",
+      "identifier": "golett",
+      "generation": 5
+    },
+    {
+      "national_dex": 623,
+      "name": "Golurk",
+      "identifier": "golurk",
+      "generation": 5
+    },
+    {
+      "national_dex": 624,
+      "name": "Pawniard",
+      "identifier": "pawniard",
+      "generation": 5
+    },
+    {
+      "national_dex": 625,
+      "name": "Bisharp",
+      "identifier": "bisharp",
+      "generation": 5
+    },
+    {
+      "national_dex": 626,
+      "name": "Bouffalant",
+      "identifier": "bouffalant",
+      "generation": 5
+    },
+    {
+      "national_dex": 627,
+      "name": "Rufflet",
+      "identifier": "rufflet",
+      "generation": 5
+    },
+    {
+      "national_dex": 628,
+      "name": "Braviary",
+      "identifier": "braviary",
+      "generation": 5
+    },
+    {
+      "national_dex": 629,
+      "name": "Vullaby",
+      "identifier": "vullaby",
+      "generation": 5
+    },
+    {
+      "national_dex": 630,
+      "name": "Mandibuzz",
+      "identifier": "mandibuzz",
+      "generation": 5
+    },
+    {
+      "national_dex": 631,
+      "name": "Heatmor",
+      "identifier": "heatmor",
+      "generation": 5
+    },
+    {
+      "national_dex": 632,
+      "name": "Durant",
+      "identifier": "durant",
+      "generation": 5
+    },
+    {
+      "national_dex": 633,
+      "name": "Deino",
+      "identifier": "deino",
+      "generation": 5
+    },
+    {
+      "national_dex": 634,
+      "name": "Zweilous",
+      "identifier": "zweilous",
+      "generation": 5
+    },
+    {
+      "national_dex": 635,
+      "name": "Hydreigon",
+      "identifier": "hydreigon",
+      "generation": 5
+    },
+    {
+      "national_dex": 636,
+      "name": "Larvesta",
+      "identifier": "larvesta",
+      "generation": 5
+    },
+    {
+      "national_dex": 637,
+      "name": "Volcarona",
+      "identifier": "volcarona",
+      "generation": 5
+    },
+    {
+      "national_dex": 638,
+      "name": "Cobalion",
+      "identifier": "cobalion",
+      "generation": 5
+    },
+    {
+      "national_dex": 639,
+      "name": "Terrakion",
+      "identifier": "terrakion",
+      "generation": 5
+    },
+    {
+      "national_dex": 640,
+      "name": "Virizion",
+      "identifier": "virizion",
+      "generation": 5
+    },
+    {
+      "national_dex": 641,
+      "name": "Tornadus",
+      "identifier": "tornadus",
+      "generation": 5
+    },
+    {
+      "national_dex": 642,
+      "name": "Thundurus",
+      "identifier": "thundurus",
+      "generation": 5
+    },
+    {
+      "national_dex": 643,
+      "name": "Reshiram",
+      "identifier": "reshiram",
+      "generation": 5
+    },
+    {
+      "national_dex": 644,
+      "name": "Zekrom",
+      "identifier": "zekrom",
+      "generation": 5
+    },
+    {
+      "national_dex": 645,
+      "name": "Landorus",
+      "identifier": "landorus",
+      "generation": 5
+    },
+    {
+      "national_dex": 646,
+      "name": "Kyurem",
+      "identifier": "kyurem",
+      "generation": 5
+    },
+    {
+      "national_dex": 647,
+      "name": "Keldeo",
+      "identifier": "keldeo",
+      "generation": 5
+    },
+    {
+      "national_dex": 648,
+      "name": "Meloetta",
+      "identifier": "meloetta",
+      "generation": 5
+    },
+    {
+      "national_dex": 649,
+      "name": "Genesect",
+      "identifier": "genesect",
+      "generation": 5
+    },
+    {
+      "national_dex": 650,
+      "name": "Chespin",
+      "identifier": "chespin",
+      "generation": 6
+    },
+    {
+      "national_dex": 651,
+      "name": "Quilladin",
+      "identifier": "quilladin",
+      "generation": 6
+    },
+    {
+      "national_dex": 652,
+      "name": "Chesnaught",
+      "identifier": "chesnaught",
+      "generation": 6
+    },
+    {
+      "national_dex": 653,
+      "name": "Fennekin",
+      "identifier": "fennekin",
+      "generation": 6
+    },
+    {
+      "national_dex": 654,
+      "name": "Braixen",
+      "identifier": "braixen",
+      "generation": 6
+    },
+    {
+      "national_dex": 655,
+      "name": "Delphox",
+      "identifier": "delphox",
+      "generation": 6
+    },
+    {
+      "national_dex": 656,
+      "name": "Froakie",
+      "identifier": "froakie",
+      "generation": 6
+    },
+    {
+      "national_dex": 657,
+      "name": "Frogadier",
+      "identifier": "frogadier",
+      "generation": 6
+    },
+    {
+      "national_dex": 658,
+      "name": "Greninja",
+      "identifier": "greninja",
+      "generation": 6
+    },
+    {
+      "national_dex": 659,
+      "name": "Bunnelby",
+      "identifier": "bunnelby",
+      "generation": 6
+    },
+    {
+      "national_dex": 660,
+      "name": "Diggersby",
+      "identifier": "diggersby",
+      "generation": 6
+    },
+    {
+      "national_dex": 661,
+      "name": "Fletchling",
+      "identifier": "fletchling",
+      "generation": 6
+    },
+    {
+      "national_dex": 662,
+      "name": "Fletchinder",
+      "identifier": "fletchinder",
+      "generation": 6
+    },
+    {
+      "national_dex": 663,
+      "name": "Talonflame",
+      "identifier": "talonflame",
+      "generation": 6
+    },
+    {
+      "national_dex": 664,
+      "name": "Scatterbug",
+      "identifier": "scatterbug",
+      "generation": 6
+    },
+    {
+      "national_dex": 665,
+      "name": "Spewpa",
+      "identifier": "spewpa",
+      "generation": 6
+    },
+    {
+      "national_dex": 666,
+      "name": "Vivillon",
+      "identifier": "vivillon",
+      "generation": 6
+    },
+    {
+      "national_dex": 667,
+      "name": "Litleo",
+      "identifier": "litleo",
+      "generation": 6
+    },
+    {
+      "national_dex": 668,
+      "name": "Pyroar",
+      "identifier": "pyroar",
+      "generation": 6
+    },
+    {
+      "national_dex": 669,
+      "name": "Flabébé",
+      "identifier": "flabebe",
+      "generation": 6
+    },
+    {
+      "national_dex": 670,
+      "name": "Floette",
+      "identifier": "floette",
+      "generation": 6
+    },
+    {
+      "national_dex": 671,
+      "name": "Florges",
+      "identifier": "florges",
+      "generation": 6
+    },
+    {
+      "national_dex": 672,
+      "name": "Skiddo",
+      "identifier": "skiddo",
+      "generation": 6
+    },
+    {
+      "national_dex": 673,
+      "name": "Gogoat",
+      "identifier": "gogoat",
+      "generation": 6
+    },
+    {
+      "national_dex": 674,
+      "name": "Pancham",
+      "identifier": "pancham",
+      "generation": 6
+    },
+    {
+      "national_dex": 675,
+      "name": "Pangoro",
+      "identifier": "pangoro",
+      "generation": 6
+    },
+    {
+      "national_dex": 676,
+      "name": "Furfrou",
+      "identifier": "furfrou",
+      "generation": 6
+    },
+    {
+      "national_dex": 677,
+      "name": "Espurr",
+      "identifier": "espurr",
+      "generation": 6
+    },
+    {
+      "national_dex": 678,
+      "name": "Meowstic",
+      "identifier": "meowstic",
+      "generation": 6
+    },
+    {
+      "national_dex": 679,
+      "name": "Honedge",
+      "identifier": "honedge",
+      "generation": 6
+    },
+    {
+      "national_dex": 680,
+      "name": "Doublade",
+      "identifier": "doublade",
+      "generation": 6
+    },
+    {
+      "national_dex": 681,
+      "name": "Aegislash",
+      "identifier": "aegislash",
+      "generation": 6
+    },
+    {
+      "national_dex": 682,
+      "name": "Spritzee",
+      "identifier": "spritzee",
+      "generation": 6
+    },
+    {
+      "national_dex": 683,
+      "name": "Aromatisse",
+      "identifier": "aromatisse",
+      "generation": 6
+    },
+    {
+      "national_dex": 684,
+      "name": "Swirlix",
+      "identifier": "swirlix",
+      "generation": 6
+    },
+    {
+      "national_dex": 685,
+      "name": "Slurpuff",
+      "identifier": "slurpuff",
+      "generation": 6
+    },
+    {
+      "national_dex": 686,
+      "name": "Inkay",
+      "identifier": "inkay",
+      "generation": 6
+    },
+    {
+      "national_dex": 687,
+      "name": "Malamar",
+      "identifier": "malamar",
+      "generation": 6
+    },
+    {
+      "national_dex": 688,
+      "name": "Binacle",
+      "identifier": "binacle",
+      "generation": 6
+    },
+    {
+      "national_dex": 689,
+      "name": "Barbaracle",
+      "identifier": "barbaracle",
+      "generation": 6
+    },
+    {
+      "national_dex": 690,
+      "name": "Skrelp",
+      "identifier": "skrelp",
+      "generation": 6
+    },
+    {
+      "national_dex": 691,
+      "name": "Dragalge",
+      "identifier": "dragalge",
+      "generation": 6
+    },
+    {
+      "national_dex": 692,
+      "name": "Clauncher",
+      "identifier": "clauncher",
+      "generation": 6
+    },
+    {
+      "national_dex": 693,
+      "name": "Clawitzer",
+      "identifier": "clawitzer",
+      "generation": 6
+    },
+    {
+      "national_dex": 694,
+      "name": "Helioptile",
+      "identifier": "helioptile",
+      "generation": 6
+    },
+    {
+      "national_dex": 695,
+      "name": "Heliolisk",
+      "identifier": "heliolisk",
+      "generation": 6
+    },
+    {
+      "national_dex": 696,
+      "name": "Tyrunt",
+      "identifier": "tyrunt",
+      "generation": 6
+    },
+    {
+      "national_dex": 697,
+      "name": "Tyrantrum",
+      "identifier": "tyrantrum",
+      "generation": 6
+    },
+    {
+      "national_dex": 698,
+      "name": "Amaura",
+      "identifier": "amaura",
+      "generation": 6
+    },
+    {
+      "national_dex": 699,
+      "name": "Aurorus",
+      "identifier": "aurorus",
+      "generation": 6
+    },
+    {
+      "national_dex": 700,
+      "name": "Sylveon",
+      "identifier": "sylveon",
+      "generation": 6
+    },
+    {
+      "national_dex": 701,
+      "name": "Hawlucha",
+      "identifier": "hawlucha",
+      "generation": 6
+    },
+    {
+      "national_dex": 702,
+      "name": "Dedenne",
+      "identifier": "dedenne",
+      "generation": 6
+    },
+    {
+      "national_dex": 703,
+      "name": "Carbink",
+      "identifier": "carbink",
+      "generation": 6
+    },
+    {
+      "national_dex": 704,
+      "name": "Goomy",
+      "identifier": "goomy",
+      "generation": 6
+    },
+    {
+      "national_dex": 705,
+      "name": "Sliggoo",
+      "identifier": "sliggoo",
+      "generation": 6
+    },
+    {
+      "national_dex": 706,
+      "name": "Goodra",
+      "identifier": "goodra",
+      "generation": 6
+    },
+    {
+      "national_dex": 707,
+      "name": "Klefki",
+      "identifier": "klefki",
+      "generation": 6
+    },
+    {
+      "national_dex": 708,
+      "name": "Phantump",
+      "identifier": "phantump",
+      "generation": 6
+    },
+    {
+      "national_dex": 709,
+      "name": "Trevenant",
+      "identifier": "trevenant",
+      "generation": 6
+    },
+    {
+      "national_dex": 710,
+      "name": "Pumpkaboo",
+      "identifier": "pumpkaboo",
+      "generation": 6
+    },
+    {
+      "national_dex": 711,
+      "name": "Gourgeist",
+      "identifier": "gourgeist",
+      "generation": 6
+    },
+    {
+      "national_dex": 712,
+      "name": "Bergmite",
+      "identifier": "bergmite",
+      "generation": 6
+    },
+    {
+      "national_dex": 713,
+      "name": "Avalugg",
+      "identifier": "avalugg",
+      "generation": 6
+    },
+    {
+      "national_dex": 714,
+      "name": "Noibat",
+      "identifier": "noibat",
+      "generation": 6
+    },
+    {
+      "national_dex": 715,
+      "name": "Noivern",
+      "identifier": "noivern",
+      "generation": 6
+    },
+    {
+      "national_dex": 716,
+      "name": "Xerneas",
+      "identifier": "xerneas",
+      "generation": 6
+    },
+    {
+      "national_dex": 717,
+      "name": "Yveltal",
+      "identifier": "yveltal",
+      "generation": 6
+    },
+    {
+      "national_dex": 718,
+      "name": "Zygarde",
+      "identifier": "zygarde",
+      "generation": 6
+    },
+    {
+      "national_dex": 719,
+      "name": "Diancie",
+      "identifier": "diancie",
+      "generation": 6
+    },
+    {
+      "national_dex": 720,
+      "name": "Hoopa",
+      "identifier": "hoopa",
+      "generation": 6
+    },
+    {
+      "national_dex": 721,
+      "name": "Volcanion",
+      "identifier": "volcanion",
+      "generation": 6
+    },
+    {
+      "national_dex": 722,
+      "name": "Rowlet",
+      "identifier": "rowlet",
+      "generation": 7
+    },
+    {
+      "national_dex": 723,
+      "name": "Dartrix",
+      "identifier": "dartrix",
+      "generation": 7
+    },
+    {
+      "national_dex": 724,
+      "name": "Decidueye",
+      "identifier": "decidueye",
+      "generation": 7
+    },
+    {
+      "national_dex": 725,
+      "name": "Litten",
+      "identifier": "litten",
+      "generation": 7
+    },
+    {
+      "national_dex": 726,
+      "name": "Torracat",
+      "identifier": "torracat",
+      "generation": 7
+    },
+    {
+      "national_dex": 727,
+      "name": "Incineroar",
+      "identifier": "incineroar",
+      "generation": 7
+    },
+    {
+      "national_dex": 728,
+      "name": "Popplio",
+      "identifier": "popplio",
+      "generation": 7
+    },
+    {
+      "national_dex": 729,
+      "name": "Brionne",
+      "identifier": "brionne",
+      "generation": 7
+    },
+    {
+      "national_dex": 730,
+      "name": "Primarina",
+      "identifier": "primarina",
+      "generation": 7
+    },
+    {
+      "national_dex": 731,
+      "name": "Pikipek",
+      "identifier": "pikipek",
+      "generation": 7
+    },
+    {
+      "national_dex": 732,
+      "name": "Trumbeak",
+      "identifier": "trumbeak",
+      "generation": 7
+    },
+    {
+      "national_dex": 733,
+      "name": "Toucannon",
+      "identifier": "toucannon",
+      "generation": 7
+    },
+    {
+      "national_dex": 734,
+      "name": "Yungoos",
+      "identifier": "yungoos",
+      "generation": 7
+    },
+    {
+      "national_dex": 735,
+      "name": "Gumshoos",
+      "identifier": "gumshoos",
+      "generation": 7
+    },
+    {
+      "national_dex": 736,
+      "name": "Grubbin",
+      "identifier": "grubbin",
+      "generation": 7
+    },
+    {
+      "national_dex": 737,
+      "name": "Charjabug",
+      "identifier": "charjabug",
+      "generation": 7
+    },
+    {
+      "national_dex": 738,
+      "name": "Vikavolt",
+      "identifier": "vikavolt",
+      "generation": 7
+    },
+    {
+      "national_dex": 739,
+      "name": "Crabrawler",
+      "identifier": "crabrawler",
+      "generation": 7
+    },
+    {
+      "national_dex": 740,
+      "name": "Crabominable",
+      "identifier": "crabominable",
+      "generation": 7
+    },
+    {
+      "national_dex": 741,
+      "name": "Oricorio",
+      "identifier": "oricorio",
+      "generation": 7
+    },
+    {
+      "national_dex": 742,
+      "name": "Cutiefly",
+      "identifier": "cutiefly",
+      "generation": 7
+    },
+    {
+      "national_dex": 743,
+      "name": "Ribombee",
+      "identifier": "ribombee",
+      "generation": 7
+    },
+    {
+      "national_dex": 744,
+      "name": "Rockruff",
+      "identifier": "rockruff",
+      "generation": 7
+    },
+    {
+      "national_dex": 745,
+      "name": "Lycanroc",
+      "identifier": "lycanroc",
+      "generation": 7
+    },
+    {
+      "national_dex": 746,
+      "name": "Wishiwashi",
+      "identifier": "wishiwashi",
+      "generation": 7
+    },
+    {
+      "national_dex": 747,
+      "name": "Mareanie",
+      "identifier": "mareanie",
+      "generation": 7
+    },
+    {
+      "national_dex": 748,
+      "name": "Toxapex",
+      "identifier": "toxapex",
+      "generation": 7
+    },
+    {
+      "national_dex": 749,
+      "name": "Mudbray",
+      "identifier": "mudbray",
+      "generation": 7
+    },
+    {
+      "national_dex": 750,
+      "name": "Mudsdale",
+      "identifier": "mudsdale",
+      "generation": 7
+    },
+    {
+      "national_dex": 751,
+      "name": "Dewpider",
+      "identifier": "dewpider",
+      "generation": 7
+    },
+    {
+      "national_dex": 752,
+      "name": "Araquanid",
+      "identifier": "araquanid",
+      "generation": 7
+    },
+    {
+      "national_dex": 753,
+      "name": "Fomantis",
+      "identifier": "fomantis",
+      "generation": 7
+    },
+    {
+      "national_dex": 754,
+      "name": "Lurantis",
+      "identifier": "lurantis",
+      "generation": 7
+    },
+    {
+      "national_dex": 755,
+      "name": "Morelull",
+      "identifier": "morelull",
+      "generation": 7
+    },
+    {
+      "national_dex": 756,
+      "name": "Shiinotic",
+      "identifier": "shiinotic",
+      "generation": 7
+    },
+    {
+      "national_dex": 757,
+      "name": "Salandit",
+      "identifier": "salandit",
+      "generation": 7
+    },
+    {
+      "national_dex": 758,
+      "name": "Salazzle",
+      "identifier": "salazzle",
+      "generation": 7
+    },
+    {
+      "national_dex": 759,
+      "name": "Stufful",
+      "identifier": "stufful",
+      "generation": 7
+    },
+    {
+      "national_dex": 760,
+      "name": "Bewear",
+      "identifier": "bewear",
+      "generation": 7
+    },
+    {
+      "national_dex": 761,
+      "name": "Bounsweet",
+      "identifier": "bounsweet",
+      "generation": 7
+    },
+    {
+      "national_dex": 762,
+      "name": "Steenee",
+      "identifier": "steenee",
+      "generation": 7
+    },
+    {
+      "national_dex": 763,
+      "name": "Tsareena",
+      "identifier": "tsareena",
+      "generation": 7
+    },
+    {
+      "national_dex": 764,
+      "name": "Comfey",
+      "identifier": "comfey",
+      "generation": 7
+    },
+    {
+      "national_dex": 765,
+      "name": "Oranguru",
+      "identifier": "oranguru",
+      "generation": 7
+    },
+    {
+      "national_dex": 766,
+      "name": "Passimian",
+      "identifier": "passimian",
+      "generation": 7
+    },
+    {
+      "national_dex": 767,
+      "name": "Wimpod",
+      "identifier": "wimpod",
+      "generation": 7
+    },
+    {
+      "national_dex": 768,
+      "name": "Golisopod",
+      "identifier": "golisopod",
+      "generation": 7
+    },
+    {
+      "national_dex": 769,
+      "name": "Sandygast",
+      "identifier": "sandygast",
+      "generation": 7
+    },
+    {
+      "national_dex": 770,
+      "name": "Palossand",
+      "identifier": "palossand",
+      "generation": 7
+    },
+    {
+      "national_dex": 771,
+      "name": "Pyukumuku",
+      "identifier": "pyukumuku",
+      "generation": 7
+    },
+    {
+      "national_dex": 772,
+      "name": "Type: Null",
+      "identifier": "type-null",
+      "generation": 7
+    },
+    {
+      "national_dex": 773,
+      "name": "Silvally",
+      "identifier": "silvally",
+      "generation": 7
+    },
+    {
+      "national_dex": 774,
+      "name": "Minior",
+      "identifier": "minior",
+      "generation": 7
+    },
+    {
+      "national_dex": 775,
+      "name": "Komala",
+      "identifier": "komala",
+      "generation": 7
+    },
+    {
+      "national_dex": 776,
+      "name": "Turtonator",
+      "identifier": "turtonator",
+      "generation": 7
+    },
+    {
+      "national_dex": 777,
+      "name": "Togedemaru",
+      "identifier": "togedemaru",
+      "generation": 7
+    },
+    {
+      "national_dex": 778,
+      "name": "Mimikyu",
+      "identifier": "mimikyu",
+      "generation": 7
+    },
+    {
+      "national_dex": 779,
+      "name": "Bruxish",
+      "identifier": "bruxish",
+      "generation": 7
+    },
+    {
+      "national_dex": 780,
+      "name": "Drampa",
+      "identifier": "drampa",
+      "generation": 7
+    },
+    {
+      "national_dex": 781,
+      "name": "Dhelmise",
+      "identifier": "dhelmise",
+      "generation": 7
+    },
+    {
+      "national_dex": 782,
+      "name": "Jangmo-o",
+      "identifier": "jangmo-o",
+      "generation": 7
+    },
+    {
+      "national_dex": 783,
+      "name": "Hakamo-o",
+      "identifier": "hakamo-o",
+      "generation": 7
+    },
+    {
+      "national_dex": 784,
+      "name": "Kommo-o",
+      "identifier": "kommo-o",
+      "generation": 7
+    },
+    {
+      "national_dex": 785,
+      "name": "Tapu Koko",
+      "identifier": "tapu-koko",
+      "generation": 7
+    },
+    {
+      "national_dex": 786,
+      "name": "Tapu Lele",
+      "identifier": "tapu-lele",
+      "generation": 7
+    },
+    {
+      "national_dex": 787,
+      "name": "Tapu Bulu",
+      "identifier": "tapu-bulu",
+      "generation": 7
+    },
+    {
+      "national_dex": 788,
+      "name": "Tapu Fini",
+      "identifier": "tapu-fini",
+      "generation": 7
+    },
+    {
+      "national_dex": 789,
+      "name": "Cosmog",
+      "identifier": "cosmog",
+      "generation": 7
+    },
+    {
+      "national_dex": 790,
+      "name": "Cosmoem",
+      "identifier": "cosmoem",
+      "generation": 7
+    },
+    {
+      "national_dex": 791,
+      "name": "Solgaleo",
+      "identifier": "solgaleo",
+      "generation": 7
+    },
+    {
+      "national_dex": 792,
+      "name": "Lunala",
+      "identifier": "lunala",
+      "generation": 7
+    },
+    {
+      "national_dex": 793,
+      "name": "Nihilego",
+      "identifier": "nihilego",
+      "generation": 7
+    },
+    {
+      "national_dex": 794,
+      "name": "Buzzwole",
+      "identifier": "buzzwole",
+      "generation": 7
+    },
+    {
+      "national_dex": 795,
+      "name": "Pheromosa",
+      "identifier": "pheromosa",
+      "generation": 7
+    },
+    {
+      "national_dex": 796,
+      "name": "Xurkitree",
+      "identifier": "xurkitree",
+      "generation": 7
+    },
+    {
+      "national_dex": 797,
+      "name": "Celesteela",
+      "identifier": "celesteela",
+      "generation": 7
+    },
+    {
+      "national_dex": 798,
+      "name": "Kartana",
+      "identifier": "kartana",
+      "generation": 7
+    },
+    {
+      "national_dex": 799,
+      "name": "Guzzlord",
+      "identifier": "guzzlord",
+      "generation": 7
+    },
+    {
+      "national_dex": 800,
+      "name": "Necrozma",
+      "identifier": "necrozma",
+      "generation": 7
+    },
+    {
+      "national_dex": 801,
+      "name": "Magearna",
+      "identifier": "magearna",
+      "generation": 7
+    },
+    {
+      "national_dex": 802,
+      "name": "Marshadow",
+      "identifier": "marshadow",
+      "generation": 7
+    },
+    {
+      "national_dex": 803,
+      "name": "Poipole",
+      "identifier": "poipole",
+      "generation": 7
+    },
+    {
+      "national_dex": 804,
+      "name": "Naganadel",
+      "identifier": "naganadel",
+      "generation": 7
+    },
+    {
+      "national_dex": 805,
+      "name": "Stakataka",
+      "identifier": "stakataka",
+      "generation": 7
+    },
+    {
+      "national_dex": 806,
+      "name": "Blacephalon",
+      "identifier": "blacephalon",
+      "generation": 7
+    },
+    {
+      "national_dex": 807,
+      "name": "Zeraora",
+      "identifier": "zeraora",
+      "generation": 7
+    },
+    {
+      "national_dex": 808,
+      "name": "Meltan",
+      "identifier": "meltan",
+      "generation": 7
+    },
+    {
+      "national_dex": 809,
+      "name": "Melmetal",
+      "identifier": "melmetal",
+      "generation": 7
+    },
+    {
+      "national_dex": 810,
+      "name": "Grookey",
+      "identifier": "grookey",
+      "generation": 8
+    },
+    {
+      "national_dex": 811,
+      "name": "Thwackey",
+      "identifier": "thwackey",
+      "generation": 8
+    },
+    {
+      "national_dex": 812,
+      "name": "Rillaboom",
+      "identifier": "rillaboom",
+      "generation": 8
+    },
+    {
+      "national_dex": 813,
+      "name": "Scorbunny",
+      "identifier": "scorbunny",
+      "generation": 8
+    },
+    {
+      "national_dex": 814,
+      "name": "Raboot",
+      "identifier": "raboot",
+      "generation": 8
+    },
+    {
+      "national_dex": 815,
+      "name": "Cinderace",
+      "identifier": "cinderace",
+      "generation": 8
+    },
+    {
+      "national_dex": 816,
+      "name": "Sobble",
+      "identifier": "sobble",
+      "generation": 8
+    },
+    {
+      "national_dex": 817,
+      "name": "Drizzile",
+      "identifier": "drizzile",
+      "generation": 8
+    },
+    {
+      "national_dex": 818,
+      "name": "Inteleon",
+      "identifier": "inteleon",
+      "generation": 8
+    },
+    {
+      "national_dex": 819,
+      "name": "Skwovet",
+      "identifier": "skwovet",
+      "generation": 8
+    },
+    {
+      "national_dex": 820,
+      "name": "Greedent",
+      "identifier": "greedent",
+      "generation": 8
+    },
+    {
+      "national_dex": 821,
+      "name": "Rookidee",
+      "identifier": "rookidee",
+      "generation": 8
+    },
+    {
+      "national_dex": 822,
+      "name": "Corvisquire",
+      "identifier": "corvisquire",
+      "generation": 8
+    },
+    {
+      "national_dex": 823,
+      "name": "Corviknight",
+      "identifier": "corviknight",
+      "generation": 8
+    },
+    {
+      "national_dex": 824,
+      "name": "Blipbug",
+      "identifier": "blipbug",
+      "generation": 8
+    },
+    {
+      "national_dex": 825,
+      "name": "Dottler",
+      "identifier": "dottler",
+      "generation": 8
+    },
+    {
+      "national_dex": 826,
+      "name": "Orbeetle",
+      "identifier": "orbeetle",
+      "generation": 8
+    },
+    {
+      "national_dex": 827,
+      "name": "Nickit",
+      "identifier": "nickit",
+      "generation": 8
+    },
+    {
+      "national_dex": 828,
+      "name": "Thievul",
+      "identifier": "thievul",
+      "generation": 8
+    },
+    {
+      "national_dex": 829,
+      "name": "Gossifleur",
+      "identifier": "gossifleur",
+      "generation": 8
+    },
+    {
+      "national_dex": 830,
+      "name": "Eldegoss",
+      "identifier": "eldegoss",
+      "generation": 8
+    },
+    {
+      "national_dex": 831,
+      "name": "Wooloo",
+      "identifier": "wooloo",
+      "generation": 8
+    },
+    {
+      "national_dex": 832,
+      "name": "Dubwool",
+      "identifier": "dubwool",
+      "generation": 8
+    },
+    {
+      "national_dex": 833,
+      "name": "Chewtle",
+      "identifier": "chewtle",
+      "generation": 8
+    },
+    {
+      "national_dex": 834,
+      "name": "Drednaw",
+      "identifier": "drednaw",
+      "generation": 8
+    },
+    {
+      "national_dex": 835,
+      "name": "Yamper",
+      "identifier": "yamper",
+      "generation": 8
+    },
+    {
+      "national_dex": 836,
+      "name": "Boltund",
+      "identifier": "boltund",
+      "generation": 8
+    },
+    {
+      "national_dex": 837,
+      "name": "Rolycoly",
+      "identifier": "rolycoly",
+      "generation": 8
+    },
+    {
+      "national_dex": 838,
+      "name": "Carkol",
+      "identifier": "carkol",
+      "generation": 8
+    },
+    {
+      "national_dex": 839,
+      "name": "Coalossal",
+      "identifier": "coalossal",
+      "generation": 8
+    },
+    {
+      "national_dex": 840,
+      "name": "Applin",
+      "identifier": "applin",
+      "generation": 8
+    },
+    {
+      "national_dex": 841,
+      "name": "Flapple",
+      "identifier": "flapple",
+      "generation": 8
+    },
+    {
+      "national_dex": 842,
+      "name": "Appletun",
+      "identifier": "appletun",
+      "generation": 8
+    },
+    {
+      "national_dex": 843,
+      "name": "Silicobra",
+      "identifier": "silicobra",
+      "generation": 8
+    },
+    {
+      "national_dex": 844,
+      "name": "Sandaconda",
+      "identifier": "sandaconda",
+      "generation": 8
+    },
+    {
+      "national_dex": 845,
+      "name": "Cramorant",
+      "identifier": "cramorant",
+      "generation": 8
+    },
+    {
+      "national_dex": 846,
+      "name": "Arrokuda",
+      "identifier": "arrokuda",
+      "generation": 8
+    },
+    {
+      "national_dex": 847,
+      "name": "Barraskewda",
+      "identifier": "barraskewda",
+      "generation": 8
+    },
+    {
+      "national_dex": 848,
+      "name": "Toxel",
+      "identifier": "toxel",
+      "generation": 8
+    },
+    {
+      "national_dex": 849,
+      "name": "Toxtricity",
+      "identifier": "toxtricity",
+      "generation": 8
+    },
+    {
+      "national_dex": 850,
+      "name": "Sizzlipede",
+      "identifier": "sizzlipede",
+      "generation": 8
+    },
+    {
+      "national_dex": 851,
+      "name": "Centiskorch",
+      "identifier": "centiskorch",
+      "generation": 8
+    },
+    {
+      "national_dex": 852,
+      "name": "Clobbopus",
+      "identifier": "clobbopus",
+      "generation": 8
+    },
+    {
+      "national_dex": 853,
+      "name": "Grapploct",
+      "identifier": "grapploct",
+      "generation": 8
+    },
+    {
+      "national_dex": 854,
+      "name": "Sinistea",
+      "identifier": "sinistea",
+      "generation": 8
+    },
+    {
+      "national_dex": 855,
+      "name": "Polteageist",
+      "identifier": "polteageist",
+      "generation": 8
+    },
+    {
+      "national_dex": 856,
+      "name": "Hatenna",
+      "identifier": "hatenna",
+      "generation": 8
+    },
+    {
+      "national_dex": 857,
+      "name": "Hattrem",
+      "identifier": "hattrem",
+      "generation": 8
+    },
+    {
+      "national_dex": 858,
+      "name": "Hatterene",
+      "identifier": "hatterene",
+      "generation": 8
+    },
+    {
+      "national_dex": 859,
+      "name": "Impidimp",
+      "identifier": "impidimp",
+      "generation": 8
+    },
+    {
+      "national_dex": 860,
+      "name": "Morgrem",
+      "identifier": "morgrem",
+      "generation": 8
+    },
+    {
+      "national_dex": 861,
+      "name": "Grimmsnarl",
+      "identifier": "grimmsnarl",
+      "generation": 8
+    },
+    {
+      "national_dex": 862,
+      "name": "Obstagoon",
+      "identifier": "obstagoon",
+      "generation": 8
+    },
+    {
+      "national_dex": 863,
+      "name": "Perrserker",
+      "identifier": "perrserker",
+      "generation": 8
+    },
+    {
+      "national_dex": 864,
+      "name": "Cursola",
+      "identifier": "cursola",
+      "generation": 8
+    },
+    {
+      "national_dex": 865,
+      "name": "Sirfetch'd",
+      "identifier": "sirfetchd",
+      "generation": 8
+    },
+    {
+      "national_dex": 866,
+      "name": "Mr. Rime",
+      "identifier": "mr-rime",
+      "generation": 8
+    },
+    {
+      "national_dex": 867,
+      "name": "Runerigus",
+      "identifier": "runerigus",
+      "generation": 8
+    },
+    {
+      "national_dex": 868,
+      "name": "Milcery",
+      "identifier": "milcery",
+      "generation": 8
+    },
+    {
+      "national_dex": 869,
+      "name": "Alcremie",
+      "identifier": "alcremie",
+      "generation": 8
+    },
+    {
+      "national_dex": 870,
+      "name": "Falinks",
+      "identifier": "falinks",
+      "generation": 8
+    },
+    {
+      "national_dex": 871,
+      "name": "Pincurchin",
+      "identifier": "pincurchin",
+      "generation": 8
+    },
+    {
+      "national_dex": 872,
+      "name": "Snom",
+      "identifier": "snom",
+      "generation": 8
+    },
+    {
+      "national_dex": 873,
+      "name": "Frosmoth",
+      "identifier": "frosmoth",
+      "generation": 8
+    },
+    {
+      "national_dex": 874,
+      "name": "Stonjourner",
+      "identifier": "stonjourner",
+      "generation": 8
+    },
+    {
+      "national_dex": 875,
+      "name": "Eiscue",
+      "identifier": "eiscue",
+      "generation": 8
+    },
+    {
+      "national_dex": 876,
+      "name": "Indeedee",
+      "identifier": "indeedee",
+      "generation": 8
+    },
+    {
+      "national_dex": 877,
+      "name": "Morpeko",
+      "identifier": "morpeko",
+      "generation": 8
+    },
+    {
+      "national_dex": 878,
+      "name": "Cufant",
+      "identifier": "cufant",
+      "generation": 8
+    },
+    {
+      "national_dex": 879,
+      "name": "Copperajah",
+      "identifier": "copperajah",
+      "generation": 8
+    },
+    {
+      "national_dex": 880,
+      "name": "Dracozolt",
+      "identifier": "dracozolt",
+      "generation": 8
+    },
+    {
+      "national_dex": 881,
+      "name": "Arctozolt",
+      "identifier": "arctozolt",
+      "generation": 8
+    },
+    {
+      "national_dex": 882,
+      "name": "Dracovish",
+      "identifier": "dracovish",
+      "generation": 8
+    },
+    {
+      "national_dex": 883,
+      "name": "Arctovish",
+      "identifier": "arctovish",
+      "generation": 8
+    },
+    {
+      "national_dex": 884,
+      "name": "Duraludon",
+      "identifier": "duraludon",
+      "generation": 8
+    },
+    {
+      "national_dex": 885,
+      "name": "Dreepy",
+      "identifier": "dreepy",
+      "generation": 8
+    },
+    {
+      "national_dex": 886,
+      "name": "Drakloak",
+      "identifier": "drakloak",
+      "generation": 8
+    },
+    {
+      "national_dex": 887,
+      "name": "Dragapult",
+      "identifier": "dragapult",
+      "generation": 8
+    },
+    {
+      "national_dex": 888,
+      "name": "Zacian",
+      "identifier": "zacian",
+      "generation": 8
+    },
+    {
+      "national_dex": 889,
+      "name": "Zamazenta",
+      "identifier": "zamazenta",
+      "generation": 8
+    },
+    {
+      "national_dex": 890,
+      "name": "Eternatus",
+      "identifier": "eternatus",
+      "generation": 8
+    },
+    {
+      "national_dex": 891,
+      "name": "Kubfu",
+      "identifier": "kubfu",
+      "generation": 8
+    },
+    {
+      "national_dex": 892,
+      "name": "Urshifu",
+      "identifier": "urshifu",
+      "generation": 8
+    },
+    {
+      "national_dex": 893,
+      "name": "Zarude",
+      "identifier": "zarude",
+      "generation": 8
+    },
+    {
+      "national_dex": 894,
+      "name": "Regieleki",
+      "identifier": "regieleki",
+      "generation": 8
+    },
+    {
+      "national_dex": 895,
+      "name": "Regidrago",
+      "identifier": "regidrago",
+      "generation": 8
+    },
+    {
+      "national_dex": 896,
+      "name": "Glastrier",
+      "identifier": "glastrier",
+      "generation": 8
+    },
+    {
+      "national_dex": 897,
+      "name": "Spectrier",
+      "identifier": "spectrier",
+      "generation": 8
+    },
+    {
+      "national_dex": 898,
+      "name": "Calyrex",
+      "identifier": "calyrex",
+      "generation": 8
+    },
+    {
+      "national_dex": 899,
+      "name": "Wyrdeer",
+      "identifier": "wyrdeer",
+      "generation": 8
+    },
+    {
+      "national_dex": 900,
+      "name": "Kleavor",
+      "identifier": "kleavor",
+      "generation": 8
+    },
+    {
+      "national_dex": 901,
+      "name": "Ursaluna",
+      "identifier": "ursaluna",
+      "generation": 8
+    },
+    {
+      "national_dex": 902,
+      "name": "Basculegion",
+      "identifier": "basculegion",
+      "generation": 8
+    },
+    {
+      "national_dex": 903,
+      "name": "Sneasler",
+      "identifier": "sneasler",
+      "generation": 8
+    },
+    {
+      "national_dex": 904,
+      "name": "Overqwil",
+      "identifier": "overqwil",
+      "generation": 8
+    },
+    {
+      "national_dex": 905,
+      "name": "Enamorus",
+      "identifier": "enamorus",
+      "generation": 8
+    },
+    {
+      "national_dex": 906,
+      "name": "Sprigatito",
+      "identifier": "sprigatito",
+      "generation": 9
+    },
+    {
+      "national_dex": 907,
+      "name": "Floragato",
+      "identifier": "floragato",
+      "generation": 9
+    },
+    {
+      "national_dex": 908,
+      "name": "Meowscarada",
+      "identifier": "meowscarada",
+      "generation": 9
+    },
+    {
+      "national_dex": 909,
+      "name": "Fuecoco",
+      "identifier": "fuecoco",
+      "generation": 9
+    },
+    {
+      "national_dex": 910,
+      "name": "Crocalor",
+      "identifier": "crocalor",
+      "generation": 9
+    },
+    {
+      "national_dex": 911,
+      "name": "Skeledirge",
+      "identifier": "skeledirge",
+      "generation": 9
+    },
+    {
+      "national_dex": 912,
+      "name": "Quaxly",
+      "identifier": "quaxly",
+      "generation": 9
+    },
+    {
+      "national_dex": 913,
+      "name": "Quaxwell",
+      "identifier": "quaxwell",
+      "generation": 9
+    },
+    {
+      "national_dex": 914,
+      "name": "Quaquaval",
+      "identifier": "quaquaval",
+      "generation": 9
+    },
+    {
+      "national_dex": 915,
+      "name": "Lechonk",
+      "identifier": "lechonk",
+      "generation": 9
+    },
+    {
+      "national_dex": 916,
+      "name": "Oinkologne",
+      "identifier": "oinkologne",
+      "generation": 9
+    },
+    {
+      "national_dex": 917,
+      "name": "Tarountula",
+      "identifier": "tarountula",
+      "generation": 9
+    },
+    {
+      "national_dex": 918,
+      "name": "Spidops",
+      "identifier": "spidops",
+      "generation": 9
+    },
+    {
+      "national_dex": 919,
+      "name": "Nymble",
+      "identifier": "nymble",
+      "generation": 9
+    },
+    {
+      "national_dex": 920,
+      "name": "Lokix",
+      "identifier": "lokix",
+      "generation": 9
+    },
+    {
+      "national_dex": 921,
+      "name": "Pawmi",
+      "identifier": "pawmi",
+      "generation": 9
+    },
+    {
+      "national_dex": 922,
+      "name": "Pawmo",
+      "identifier": "pawmo",
+      "generation": 9
+    },
+    {
+      "national_dex": 923,
+      "name": "Pawmot",
+      "identifier": "pawmot",
+      "generation": 9
+    },
+    {
+      "national_dex": 924,
+      "name": "Tandemaus",
+      "identifier": "tandemaus",
+      "generation": 9
+    },
+    {
+      "national_dex": 925,
+      "name": "Maushold",
+      "identifier": "maushold",
+      "generation": 9
+    },
+    {
+      "national_dex": 926,
+      "name": "Fidough",
+      "identifier": "fidough",
+      "generation": 9
+    },
+    {
+      "national_dex": 927,
+      "name": "Dachsbun",
+      "identifier": "dachsbun",
+      "generation": 9
+    },
+    {
+      "national_dex": 928,
+      "name": "Smoliv",
+      "identifier": "smoliv",
+      "generation": 9
+    },
+    {
+      "national_dex": 929,
+      "name": "Dolliv",
+      "identifier": "dolliv",
+      "generation": 9
+    },
+    {
+      "national_dex": 930,
+      "name": "Arboliva",
+      "identifier": "arboliva",
+      "generation": 9
+    },
+    {
+      "national_dex": 931,
+      "name": "Squawkabilly",
+      "identifier": "squawkabilly",
+      "generation": 9
+    },
+    {
+      "national_dex": 932,
+      "name": "Nacli",
+      "identifier": "nacli",
+      "generation": 9
+    },
+    {
+      "national_dex": 933,
+      "name": "Naclstack",
+      "identifier": "naclstack",
+      "generation": 9
+    },
+    {
+      "national_dex": 934,
+      "name": "Garganacl",
+      "identifier": "garganacl",
+      "generation": 9
+    },
+    {
+      "national_dex": 935,
+      "name": "Charcadet",
+      "identifier": "charcadet",
+      "generation": 9
+    },
+    {
+      "national_dex": 936,
+      "name": "Armarouge",
+      "identifier": "armarouge",
+      "generation": 9
+    },
+    {
+      "national_dex": 937,
+      "name": "Ceruledge",
+      "identifier": "ceruledge",
+      "generation": 9
+    },
+    {
+      "national_dex": 938,
+      "name": "Tadbulb",
+      "identifier": "tadbulb",
+      "generation": 9
+    },
+    {
+      "national_dex": 939,
+      "name": "Bellibolt",
+      "identifier": "bellibolt",
+      "generation": 9
+    },
+    {
+      "national_dex": 940,
+      "name": "Wattrel",
+      "identifier": "wattrel",
+      "generation": 9
+    },
+    {
+      "national_dex": 941,
+      "name": "Kilowattrel",
+      "identifier": "kilowattrel",
+      "generation": 9
+    },
+    {
+      "national_dex": 942,
+      "name": "Maschiff",
+      "identifier": "maschiff",
+      "generation": 9
+    },
+    {
+      "national_dex": 943,
+      "name": "Mabosstiff",
+      "identifier": "mabosstiff",
+      "generation": 9
+    },
+    {
+      "national_dex": 944,
+      "name": "Shroodle",
+      "identifier": "shroodle",
+      "generation": 9
+    },
+    {
+      "national_dex": 945,
+      "name": "Grafaiai",
+      "identifier": "grafaiai",
+      "generation": 9
+    },
+    {
+      "national_dex": 946,
+      "name": "Bramblin",
+      "identifier": "bramblin",
+      "generation": 9
+    },
+    {
+      "national_dex": 947,
+      "name": "Brambleghast",
+      "identifier": "brambleghast",
+      "generation": 9
+    },
+    {
+      "national_dex": 948,
+      "name": "Toedscool",
+      "identifier": "toedscool",
+      "generation": 9
+    },
+    {
+      "national_dex": 949,
+      "name": "Toedscruel",
+      "identifier": "toedscruel",
+      "generation": 9
+    },
+    {
+      "national_dex": 950,
+      "name": "Klawf",
+      "identifier": "klawf",
+      "generation": 9
+    },
+    {
+      "national_dex": 951,
+      "name": "Capsakid",
+      "identifier": "capsakid",
+      "generation": 9
+    },
+    {
+      "national_dex": 952,
+      "name": "Scovillain",
+      "identifier": "scovillain",
+      "generation": 9
+    },
+    {
+      "national_dex": 953,
+      "name": "Rellor",
+      "identifier": "rellor",
+      "generation": 9
+    },
+    {
+      "national_dex": 954,
+      "name": "Rabsca",
+      "identifier": "rabsca",
+      "generation": 9
+    },
+    {
+      "national_dex": 955,
+      "name": "Flittle",
+      "identifier": "flittle",
+      "generation": 9
+    },
+    {
+      "national_dex": 956,
+      "name": "Espathra",
+      "identifier": "espathra",
+      "generation": 9
+    },
+    {
+      "national_dex": 957,
+      "name": "Tinkatink",
+      "identifier": "tinkatink",
+      "generation": 9
+    },
+    {
+      "national_dex": 958,
+      "name": "Tinkatuff",
+      "identifier": "tinkatuff",
+      "generation": 9
+    },
+    {
+      "national_dex": 959,
+      "name": "Tinkaton",
+      "identifier": "tinkaton",
+      "generation": 9
+    },
+    {
+      "national_dex": 960,
+      "name": "Wiglett",
+      "identifier": "wiglett",
+      "generation": 9
+    },
+    {
+      "national_dex": 961,
+      "name": "Wugtrio",
+      "identifier": "wugtrio",
+      "generation": 9
+    },
+    {
+      "national_dex": 962,
+      "name": "Bombirdier",
+      "identifier": "bombirdier",
+      "generation": 9
+    },
+    {
+      "national_dex": 963,
+      "name": "Finizen",
+      "identifier": "finizen",
+      "generation": 9
+    },
+    {
+      "national_dex": 964,
+      "name": "Palafin",
+      "identifier": "palafin",
+      "generation": 9
+    },
+    {
+      "national_dex": 965,
+      "name": "Varoom",
+      "identifier": "varoom",
+      "generation": 9
+    },
+    {
+      "national_dex": 966,
+      "name": "Revavroom",
+      "identifier": "revavroom",
+      "generation": 9
+    },
+    {
+      "national_dex": 967,
+      "name": "Cyclizar",
+      "identifier": "cyclizar",
+      "generation": 9
+    },
+    {
+      "national_dex": 968,
+      "name": "Orthworm",
+      "identifier": "orthworm",
+      "generation": 9
+    },
+    {
+      "national_dex": 969,
+      "name": "Glimmet",
+      "identifier": "glimmet",
+      "generation": 9
+    },
+    {
+      "national_dex": 970,
+      "name": "Glimmora",
+      "identifier": "glimmora",
+      "generation": 9
+    },
+    {
+      "national_dex": 971,
+      "name": "Greavard",
+      "identifier": "greavard",
+      "generation": 9
+    },
+    {
+      "national_dex": 972,
+      "name": "Houndstone",
+      "identifier": "houndstone",
+      "generation": 9
+    },
+    {
+      "national_dex": 973,
+      "name": "Flamigo",
+      "identifier": "flamigo",
+      "generation": 9
+    },
+    {
+      "national_dex": 974,
+      "name": "Cetoddle",
+      "identifier": "cetoddle",
+      "generation": 9
+    },
+    {
+      "national_dex": 975,
+      "name": "Cetitan",
+      "identifier": "cetitan",
+      "generation": 9
+    },
+    {
+      "national_dex": 976,
+      "name": "Veluza",
+      "identifier": "veluza",
+      "generation": 9
+    },
+    {
+      "national_dex": 977,
+      "name": "Dondozo",
+      "identifier": "dondozo",
+      "generation": 9
+    },
+    {
+      "national_dex": 978,
+      "name": "Tatsugiri",
+      "identifier": "tatsugiri",
+      "generation": 9
+    },
+    {
+      "national_dex": 979,
+      "name": "Annihilape",
+      "identifier": "annihilape",
+      "generation": 9
+    },
+    {
+      "national_dex": 980,
+      "name": "Clodsire",
+      "identifier": "clodsire",
+      "generation": 9
+    },
+    {
+      "national_dex": 981,
+      "name": "Farigiraf",
+      "identifier": "farigiraf",
+      "generation": 9
+    },
+    {
+      "national_dex": 982,
+      "name": "Dudunsparce",
+      "identifier": "dudunsparce",
+      "generation": 9
+    },
+    {
+      "national_dex": 983,
+      "name": "Kingambit",
+      "identifier": "kingambit",
+      "generation": 9
+    },
+    {
+      "national_dex": 984,
+      "name": "Great Tusk",
+      "identifier": "great-tusk",
+      "generation": 9
+    },
+    {
+      "national_dex": 985,
+      "name": "Scream Tail",
+      "identifier": "scream-tail",
+      "generation": 9
+    },
+    {
+      "national_dex": 986,
+      "name": "Brute Bonnet",
+      "identifier": "brute-bonnet",
+      "generation": 9
+    },
+    {
+      "national_dex": 987,
+      "name": "Flutter Mane",
+      "identifier": "flutter-mane",
+      "generation": 9
+    },
+    {
+      "national_dex": 988,
+      "name": "Slither Wing",
+      "identifier": "slither-wing",
+      "generation": 9
+    },
+    {
+      "national_dex": 989,
+      "name": "Sandy Shocks",
+      "identifier": "sandy-shocks",
+      "generation": 9
+    },
+    {
+      "national_dex": 990,
+      "name": "Iron Treads",
+      "identifier": "iron-treads",
+      "generation": 9
+    },
+    {
+      "national_dex": 991,
+      "name": "Iron Bundle",
+      "identifier": "iron-bundle",
+      "generation": 9
+    },
+    {
+      "national_dex": 992,
+      "name": "Iron Hands",
+      "identifier": "iron-hands",
+      "generation": 9
+    },
+    {
+      "national_dex": 993,
+      "name": "Iron Jugulis",
+      "identifier": "iron-jugulis",
+      "generation": 9
+    },
+    {
+      "national_dex": 994,
+      "name": "Iron Moth",
+      "identifier": "iron-moth",
+      "generation": 9
+    },
+    {
+      "national_dex": 995,
+      "name": "Iron Thorns",
+      "identifier": "iron-thorns",
+      "generation": 9
+    },
+    {
+      "national_dex": 996,
+      "name": "Frigibax",
+      "identifier": "frigibax",
+      "generation": 9
+    },
+    {
+      "national_dex": 997,
+      "name": "Arctibax",
+      "identifier": "arctibax",
+      "generation": 9
+    },
+    {
+      "national_dex": 998,
+      "name": "Baxcalibur",
+      "identifier": "baxcalibur",
+      "generation": 9
+    },
+    {
+      "national_dex": 999,
+      "name": "Gimmighoul",
+      "identifier": "gimmighoul",
+      "generation": 9
+    },
+    {
+      "national_dex": 1000,
+      "name": "Gholdengo",
+      "identifier": "gholdengo",
+      "generation": 9
+    },
+    {
+      "national_dex": 1001,
+      "name": "Wo-Chien",
+      "identifier": "wo-chien",
+      "generation": 9
+    },
+    {
+      "national_dex": 1002,
+      "name": "Chien-Pao",
+      "identifier": "chien-pao",
+      "generation": 9
+    },
+    {
+      "national_dex": 1003,
+      "name": "Ting-Lu",
+      "identifier": "ting-lu",
+      "generation": 9
+    },
+    {
+      "national_dex": 1004,
+      "name": "Chi-Yu",
+      "identifier": "chi-yu",
+      "generation": 9
+    },
+    {
+      "national_dex": 1005,
+      "name": "Roaring Moon",
+      "identifier": "roaring-moon",
+      "generation": 9
+    },
+    {
+      "national_dex": 1006,
+      "name": "Iron Valiant",
+      "identifier": "iron-valiant",
+      "generation": 9
+    },
+    {
+      "national_dex": 1007,
+      "name": "Koraidon",
+      "identifier": "koraidon",
+      "generation": 9
+    },
+    {
+      "national_dex": 1008,
+      "name": "Miraidon",
+      "identifier": "miraidon",
+      "generation": 9
+    },
+    {
+      "national_dex": 1009,
+      "name": "Walking Wake",
+      "identifier": "walking-wake",
+      "generation": 9
+    },
+    {
+      "national_dex": 1010,
+      "name": "Iron Leaves",
+      "identifier": "iron-leaves",
+      "generation": 9
+    },
+    {
+      "national_dex": 1011,
+      "name": "Dipplin",
+      "identifier": "dipplin",
+      "generation": 9
+    },
+    {
+      "national_dex": 1012,
+      "name": "Poltchageist",
+      "identifier": "poltchageist",
+      "generation": 9
+    },
+    {
+      "national_dex": 1013,
+      "name": "Sinistcha",
+      "identifier": "sinistcha",
+      "generation": 9
+    },
+    {
+      "national_dex": 1014,
+      "name": "Okidogi",
+      "identifier": "okidogi",
+      "generation": 9
+    },
+    {
+      "national_dex": 1015,
+      "name": "Munkidori",
+      "identifier": "munkidori",
+      "generation": 9
+    },
+    {
+      "national_dex": 1016,
+      "name": "Fezandipiti",
+      "identifier": "fezandipiti",
+      "generation": 9
+    },
+    {
+      "national_dex": 1017,
+      "name": "Ogerpon",
+      "identifier": "ogerpon",
+      "generation": 9
+    },
+    {
+      "national_dex": 1018,
+      "name": "Archaludon",
+      "identifier": "archaludon",
+      "generation": 9
+    },
+    {
+      "national_dex": 1019,
+      "name": "Hydrapple",
+      "identifier": "hydrapple",
+      "generation": 9
+    },
+    {
+      "national_dex": 1020,
+      "name": "Gouging Fire",
+      "identifier": "gouging-fire",
+      "generation": 9
+    },
+    {
+      "national_dex": 1021,
+      "name": "Raging Bolt",
+      "identifier": "raging-bolt",
+      "generation": 9
+    },
+    {
+      "national_dex": 1022,
+      "name": "Iron Boulder",
+      "identifier": "iron-boulder",
+      "generation": 9
+    },
+    {
+      "national_dex": 1023,
+      "name": "Iron Crown",
+      "identifier": "iron-crown",
+      "generation": 9
+    },
+    {
+      "national_dex": 1024,
+      "name": "Terapagos",
+      "identifier": "terapagos",
+      "generation": 9
+    },
+    {
+      "national_dex": 1025,
+      "name": "Pecharunt",
+      "identifier": "pecharunt",
+      "generation": 9
+    }
+  ]
+}

@@ -1,0 +1,733 @@
+{
+  "game": "Pokemon Emerald",
+  "region": "Hoenn",
+  "level_cap_rule": "The level cap is the highest level of the next Gym Leader's Pokemon.",
+  "gyms": [
+    {
+      "number": 1,
+      "leader": "Roxanne",
+      "location": "Rustboro City",
+      "type": [
+        "Rock"
+      ],
+      "badge": "Stone Badge",
+      "level_cap": 15,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Geodude",
+          "level": 12,
+          "type": [
+            "Rock",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Tackle",
+            "Defense Curl",
+            "Rock Throw",
+            "Rock Tomb"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Geodude",
+          "level": 12,
+          "type": [
+            "Rock",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Tackle",
+            "Defense Curl",
+            "Rock Throw",
+            "Rock Tomb"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Nosepass",
+          "level": 15,
+          "type": [
+            "Rock"
+          ],
+          "held_item": "Oran Berry",
+          "iv": 24,
+          "moves": [
+            "Block",
+            "Harden",
+            "Tackle",
+            "Rock Tomb"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_ROXANNE_1",
+      "trainer_items": [
+        "Potion",
+        "Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 2,
+      "leader": "Brawly",
+      "location": "Dewford Town",
+      "type": [
+        "Fighting"
+      ],
+      "badge": "Knuckle Badge",
+      "level_cap": 19,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Machop",
+          "level": 16,
+          "type": [
+            "Fighting"
+          ],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Karate Chop",
+            "Low Kick",
+            "Seismic Toss",
+            "Bulk Up"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Meditite",
+          "level": 16,
+          "type": [],
+          "held_item": null,
+          "iv": 12,
+          "moves": [
+            "Focus Punch",
+            "Light Screen",
+            "Reflect",
+            "Bulk Up"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Makuhita",
+          "level": 19,
+          "type": [
+            "Fighting"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 24,
+          "moves": [
+            "Arm Thrust",
+            "Vital Throw",
+            "Reversal",
+            "Bulk Up"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_BRAWLY_1",
+      "trainer_items": [
+        "Super Potion",
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 3,
+      "leader": "Wattson",
+      "location": "Mauville City",
+      "type": [
+        "Electric"
+      ],
+      "badge": "Dynamo Badge",
+      "level_cap": 24,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Voltorb",
+          "level": 20,
+          "type": [
+            "Electric"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Rollout",
+            "Spark",
+            "Self-Destruct",
+            "Shock Wave"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Electrike",
+          "level": 20,
+          "type": [
+            "Electric"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Shock Wave",
+            "Leer",
+            "Quick Attack",
+            "Howl"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Magneton",
+          "level": 22,
+          "type": [
+            "Electric",
+            "Steel"
+          ],
+          "held_item": null,
+          "iv": 26,
+          "moves": [
+            "Supersonic",
+            "Shock Wave",
+            "Thunder Wave",
+            "Sonic Boom"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Manectric",
+          "level": 24,
+          "type": [
+            "Electric"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 30,
+          "moves": [
+            "Quick Attack",
+            "Thunder Wave",
+            "Shock Wave",
+            "Howl"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_WATTSON_1",
+      "trainer_items": [
+        "Super Potion",
+        "Super Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 4,
+      "leader": "Flannery",
+      "location": "Lavaridge Town",
+      "type": [
+        "Fire"
+      ],
+      "badge": "Heat Badge",
+      "level_cap": 29,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Numel",
+          "level": 24,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Overheat",
+            "Take Down",
+            "Magnitude",
+            "Sunny Day"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Slugma",
+          "level": 24,
+          "type": [
+            "Fire"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Overheat",
+            "Smog",
+            "Light Screen",
+            "Sunny Day"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Camerupt",
+          "level": 26,
+          "type": [
+            "Fire",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Overheat",
+            "Tackle",
+            "Sunny Day",
+            "Attract"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Torkoal",
+          "level": 29,
+          "type": [
+            "Fire"
+          ],
+          "held_item": "White Herb",
+          "iv": 30,
+          "moves": [
+            "Overheat",
+            "Sunny Day",
+            "Body Slam",
+            "Attract"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_FLANNERY_1",
+      "trainer_items": [
+        "Hyper Potion",
+        "Hyper Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 5,
+      "leader": "Norman",
+      "location": "Petalburg City",
+      "type": [
+        "Normal"
+      ],
+      "badge": "Balance Badge",
+      "level_cap": 31,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Spinda",
+          "level": 27,
+          "type": [
+            "Normal"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Teeter Dance",
+            "Psybeam",
+            "Facade",
+            "Encore"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Vigoroth",
+          "level": 27,
+          "type": [
+            "Normal"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Slash",
+            "Facade",
+            "Encore",
+            "Faint Attack"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Linoone",
+          "level": 29,
+          "type": [
+            "Normal"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Slash",
+            "Belly Drum",
+            "Facade",
+            "Headbutt"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Slaking",
+          "level": 31,
+          "type": [
+            "Normal"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 30,
+          "moves": [
+            "Counter",
+            "Yawn",
+            "Facade",
+            "Faint Attack"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_NORMAN_1",
+      "trainer_items": [
+        "Hyper Potion",
+        "Hyper Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 6,
+      "leader": "Winona",
+      "location": "Fortree City",
+      "type": [
+        "Flying"
+      ],
+      "badge": "Feather Badge",
+      "level_cap": 33,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Swablu",
+          "level": 29,
+          "type": [
+            "Normal",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 25,
+          "moves": [
+            "Perish Song",
+            "Mirror Move",
+            "Safeguard",
+            "Aerial Ace"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Tropius",
+          "level": 29,
+          "type": [
+            "Grass",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 25,
+          "moves": [
+            "Sunny Day",
+            "Aerial Ace",
+            "SolarBeam",
+            "Synthesis"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Pelipper",
+          "level": 30,
+          "type": [
+            "Water",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 25,
+          "moves": [
+            "Water Gun",
+            "Supersonic",
+            "Protect",
+            "Aerial Ace"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Skarmory",
+          "level": 31,
+          "type": [
+            "Steel",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 26,
+          "moves": [
+            "Sand Attack",
+            "Fury Attack",
+            "Steel Wing",
+            "Aerial Ace"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Altaria",
+          "level": 33,
+          "type": [
+            "Dragon",
+            "Flying"
+          ],
+          "held_item": "Oran Berry",
+          "iv": 31,
+          "moves": [
+            "Earthquake",
+            "DragonBreath",
+            "Dragon Dance",
+            "Aerial Ace"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_WINONA_1",
+      "trainer_items": [
+        "Hyper Potion",
+        "Hyper Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY",
+        "RISKY"
+      ]
+    },
+    {
+      "number": 7,
+      "leader": "Tate & Liza",
+      "location": "Mossdeep City",
+      "type": [
+        "Psychic"
+      ],
+      "badge": "Mind Badge",
+      "level_cap": 42,
+      "battle_format": "double",
+      "team": [
+        {
+          "pokemon": "Claydol",
+          "level": 41,
+          "type": [
+            "Ground",
+            "Psychic"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Earthquake",
+            "AncientPower",
+            "Psychic",
+            "Light Screen"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Xatu",
+          "level": 41,
+          "type": [
+            "Psychic",
+            "Flying"
+          ],
+          "held_item": null,
+          "iv": 30,
+          "moves": [
+            "Psychic",
+            "Sunny Day",
+            "Confuse Ray",
+            "Calm Mind"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Lunatone",
+          "level": 42,
+          "type": [],
+          "held_item": "Sitrus Berry",
+          "iv": 30,
+          "moves": [
+            "Light Screen",
+            "Psychic",
+            "Hypnosis",
+            "Calm Mind"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Solrock",
+          "level": 42,
+          "type": [
+            "Rock",
+            "Psychic"
+          ],
+          "held_item": "Sitrus Berry",
+          "iv": 30,
+          "moves": [
+            "Sunny Day",
+            "SolarBeam",
+            "Psychic",
+            "Flamethrower"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_TATE_AND_LIZA_1",
+      "trainer_items": [
+        "Hyper Potion",
+        "Hyper Potion",
+        "Hyper Potion",
+        "Hyper Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    },
+    {
+      "number": 8,
+      "leader": "Juan",
+      "location": "Sootopolis City",
+      "type": [
+        "Water"
+      ],
+      "badge": "Rain Badge",
+      "level_cap": 46,
+      "battle_format": "single",
+      "team": [
+        {
+          "pokemon": "Luvdisc",
+          "level": 41,
+          "type": [
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Water Pulse",
+            "Attract",
+            "Sweet Kiss",
+            "Flail"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Whiscash",
+          "level": 41,
+          "type": [
+            "Water",
+            "Ground"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Rain Dance",
+            "Water Pulse",
+            "Amnesia",
+            "Earthquake"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Sealeo",
+          "level": 43,
+          "type": [
+            "Ice",
+            "Water"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Encore",
+            "Body Slam",
+            "Aurora Beam",
+            "Water Pulse"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Crawdaunt",
+          "level": 43,
+          "type": [
+            "Water",
+            "Dark"
+          ],
+          "held_item": null,
+          "iv": 24,
+          "moves": [
+            "Water Pulse",
+            "Crabhammer",
+            "Taunt",
+            "Leer"
+          ],
+          "move_source": "custom"
+        },
+        {
+          "pokemon": "Kingdra",
+          "level": 46,
+          "type": [
+            "Water",
+            "Dragon"
+          ],
+          "held_item": "Chesto Berry",
+          "iv": 30,
+          "moves": [
+            "Water Pulse",
+            "Double Team",
+            "Ice Beam",
+            "Rest"
+          ],
+          "move_source": "custom"
+        }
+      ],
+      "trainer_id": "TRAINER_JUAN_1",
+      "trainer_items": [
+        "Hyper Potion",
+        "Hyper Potion"
+      ],
+      "ai_flags": [
+        "CHECK_BAD_MOVE",
+        "TRY_TO_FAINT",
+        "CHECK_VIABILITY"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pokémon Database - Emerald Gym Leaders",
+      "url": "https://pokemondb.net/emerald/gymleaders-elitefour"
+    },
+    {
+      "name": "PokéMaps - Pokémon Emerald Gym Leaders",
+      "url": "https://pokemaps.net/games/rse/gym-leaders-elite-four"
+    },
+    {
+      "name": "PokéTools - Pokémon Emerald Gym Leaders",
+      "url": "https://www.poketools.com/emerald/gym-leaders"
+    }
+  ]
+}
